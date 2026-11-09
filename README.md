@@ -51,4 +51,19 @@ pip install -r requirements.txt
 
 ## Ejecución
 
-> En construcción: se completa a medida que se agregan las partes del pipeline.
+Todos los comandos se corren desde la carpeta raíz del repositorio.
+
+### Parte 1 — Datos sintéticos y validación
+
+```bash
+python -m src.generar_datos    # crea data/raw/clientes.csv, transacciones.csv, interacciones.csv
+python -m src.validar_datos    # revisa rangos, nulos, duplicados y distribuciones
+```
+
+- Se generan **1,500 clientes**, ~48 mil transacciones (12 meses) y ~3 mil interacciones con servicio al cliente.
+- La semilla fija (`SEMILLA = 42` en `src/config.py`) hace que los datos sean siempre los mismos.
+- Se simulan errores típicos de los sistemas fuente (~1 % de nulos y ~0.5 % de transacciones duplicadas)
+  para que la capa Silver tenga algo que limpiar.
+- El reporte queda en `reports/validacion_datos.md` y las gráficas en `reports/figuras/`.
+
+> Las siguientes partes del pipeline se agregan a medida que avanza el proyecto.

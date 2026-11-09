@@ -8,7 +8,6 @@ env/
 
 # Base de datos y archivos generados (se recrean con run_pipeline.py)
 data/db/*.db
-data/raw/*.csv
 models/*.joblib
 
 # Entorno / IDE

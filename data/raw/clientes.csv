@@ -1,0 +1,1501 @@
+cliente_id,nombre,genero,edad,departamento,segmento,ingreso_mensual,antiguedad_meses,fecha_alta,num_productos,tiene_tarjeta_credito,tiene_prestamo,saldo_promedio,score_crediticio,canal_preferido,abandono
+C00001,Óscar Xicará Aguilar,M,41,Quetzaltenango,Preferente,10036.96,69,2021-01-31,2,1,0,9402.83,747,App,0
+C00002,Karla Ortiz Martínez,F,47,Guatemala,Masivo,9259.85,78,2020-04-30,1,1,0,6516.34,733,App,0
+C00003,Javier Xicará Cruz,M,39,Alta Verapaz,Preferente,10307.44,18,2025-04-30,2,1,0,11548.97,717,Web,0
+C00004,Valeria López Aguilar,F,37,Chimaltenango,Preferente,15696.34,34,2023-12-31,1,0,0,16501.27,659,App,0
+C00005,Wendy Castillo González,F,48,Petén,Preferente,12270.74,96,2018-10-31,2,1,1,24832.85,630,Agencia,0
+C00006,Rodrigo Velásquez Cifuentes,M,38,Escuintla,Masivo,8330.28,151,2014-03-31,1,1,0,1776.53,592,Agencia,0
+C00007,Patricia Arévalo Arévalo,F,43,Sacatepéquez,Masivo,5581.48,142,2014-12-31,2,0,0,3789.23,638,App,1
+C00008,Carmen Barrios Castillo,F,42,Guatemala,Masivo,6556.7,49,2022-09-30,1,0,0,6651.06,581,Agencia,1
+C00009,Lesly Fuentes Pérez,F,48,Huehuetenango,Masivo,7458.72,37,2023-09-30,2,0,1,5858.19,772,Web,0
+C00010,Sofía Castillo González,F,36,Sacatepéquez,Masivo,8969.42,133,2015-09-30,2,1,0,3718.26,558,App,0
+C00011,José Solís Xicará,M,53,Guatemala,Masivo,6819.56,35,2023-11-30,3,0,0,2197.0,636,Agencia,0
+C00012,Otto Xicará Arévalo,M,33,Guatemala,Masivo,5937.46,25,2024-09-30,1,0,1,8352.52,514,Web,0
+C00013,Elena Rodríguez Rodríguez,F,44,Zacapa,Masivo,5558.81,17,2025-05-31,1,1,0,2617.95,670,App,1
+C00014,Andrés Cruz Velásquez,M,42,Escuintla,Masivo,5016.59,60,2021-10-31,1,0,0,1174.89,649,Agencia,0
+C00015,Javier Méndez Ajú,M,33,Quetzaltenango,Masivo,7417.56,48,2022-10-31,3,0,0,10808.23,625,Agencia,0
+C00016,Mario Velásquez López,M,45,Escuintla,Masivo,5208.52,107,2017-11-30,4,0,0,5745.63,584,App,0
+C00017,Wendy Tzul Recinos,F,36,Quetzaltenango,Masivo,5833.81,13,2025-09-30,1,0,0,4303.44,650,App,1
+C00018,Diego Cifuentes Recinos,M,30,Quetzaltenango,Masivo,7015.58,42,2023-04-30,1,0,0,2958.86,611,Web,0
+C00019,Mónica Juárez Morales,F,47,Guatemala,Masivo,5366.39,8,2026-02-28,1,0,0,3965.38,640,Agencia,1
+C00020,Jorge Xicará Fuentes,M,28,Quetzaltenango,Masivo,9470.29,46,2022-12-31,1,0,0,17741.87,787,App,0
+C00021,Sergio Fuentes Estrada,M,31,Alta Verapaz,Preferente,11155.18,13,2025-09-30,1,1,1,2881.96,682,App,0
+C00022,Elena Arévalo Aguilar,F,39,Guatemala,Masivo,6663.26,81,2020-01-31,1,1,1,1783.68,687,Web,0
+C00023,Wendy Rodríguez Coyoy,F,48,Petén,Masivo,6914.01,100,2018-06-30,1,1,0,3564.31,617,App,0
+C00024,Alejandro Recinos Morales,M,46,Guatemala,Preferente,10155.33,20,2025-02-28,2,1,1,7974.15,615,Agencia,0
+C00025,Brenda Orellana Aguilar,F,41,Alta Verapaz,Masivo,6329.94,131,2015-11-30,1,0,0,3577.78,648,Web,0
+C00026,Otto Reyes Velásquez,M,26,Alta Verapaz,Masivo,6201.7,132,2015-10-31,2,0,0,7780.74,825,App,0
+C00027,Mario López Barrios,M,33,Alta Verapaz,Preferente,13998.13,45,2023-01-31,2,0,0,23997.84,649,App,0
+C00028,Fernanda González Solís,F,35,Escuintla,Preferente,11956.24,63,2021-07-31,1,1,1,11626.05,695,App,0
+C00029,Ana Coyoy Castillo,F,30,Zacapa,Preferente,10456.26,80,2020-02-29,2,0,0,12383.44,612,App,0
+C00030,Alejandra Morales Ortiz,F,25,Sacatepéquez,Preferente,12202.29,37,2023-09-30,3,1,0,11810.04,477,App,0
+C00031,Elena Méndez Monterroso,F,39,Huehuetenango,Masivo,4727.48,44,2023-02-28,1,0,0,3807.24,594,App,1
+C00032,Mónica Girón Chávez,F,46,Huehuetenango,Preferente,15208.79,77,2020-05-31,3,0,0,4919.66,836,App,1
+C00033,Valeria Barrios Batz,F,34,Guatemala,Masivo,9521.09,71,2020-11-30,1,0,0,3709.03,691,Agencia,1
+C00034,Alejandro Cifuentes Barrios,M,48,Guatemala,Preferente,12730.54,16,2025-06-30,2,1,0,3955.94,784,Web,0
+C00035,Alejandra García Ortiz,F,27,Quetzaltenango,Masivo,9500.82,137,2015-05-31,3,0,0,6850.22,625,Web,0
+C00036,Juan García Cruz,M,29,Guatemala,Masivo,8256.78,36,2023-10-31,2,0,0,7771.68,485,App,1
+C00037,Diego Recinos Arévalo,M,39,Guatemala,Masivo,7311.22,124,2016-06-30,1,0,0,2120.78,572,Agencia,0
+C00038,Otto Ajú Hernández,M,33,Guatemala,Masivo,9418.71,29,2024-05-31,1,1,0,7927.76,677,App,0
+C00039,Rodrigo Orellana Mejía,M,45,Escuintla,Masivo,7217.76,48,2022-10-31,2,0,0,3129.11,666,App,0
+C00040,Jennifer Rodríguez Orellana,F,43,Guatemala,Preferente,11861.37,13,2025-09-30,1,1,1,4489.33,669,App,0
+C00041,Edgar Monterroso Barrios,M,34,Petén,Masivo,5082.24,180,2011-10-31,2,0,0,2624.43,612,App,0
+C00042,Gloria Solís Hernández,F,28,Quetzaltenango,Masivo,6680.14,40,2023-06-30,3,0,0,2439.18,715,Agencia,0
+C00043,Sofía Barrios Pineda,F,33,Huehuetenango,Preferente,22430.04,104,2018-02-28,3,0,1,27437.73,634,Web,0
+C00044,Silvia Morales Xicará,F,43,Guatemala,Masivo,6503.22,46,2022-12-31,5,0,0,4625.34,671,Agencia,0
+C00045,Francisco Martínez Chávez,M,46,Quetzaltenango,Masivo,7407.6,137,2015-05-31,2,0,0,10485.7,663,Agencia,1
+C00046,Byron Ortiz García,M,34,Guatemala,Masivo,6026.07,48,2022-10-31,2,0,0,3534.26,624,Agencia,0
+C00047,Kevin Arévalo Sic,M,25,Alta Verapaz,Masivo,9292.61,136,2015-06-30,2,1,0,5596.24,588,Agencia,1
+C00048,Byron Sic Méndez,M,27,Guatemala,Masivo,6287.72,18,2025-04-30,2,1,0,18668.22,620,App,1
+C00049,María Solís Morales,F,42,Zacapa,Masivo,7551.72,28,2024-06-30,1,0,0,1939.61,781,App,0
+C00050,Héctor Ajú Ajú,M,34,Guatemala,Preferente,11752.17,29,2024-05-31,3,0,0,23104.59,747,App,0
+C00051,María Solís Ajú,F,34,Sacatepéquez,Masivo,6359.21,36,2023-10-31,1,1,0,16198.64,721,App,0
+C00052,Héctor Girón González,M,29,Guatemala,Preferente,11415.47,26,2024-08-31,3,0,0,15609.79,614,Web,1
+C00053,Isabel Coyoy Martínez,F,29,Escuintla,Preferente,11601.57,32,2024-02-29,1,1,1,7364.47,569,App,0
+C00054,Óscar Tzul Sic,M,48,Quetzaltenango,Preferente,13017.28,37,2023-09-30,1,0,0,28274.65,746,App,0
+C00055,Daniela Aguilar Ramírez,F,43,Guatemala,Masivo,8565.21,10,2025-12-31,1,0,0,5470.29,713,Agencia,0
+C00056,Andrés Velásquez Pérez,M,32,Guatemala,Premium,47108.61,33,2024-01-31,6,1,0,22994.67,699,App,0
+C00057,Paola Orellana Estrada,F,38,Guatemala,Preferente,13014.5,45,2023-01-31,3,1,0,7933.8,644,App,0
+C00058,Ingrid Girón Reyes,F,40,Guatemala,Masivo,9249.07,80,2020-02-29,2,0,1,4964.16,547,Agencia,0
+C00059,Andrés López Pineda,M,60,Izabal,Masivo,6037.4,105,2018-01-31,1,0,0,2489.78,710,Agencia,0
+C00060,Daniela Chávez Batz,F,29,Quetzaltenango,Masivo,7804.42,86,2019-08-31,3,0,0,13579.38,733,App,0
+C00061,Ingrid Hernández Estrada,F,40,Guatemala,Preferente,15813.07,64,2021-06-30,2,0,0,7361.62,622,App,0
+C00062,Fernanda Mejía González,F,48,Zacapa,Preferente,18490.92,51,2022-07-31,3,0,0,14488.91,616,Web,0
+C00063,Beatriz Orellana Hernández,F,57,Guatemala,Preferente,16265.83,60,2021-10-31,3,1,0,4736.43,756,Web,0
+C00064,Gabriela Monterroso Hernández,F,32,Quetzaltenango,Preferente,11396.79,31,2024-03-31,1,1,1,9316.21,625,App,0
+C00065,Pablo Monterroso Cifuentes,M,34,Huehuetenango,Masivo,5468.46,55,2022-03-31,1,1,0,1947.81,774,Web,0
+C00066,Gabriela Juárez Rodríguez,F,45,Zacapa,Masivo,9928.67,45,2023-01-31,4,0,1,3476.21,642,Agencia,1
+C00067,Marta Coyoy Solís,F,26,Huehuetenango,Masivo,5487.2,206,2009-08-31,2,0,0,4066.46,622,App,1
+C00068,Ana Monterroso García,F,41,Quetzaltenango,Masivo,5188.59,61,2021-09-30,2,1,0,8698.92,653,Web,0
+C00069,Carlos Mejía Cruz,M,67,Izabal,Masivo,8920.08,5,2026-05-31,1,0,0,9712.86,622,Agencia,1
+C00070,Fernando Pérez Ajú,M,42,Guatemala,Preferente,10090.35,36,2023-10-31,1,1,0,11528.48,748,App,0
+C00071,Valeria Solís Girón,F,23,Izabal,Preferente,12069.24,41,2023-05-31,4,0,1,8816.05,732,App,0
+C00072,Mónica Estrada Xicará,F,30,Chimaltenango,Masivo,9973.02,94,2018-12-31,2,0,0,6307.83,726,App,1
+C00073,Claudia Aguilar Coyoy,F,32,Zacapa,Preferente,10128.57,67,2021-03-31,1,1,0,14097.75,682,App,1
+C00074,Andrés Xicará Girón,M,51,Guatemala,Masivo,5858.77,64,2021-06-30,5,1,0,3160.0,618,Agencia,0
+C00075,Walter Ajú Martínez,M,36,Guatemala,Masivo,7781.18,124,2016-06-30,1,1,0,11163.71,649,App,0
+C00076,Byron Mejía Aguilar,M,25,Alta Verapaz,Masivo,5166.89,154,2013-12-31,1,0,1,9818.72,620,Agencia,0
+C00077,Juana López Solís,F,37,Sacatepéquez,Masivo,4707.07,84,2019-10-31,3,0,0,2089.56,752,App,0
+C00078,Manuel Cifuentes Orellana,M,39,Sacatepéquez,Preferente,11157.4,38,2023-08-31,2,1,0,5489.56,740,Agencia,1
+C00079,Alejandra Coyoy Recinos,F,33,Zacapa,Masivo,6256.18,39,2023-07-31,1,0,0,3415.89,643,App,0
+C00080,Alejandro Solís Castillo,M,29,Escuintla,Preferente,11888.15,114,2017-04-30,2,1,1,3405.95,605,Web,0
+C00081,Rodrigo Pérez Velásquez,M,69,Guatemala,Preferente,13375.91,39,2023-07-31,3,1,1,7703.92,777,Agencia,0
+C00082,Isabel Monterroso Tzul,F,48,Quetzaltenango,Masivo,6517.0,49,2022-09-30,2,0,1,12965.41,659,Web,0
+C00083,Daniel Recinos González,M,49,Guatemala,Preferente,10402.53,35,2023-11-30,1,0,0,4002.83,660,Web,0
+C00084,Diego González Juárez,M,36,Guatemala,Masivo,6432.81,20,2025-02-28,1,0,0,13012.43,758,Agencia,0
+C00085,Silvia Reyes Mejía,F,32,Guatemala,Masivo,4836.1,196,2010-06-30,1,1,1,2856.38,614,Agencia,0
+C00086,Carmen Reyes Orellana,F,33,Chimaltenango,Masivo,8505.68,49,2022-09-30,1,0,0,29886.76,627,Agencia,0
+C00087,Carmen Aguilar Cifuentes,F,27,Huehuetenango,Masivo,6836.41,136,2015-06-30,1,1,0,3393.46,633,App,0
+C00088,Julio López Orellana,M,59,Sacatepéquez,Masivo,6906.91,39,2023-07-31,1,0,1,4995.77,557,App,0
+C00089,Ingrid Reyes Ramírez,F,36,Guatemala,Preferente,21536.14,30,2024-04-30,1,1,0,9110.8,692,App,0
+C00090,Jennifer López Tzul,F,55,Alta Verapaz,Masivo,5146.47,79,2020-03-31,2,1,1,2544.1,596,Agencia,0
+C00091,Alejandro Batz Batz,M,34,Chimaltenango,Masivo,9483.12,105,2018-01-31,1,1,0,19357.8,610,App,0
+C00092,Patricia Coyoy López,F,43,San Marcos,Masivo,5842.77,109,2017-09-30,2,0,1,6515.85,600,App,0
+C00093,Gloria Pérez Solís,F,40,Sacatepéquez,Preferente,12098.25,44,2023-02-28,3,1,0,19887.47,628,Web,0
+C00094,Estuardo Monterroso Arévalo,M,26,Chimaltenango,Masivo,9145.46,85,2019-09-30,1,0,0,2913.05,591,App,0
+C00095,José Fuentes Ajú,M,62,Sacatepéquez,Masivo,9468.61,33,2024-01-31,3,0,0,11979.76,667,Agencia,1
+C00096,Fernando Batz Ajú,M,34,Quetzaltenango,Masivo,5922.52,54,2022-04-30,1,0,0,2400.33,639,App,0
+C00097,Valeria Méndez González,F,28,San Marcos,Masivo,6233.11,41,2023-05-31,1,1,0,1955.43,653,Agencia,1
+C00098,Juana Sic Juárez,F,45,Guatemala,Preferente,12211.97,36,2023-10-31,2,1,1,11546.81,834,App,0
+C00099,Beatriz Batz Rodríguez,F,38,Guatemala,Preferente,19143.4,56,2022-02-28,1,1,1,17971.57,659,Web,0
+C00100,Mario Ramírez Hernández,M,41,Guatemala,Masivo,9898.38,19,2025-03-31,3,0,1,8220.0,692,Web,0
+C00101,Brenda Rodríguez Pineda,F,39,Sacatepéquez,Masivo,6000.99,99,2018-07-31,1,1,0,7933.32,700,App,0
+C00102,Silvia González Velásquez,F,23,Sacatepéquez,Masivo,9304.95,36,2023-10-31,1,0,0,13720.61,645,App,1
+C00103,Mario Solís López,M,30,Alta Verapaz,Premium,28213.81,96,2018-10-31,4,1,0,63147.83,709,Agencia,0
+C00104,Edgar Méndez Ajú,M,30,Quetzaltenango,Masivo,8434.48,23,2024-11-30,1,0,0,2932.76,651,App,0
+C00105,Rodrigo Girón Juárez,M,49,Guatemala,Preferente,16120.48,36,2023-10-31,2,0,0,36905.42,684,App,0
+C00106,Ana Juárez Pineda,F,38,San Marcos,Masivo,6280.08,19,2025-03-31,2,0,0,18762.44,608,Agencia,0
+C00107,Pablo Estrada Orellana,M,43,Guatemala,Masivo,7969.36,19,2025-03-31,1,0,0,4933.75,615,App,0
+C00108,Silvia Pérez López,F,34,Zacapa,Preferente,10543.27,26,2024-08-31,2,1,0,2623.21,671,App,0
+C00109,Erick Morales Reyes,M,44,Guatemala,Masivo,9542.96,24,2024-10-31,2,1,0,2898.55,511,App,0
+C00110,Fernanda Tzul Aguilar,F,36,Sacatepéquez,Masivo,6231.63,19,2025-03-31,2,0,0,3608.16,754,App,1
+C00111,Walter Tzul Velásquez,M,35,Sacatepéquez,Masivo,6153.37,52,2022-06-30,5,0,0,20161.11,801,App,0
+C00112,Silvia Rodríguez Orellana,F,40,Chimaltenango,Preferente,12587.88,78,2020-04-30,2,1,1,10191.43,681,App,0
+C00113,Estuardo Girón Reyes,M,39,Guatemala,Preferente,13962.18,81,2020-01-31,2,1,1,7251.29,716,,0
+C00114,Daniela Aguilar Hernández,F,77,San Marcos,Preferente,16569.21,9,2026-01-31,1,1,0,8203.99,745,Agencia,1
+C00115,Manuel Batz Pineda,M,30,Sacatepéquez,Preferente,19508.11,41,2023-05-31,2,1,1,6182.86,577,App,0
+C00116,Daniela Sic Méndez,F,26,Escuintla,Masivo,8544.67,38,2023-08-31,2,0,1,12608.45,714,App,0
+C00117,María Chávez Solís,F,41,Sacatepéquez,Masivo,7219.15,126,2016-04-30,3,0,0,5414.85,620,App,0
+C00118,Rosa Rodríguez Aguilar,F,31,Guatemala,Preferente,15185.69,42,2023-04-30,1,1,0,52830.6,830,App,0
+C00119,Manuel Velásquez Solís,M,22,Quetzaltenango,Preferente,11012.93,48,2022-10-31,1,1,0,13676.42,656,App,1
+C00120,Gloria Aguilar Fuentes,F,28,Guatemala,Masivo,5862.25,13,2025-09-30,1,0,0,8384.17,713,App,1
+C00121,Lesly Méndez Chávez,F,71,Guatemala,Masivo,5782.63,26,2024-08-31,1,0,0,3904.94,637,Agencia,0
+C00122,Ricardo Barrios Monterroso,M,30,Alta Verapaz,Masivo,9949.83,12,2025-10-31,2,0,0,3708.73,803,App,0
+C00123,Rosa López Coyoy,F,24,Quetzaltenango,Masivo,7574.84,54,2022-04-30,1,0,1,3287.68,614,App,1
+C00124,Gloria Recinos López,F,69,Guatemala,Masivo,8017.51,129,2016-01-31,1,1,0,2459.63,731,Web,1
+C00125,Óscar Ajú Mejía,M,28,Guatemala,Preferente,13133.87,26,2024-08-31,2,0,0,19872.31,713,App,0
+C00126,Kevin Mejía Cifuentes,M,80,Guatemala,Preferente,11255.34,42,2023-04-30,2,0,1,6877.52,698,Agencia,0
+C00127,Manuel Sic Chávez,M,34,Guatemala,Preferente,15015.69,24,2024-10-31,1,1,1,23399.22,686,App,0
+C00128,Óscar Cifuentes Juárez,M,62,Escuintla,Masivo,4764.16,31,2024-03-31,2,1,0,4191.75,603,App,0
+C00129,Marta Coyoy Pérez,F,35,Guatemala,Masivo,8973.37,55,2022-03-31,2,1,0,5848.26,468,Web,0
+C00130,Lesly Morales Barrios,F,43,San Marcos,Preferente,10918.16,170,2012-08-31,4,1,1,3851.88,745,App,0
+C00131,Isabel Girón Monterroso,F,36,Guatemala,Masivo,5145.69,124,2016-06-30,2,0,0,5084.31,615,Web,0
+C00132,Luis Velásquez Reyes,M,35,Guatemala,Masivo,6445.25,149,2014-05-31,2,1,1,4424.5,731,App,0
+C00133,Juan Fuentes Martínez,M,40,San Marcos,Masivo,6098.62,96,2018-10-31,1,1,0,9174.68,674,App,1
+C00134,Daniela Rodríguez Tzul,F,43,Guatemala,Masivo,8168.87,42,2023-04-30,1,1,0,3960.62,734,App,1
+C00135,Julio Barrios Recinos,M,39,Quetzaltenango,Preferente,17663.39,38,2023-08-31,2,0,0,21750.27,726,Agencia,1
+C00136,Isabel Recinos Rodríguez,F,38,Zacapa,Preferente,22139.25,26,2024-08-31,2,0,0,55857.42,497,App,0
+C00137,Carmen Juárez Tzul,F,31,Zacapa,Masivo,6144.86,41,2023-05-31,2,1,0,5949.23,693,App,0
+C00138,Rodrigo Méndez Sic,M,37,Huehuetenango,Preferente,10105.63,130,2015-12-31,3,1,0,14008.34,645,Agencia,0
+C00139,Mario Ajú Girón,M,59,Guatemala,Preferente,10254.12,129,2016-01-31,1,1,0,12241.84,751,App,0
+C00140,Ricardo Rodríguez Ortiz,M,31,Escuintla,Masivo,9502.73,212,2009-02-28,3,1,0,28705.81,691,App,0
+C00141,Walter Aguilar Tzul,M,41,Izabal,Masivo,9549.83,58,2021-12-31,3,0,0,9909.28,692,App,0
+C00142,Kevin Mejía Aguilar,M,53,Zacapa,Masivo,9166.11,17,2025-05-31,3,0,1,11969.25,630,Agencia,0
+C00143,Julio Fuentes Recinos,M,43,Guatemala,Preferente,18263.72,74,2020-08-31,1,1,0,14244.63,606,App,1
+C00144,Patricia Fuentes Coyoy,F,49,Guatemala,Preferente,13335.74,171,2012-07-31,2,1,0,6204.23,639,Agencia,0
+C00145,Jennifer Sic Martínez,F,28,Guatemala,Masivo,5742.49,141,2015-01-31,2,0,0,1971.96,524,Web,0
+C00146,Rodrigo Cruz Sic,M,41,Guatemala,Preferente,11454.46,34,2023-12-31,2,0,1,22244.23,628,Web,0
+C00147,Wendy González Juárez,F,35,Alta Verapaz,Preferente,12004.26,18,2025-04-30,1,1,0,4741.09,567,App,0
+C00148,Isabel Reyes Sic,F,35,Guatemala,Masivo,9210.02,18,2025-04-30,2,0,0,12419.32,549,Agencia,0
+C00149,Patricia Recinos Barrios,F,57,Guatemala,Preferente,13535.11,28,2024-06-30,2,1,0,14488.5,678,Agencia,0
+C00150,Paola López Orellana,F,35,Guatemala,Masivo,8733.2,32,2024-02-29,1,1,1,13282.38,687,Agencia,0
+C00151,Óscar Batz Girón,M,41,Quetzaltenango,Masivo,8777.93,40,2023-06-30,1,0,1,4897.86,647,App,0
+C00152,Ingrid Chávez Pérez,F,24,Guatemala,Masivo,8498.58,82,2019-12-31,1,1,0,3908.86,615,Web,0
+C00153,Rosa Ortiz Solís,F,62,Quetzaltenango,Masivo,4695.6,38,2023-08-31,1,0,0,4895.63,583,Agencia,0
+C00154,Otto Cifuentes Solís,M,48,Guatemala,Masivo,7853.74,53,2022-05-31,1,0,0,5120.27,627,Agencia,1
+C00155,Lucía López Xicará,F,37,Zacapa,Masivo,6418.77,12,2025-10-31,2,1,0,2169.21,592,App,0
+C00156,Rosa Recinos Chávez,F,34,Guatemala,Masivo,5561.21,26,2024-08-31,1,1,0,17281.56,645,Agencia,1
+C00157,María Ramírez Reyes,F,44,Sacatepéquez,Preferente,15879.0,25,2024-09-30,1,1,0,7299.96,563,Agencia,0
+C00158,José Méndez Ajú,M,53,Guatemala,Preferente,10004.64,10,2025-12-31,5,0,1,3992.28,719,Agencia,1
+C00159,Marta Sic Hernández,F,62,Guatemala,Masivo,8007.01,38,2023-08-31,2,1,1,5406.92,610,Agencia,0
+C00160,Daniel Estrada Cruz,M,48,Guatemala,Masivo,6630.46,12,2025-10-31,2,0,0,12750.0,676,Agencia,0
+C00161,Patricia Solís González,F,38,Guatemala,Masivo,9136.69,36,2023-10-31,1,0,0,1603.9,712,App,1
+C00162,Andrés Coyoy Girón,M,50,Guatemala,Preferente,12607.73,56,2022-02-28,4,1,0,22875.93,692,App,0
+C00163,Wendy Juárez Chávez,F,47,Quetzaltenango,Masivo,6122.38,131,2015-11-30,1,0,0,2587.72,705,App,0
+C00164,Héctor Velásquez Pineda,M,38,Alta Verapaz,Masivo,8084.82,24,2024-10-31,1,1,0,7783.55,505,Agencia,0
+C00165,Elena Castillo Cruz,F,47,Guatemala,Preferente,11862.47,54,2022-04-30,2,1,0,5912.28,635,App,0
+C00166,Byron Castillo Batz,M,46,Quetzaltenango,Masivo,4760.53,30,2024-04-30,1,1,0,15356.78,727,Agencia,0
+C00167,Silvia Mejía Reyes,F,37,Escuintla,Masivo,7922.26,11,2025-11-30,2,1,0,6915.51,685,Agencia,0
+C00168,Ingrid Chávez Méndez,F,33,Guatemala,Masivo,6932.0,132,2015-10-31,3,1,0,3378.19,779,Agencia,0
+C00169,Fernanda Orellana Tzul,F,45,Guatemala,Masivo,7697.58,58,2021-12-31,1,0,0,4987.82,769,Agencia,0
+C00170,Gloria Reyes Martínez,F,29,Guatemala,Masivo,6767.48,72,2020-10-31,1,0,0,5764.57,670,Agencia,0
+C00171,Gloria Rodríguez Cifuentes,F,27,Guatemala,Masivo,8555.09,147,2014-07-31,1,0,0,7750.49,632,App,0
+C00172,Jorge Cruz Solís,M,41,Quetzaltenango,Preferente,20898.44,35,2023-11-30,3,0,0,22729.52,602,App,1
+C00173,Gabriela Rodríguez Coyoy,F,45,Izabal,Masivo,7187.06,16,2025-06-30,4,0,0,5744.0,616,Web,0
+C00174,Andrea López Monterroso,F,41,Izabal,Masivo,9119.43,24,2024-10-31,2,1,0,2782.22,621,Agencia,0
+C00175,Francisco Estrada Fuentes,M,42,Izabal,Preferente,21781.41,14,2025-08-31,1,1,1,13731.96,628,App,0
+C00176,Silvia Tzul Solís,F,23,Quetzaltenango,Masivo,6661.99,109,2017-09-30,3,0,0,8149.33,585,App,1
+C00177,Silvia García Ramírez,F,45,Guatemala,Preferente,19628.21,175,2012-03-31,1,0,0,9824.77,698,Agencia,1
+C00178,Jennifer Velásquez Coyoy,F,58,Guatemala,Masivo,8116.8,55,2022-03-31,1,1,0,10399.31,768,Web,0
+C00179,Paola Méndez Batz,F,48,Guatemala,Preferente,19264.62,83,2019-11-30,3,1,1,15757.7,735,Agencia,0
+C00180,Marta Juárez Ajú,F,48,Guatemala,Preferente,11208.14,99,2018-07-31,1,0,1,7698.91,647,Web,0
+C00181,Paola Ramírez Ortiz,F,40,Guatemala,Masivo,9179.24,153,2014-01-31,3,0,0,16940.4,720,Agencia,0
+C00182,Sofía Ajú Hernández,F,41,Quetzaltenango,Masivo,7897.94,171,2012-07-31,3,1,1,1871.55,674,App,0
+C00183,Andrés Cifuentes Rodríguez,M,36,Guatemala,Masivo,6507.37,7,2026-03-31,2,0,0,3244.84,647,Agencia,0
+C00184,Rosa Monterroso Cifuentes,F,42,Guatemala,Masivo,8345.19,30,2024-04-30,3,0,0,15819.48,642,Agencia,0
+C00185,Francisco González Ramírez,M,28,Huehuetenango,Preferente,12033.66,51,2022-07-31,2,1,0,34660.43,656,App,0
+C00186,Estuardo Barrios Velásquez,M,58,Guatemala,Masivo,8058.89,27,2024-07-31,2,0,0,31938.97,695,App,0
+C00187,María González Morales,F,30,Chimaltenango,Masivo,7205.43,40,2023-06-30,1,1,0,5971.15,659,Agencia,0
+C00188,Sofía Cifuentes Girón,F,48,Guatemala,Masivo,7375.49,68,2021-02-28,2,0,0,8129.89,599,App,0
+C00189,Ricardo Pérez Hernández,M,55,Sacatepéquez,Preferente,12614.29,67,2021-03-31,4,1,1,17883.64,615,Agencia,0
+C00190,Miguel Arévalo Girón,M,48,Guatemala,Preferente,14208.87,97,2018-09-30,3,1,1,27751.1,691,App,0
+C00191,Patricia Cifuentes Aguilar,F,73,Quetzaltenango,Masivo,6420.95,51,2022-07-31,2,0,0,6395.45,680,Agencia,0
+C00192,Otto Pérez Cifuentes,M,23,Guatemala,Masivo,6418.11,3,2026-07-31,1,1,1,9818.66,628,App,0
+C00193,Manuel Xicará Coyoy,M,33,Guatemala,Masivo,9468.67,38,2023-08-31,2,0,1,10450.88,570,App,0
+C00194,Ingrid Coyoy Reyes,F,55,Escuintla,Preferente,16709.67,64,2021-06-30,1,0,1,19267.14,757,Agencia,0
+C00195,Elena Girón Rodríguez,F,27,Guatemala,Preferente,13636.92,102,2018-04-30,1,0,0,5736.1,742,App,0
+C00196,Kevin Martínez Xicará,M,30,Guatemala,Masivo,5473.45,92,2019-02-28,1,0,0,3477.51,510,App,0
+C00197,Lucía Solís Batz,F,44,Zacapa,Masivo,7340.52,46,2022-12-31,1,1,0,4072.79,743,Agencia,0
+C00198,Andrés Barrios Tzul,M,38,Guatemala,Masivo,5945.87,29,2024-05-31,2,0,1,2069.54,635,Web,0
+C00199,Lucía Barrios Monterroso,F,43,Sacatepéquez,Masivo,7331.53,48,2022-10-31,3,0,0,1845.81,663,Agencia,0
+C00200,Miguel Orellana Méndez,M,39,Sacatepéquez,Preferente,17434.49,9,2026-01-31,1,1,0,10368.45,749,Agencia,0
+C00201,Gabriela Solís Coyoy,F,40,Guatemala,Masivo,5262.39,31,2024-03-31,4,0,0,3499.86,765,Web,0
+C00202,Fernanda Reyes Batz,F,31,Quetzaltenango,Masivo,5049.0,115,2017-03-31,4,0,0,4347.38,720,App,0
+C00203,Lucía Xicará Ramírez,F,40,Guatemala,Masivo,6119.57,48,2022-10-31,2,0,1,7223.68,666,Agencia,0
+C00204,Marta Girón Estrada,F,34,Huehuetenango,Masivo,9102.46,66,2021-04-30,3,1,0,8306.9,553,App,0
+C00205,Jorge Pérez Chávez,M,35,Guatemala,Preferente,10549.06,14,2025-08-31,3,1,0,7050.2,528,App,0
+C00206,Valeria Arévalo Monterroso,F,48,Guatemala,Masivo,9712.23,101,2018-05-31,2,1,0,4094.54,711,Agencia,0
+C00207,Ricardo Rodríguez Méndez,M,27,Guatemala,Preferente,13847.74,44,2023-02-28,3,1,0,20469.31,763,Agencia,0
+C00208,Pablo Castillo Méndez,M,22,San Marcos,Masivo,4909.86,64,2021-06-30,2,0,0,3657.67,592,App,1
+C00209,Rosa Pérez Coyoy,F,47,Petén,Preferente,13938.89,75,2020-07-31,4,1,0,8230.83,651,App,0
+C00210,Estuardo Fuentes Aguilar,M,40,Zacapa,Masivo,7216.88,98,2018-08-31,1,0,0,5067.06,610,Web,1
+C00211,Byron Arévalo Pérez,M,55,Alta Verapaz,Preferente,11109.16,57,2022-01-31,2,1,1,5321.23,629,Agencia,0
+C00212,Pedro Monterroso Solís,M,31,Alta Verapaz,Masivo,5381.9,45,2023-01-31,1,1,0,2969.6,725,App,0
+C00213,Juana Tzul Hernández,F,37,Quetzaltenango,Masivo,8115.64,17,2025-05-31,2,1,1,4379.47,665,Agencia,0
+C00214,Francisco Méndez García,M,39,San Marcos,Masivo,8909.34,12,2025-10-31,3,0,0,5828.85,633,App,1
+C00215,Otto Martínez Juárez,M,32,Sacatepéquez,Preferente,13705.74,56,2022-02-28,1,0,1,17351.86,850,App,1
+C00216,Kevin Fuentes Cifuentes,M,30,Guatemala,Masivo,5083.49,64,2021-06-30,1,0,0,5407.75,549,App,0
+C00217,Gabriela Martínez Pineda,F,47,Alta Verapaz,Masivo,8197.92,72,2020-10-31,1,0,0,19364.72,688,App,0
+C00218,Javier Pérez Coyoy,M,26,Sacatepéquez,Masivo,5705.2,24,2024-10-31,3,0,0,10659.43,576,Web,0
+C00219,Mariana Solís Orellana,F,29,Guatemala,Preferente,10010.42,31,2024-03-31,1,0,0,31499.71,658,App,0
+C00220,Ingrid Ajú Aguilar,F,36,Guatemala,Preferente,11353.38,55,2022-03-31,2,0,0,13433.92,680,Agencia,0
+C00221,Claudia Batz Fuentes,F,49,Guatemala,Preferente,14679.5,35,2023-11-30,3,1,1,17175.47,729,App,0
+C00222,Julio Ortiz Barrios,M,33,Chimaltenango,Masivo,6694.28,223,2008-03-31,3,0,1,3807.29,631,Agencia,0
+C00223,Óscar González Ramírez,M,32,Guatemala,Preferente,12211.82,31,2024-03-31,3,1,0,17417.43,644,Web,0
+C00224,Beatriz Pérez Coyoy,F,36,Chimaltenango,Preferente,15266.35,68,2021-02-28,1,0,0,7715.46,650,App,0
+C00225,Andrés Orellana Velásquez,M,42,Quetzaltenango,Masivo,5024.48,90,2019-04-30,3,0,0,1436.0,574,Agencia,0
+C00226,Alejandra Girón Girón,F,34,Huehuetenango,Preferente,10508.27,94,2018-12-31,3,1,0,24469.94,714,App,0
+C00227,Gloria Pineda Barrios,F,51,Guatemala,Preferente,12402.5,34,2023-12-31,1,1,0,4138.48,689,Web,0
+C00228,Fernando Girón Aguilar,M,52,Zacapa,Masivo,7354.55,75,2020-07-31,1,1,1,7999.44,680,Agencia,0
+C00229,Diego Cruz Orellana,M,36,Quetzaltenango,Masivo,5528.1,68,2021-02-28,4,1,0,2388.03,645,Agencia,1
+C00230,Carlos Méndez Rodríguez,M,66,Guatemala,Preferente,12307.17,77,2020-05-31,3,1,1,21665.17,656,Agencia,0
+C00231,Otto Orellana Coyoy,M,38,Guatemala,Masivo,5543.37,55,2022-03-31,1,0,0,10735.16,732,Agencia,0
+C00232,Sofía Xicará Monterroso,F,51,Guatemala,Masivo,7571.85,90,2019-04-30,3,1,0,8773.35,721,App,0
+C00233,Kevin Girón González,M,41,Guatemala,Masivo,7975.37,60,2021-10-31,1,0,0,15266.64,749,App,0
+C00234,Patricia Orellana Cifuentes,F,41,Huehuetenango,Preferente,11025.75,15,2025-07-31,2,1,1,8866.02,696,App,0
+C00235,Kevin Fuentes López,M,25,Zacapa,Masivo,6502.1,59,2021-11-30,1,1,0,24851.15,744,App,0
+C00236,Mónica Monterroso Hernández,F,28,Alta Verapaz,Masivo,6386.73,64,2021-06-30,2,0,1,8614.05,620,App,0
+C00237,Mariana Ramírez Pérez,F,35,Sacatepéquez,Masivo,8422.62,86,2019-08-31,3,0,1,3587.27,635,App,0
+C00238,Mariana Mejía Ortiz,F,52,Quetzaltenango,Preferente,12702.51,56,2022-02-28,1,1,0,10669.41,753,Agencia,0
+C00239,Javier Batz Tzul,M,42,Chimaltenango,Premium,25915.74,156,2013-10-31,2,1,0,18633.4,749,App,0
+C00240,Elena Girón Coyoy,F,35,Chimaltenango,Masivo,5166.49,46,2022-12-31,1,1,0,3468.61,629,App,0
+C00241,Luis Rodríguez Solís,M,45,Guatemala,Masivo,9211.49,33,2024-01-31,1,0,0,2310.15,576,Agencia,1
+C00242,Diego Mejía Cruz,M,51,Zacapa,Masivo,5703.29,125,2016-05-31,1,1,0,5981.7,635,App,1
+C00243,Gloria Pineda Orellana,F,38,Guatemala,Preferente,12782.0,45,2023-01-31,3,0,0,3876.25,622,Agencia,0
+C00244,Kevin Ajú Sic,M,40,Petén,Masivo,5932.86,52,2022-06-30,2,1,0,810.24,770,Agencia,0
+C00245,Isabel Batz González,F,39,Izabal,Masivo,6406.18,64,2021-06-30,2,0,1,4028.16,703,Web,0
+C00246,Silvia Pineda García,F,37,Huehuetenango,Masivo,6579.0,60,2021-10-31,2,0,0,3100.66,596,Agencia,0
+C00247,Fernando Morales Monterroso,M,31,Guatemala,Masivo,7866.26,77,2020-05-31,2,1,0,3443.07,576,Agencia,0
+C00248,Gabriela Tzul Pérez,F,30,Escuintla,Masivo,9242.44,82,2019-12-31,2,0,0,842.4,595,App,0
+C00249,Juana Méndez Ortiz,F,45,Guatemala,Masivo,9913.36,30,2024-04-30,3,0,0,4371.69,610,Agencia,0
+C00250,Ingrid Cruz González,F,51,Petén,Masivo,8081.87,18,2025-04-30,1,0,0,5725.5,638,App,0
+C00251,Manuel González Orellana,M,35,Guatemala,Masivo,5373.85,21,2025-01-31,1,1,0,2757.97,728,App,0
+C00252,Lucía Monterroso Castillo,F,35,Alta Verapaz,Preferente,11089.69,116,2017-02-28,4,1,0,11634.94,602,Web,0
+C00253,Juana Morales Batz,F,24,Zacapa,Masivo,7936.23,43,2023-03-31,2,0,0,16829.9,810,Web,0
+C00254,José González Castillo,M,23,Guatemala,Preferente,13748.15,89,2019-05-31,1,0,0,15787.49,603,Web,1
+C00255,Marta Solís Tzul,F,56,Guatemala,Masivo,6341.93,84,2019-10-31,1,0,0,10407.38,551,Agencia,0
+C00256,Fernando Méndez Morales,M,31,Alta Verapaz,Masivo,5065.92,52,2022-06-30,2,0,1,8809.06,768,Agencia,0
+C00257,Valeria Orellana Batz,F,75,Quetzaltenango,Masivo,7994.08,24,2024-10-31,2,0,0,3134.14,742,Agencia,0
+C00258,Pedro García Xicará,M,32,Guatemala,Preferente,14747.82,85,2019-09-30,3,1,0,16043.95,657,App,0
+C00259,Miguel Ortiz Monterroso,M,25,Guatemala,Masivo,8636.63,51,2022-07-31,1,1,0,13866.54,676,App,0
+C00260,Marta Ajú Aguilar,F,39,Quetzaltenango,Masivo,7513.02,17,2025-05-31,1,0,0,4429.65,678,App,0
+C00261,Alejandra Monterroso Solís,F,47,Alta Verapaz,Masivo,6046.93,35,2023-11-30,3,1,0,2781.44,659,Agencia,0
+C00262,Pedro Arévalo Orellana,M,46,Escuintla,Preferente,19002.25,11,2025-11-30,1,1,0,22036.46,579,App,1
+C00263,Julio Juárez Fuentes,M,49,Guatemala,Masivo,5788.8,36,2023-10-31,2,0,1,1641.55,476,App,0
+C00264,Ingrid Monterroso García,F,29,Quetzaltenango,Masivo,6308.25,54,2022-04-30,2,0,0,2356.34,590,App,0
+C00265,Luis Sic Orellana,M,55,Guatemala,Preferente,10306.66,47,2022-11-30,1,1,0,5170.23,797,Agencia,0
+C00266,Daniela Velásquez Orellana,F,56,Guatemala,Masivo,4827.36,43,2023-03-31,2,0,0,5293.69,779,Web,0
+C00267,Alejandro Méndez Solís,M,57,Huehuetenango,Preferente,14582.37,54,2022-04-30,1,1,0,13597.81,651,App,0
+C00268,Fernando Castillo Batz,M,41,Guatemala,Preferente,10565.8,73,2020-09-30,4,0,0,17411.63,602,App,0
+C00269,Juan Coyoy Xicará,M,34,Sacatepéquez,Preferente,12044.7,94,2018-12-31,1,1,1,5053.96,689,App,0
+C00270,Miguel Estrada García,M,33,Zacapa,Preferente,10250.95,103,2018-03-31,2,0,1,4142.9,700,App,0
+C00271,Gloria Velásquez Martínez,F,25,Sacatepéquez,Masivo,7620.04,28,2024-06-30,1,0,1,8796.7,692,Agencia,0
+C00272,Andrés Morales Tzul,M,33,Escuintla,Masivo,5738.01,110,2017-08-31,3,0,0,2624.53,473,App,0
+C00273,Fernando Orellana Fuentes,M,22,Guatemala,Masivo,7679.7,51,2022-07-31,3,0,0,4026.85,850,App,0
+C00274,Edgar Recinos Tzul,M,25,Guatemala,Masivo,5873.71,39,2023-07-31,2,0,1,1280.96,729,App,0
+C00275,Andrés López Hernández,M,40,Guatemala,Masivo,9924.22,21,2025-01-31,1,0,0,9732.07,636,Web,0
+C00276,Pablo Barrios Barrios,M,35,Petén,Preferente,11515.5,70,2020-12-31,3,1,0,27097.83,619,App,0
+C00277,Rodrigo Hernández Sic,M,40,Chimaltenango,Preferente,16252.36,68,2021-02-28,3,1,1,6325.52,739,App,0
+C00278,Walter Sic Ramírez,M,46,Guatemala,Masivo,9437.57,32,2024-02-29,3,1,1,15436.7,684,Agencia,0
+C00279,Daniel García Martínez,M,42,Guatemala,Preferente,12195.86,33,2024-01-31,4,1,1,9359.33,676,Agencia,0
+C00280,Brenda Tzul Recinos,F,41,Guatemala,Masivo,7254.93,46,2022-12-31,1,1,0,1686.66,682,App,0
+C00281,Elena Ramírez Pineda,F,37,Escuintla,Masivo,6819.68,39,2023-07-31,1,0,0,2916.43,642,Web,1
+C00282,Elena Martínez López,F,31,Escuintla,Masivo,9869.19,26,2024-08-31,3,0,0,4042.03,678,App,0
+C00283,Lesly Monterroso Hernández,F,27,Alta Verapaz,Masivo,7033.38,19,2025-03-31,2,0,0,4508.45,700,App,0
+C00284,Mónica Cifuentes Girón,F,33,San Marcos,Masivo,9033.09,111,2017-07-31,1,0,0,9693.07,674,App,0
+C00285,Brenda Ortiz González,F,37,Guatemala,Masivo,,35,2023-11-30,2,1,0,16755.48,670,Agencia,0
+C00286,Valeria Batz Velásquez,F,38,Alta Verapaz,Masivo,6027.68,68,2021-02-28,2,1,1,1770.77,747,App,0
+C00287,Byron García Coyoy,M,49,Sacatepéquez,Preferente,10620.71,77,2020-05-31,3,1,0,6051.57,558,App,0
+C00288,Andrea Coyoy Ortiz,F,36,Guatemala,Preferente,11970.89,70,2020-12-31,1,1,0,5114.85,614,App,0
+C00289,Pablo Coyoy Tzul,M,44,San Marcos,Masivo,5857.18,80,2020-02-29,2,1,1,1928.88,651,App,0
+C00290,María Fuentes Xicará,F,26,Guatemala,Preferente,10795.87,70,2020-12-31,4,1,0,9233.46,618,App,0
+C00291,Silvia Cruz Hernández,F,41,Huehuetenango,Masivo,6699.26,30,2024-04-30,2,0,0,5364.96,622,Web,1
+C00292,Edgar Cruz Cifuentes,M,40,Huehuetenango,Masivo,8152.29,40,2023-06-30,1,0,0,1832.16,740,Web,0
+C00293,Byron Mejía García,M,55,Zacapa,Preferente,15733.11,109,2017-09-30,3,1,0,12747.42,659,Web,0
+C00294,Sergio Velásquez Chávez,M,35,Sacatepéquez,Preferente,11519.42,34,2023-12-31,3,1,0,3963.44,541,App,0
+C00295,Byron González Ortiz,M,35,Guatemala,Preferente,11455.29,51,2022-07-31,2,1,0,9240.42,640,Agencia,0
+C00296,Otto Mejía Recinos,M,46,Chimaltenango,Preferente,20719.71,74,2020-08-31,1,0,0,40309.59,674,App,0
+C00297,Daniel Pineda Sic,M,28,Petén,Masivo,6349.34,136,2015-06-30,1,0,0,7024.15,652,App,1
+C00298,Isabel Ajú Chávez,F,40,Sacatepéquez,Masivo,5856.84,102,2018-04-30,3,1,0,5305.42,688,Agencia,0
+C00299,Fernando Sic Solís,M,27,Petén,Masivo,6314.46,23,2024-11-30,3,1,0,3488.82,683,Web,0
+C00300,Mario Aguilar Solís,M,64,Guatemala,Masivo,7365.67,66,2021-04-30,1,0,0,6174.91,640,Agencia,1
+C00301,Ingrid Xicará Recinos,F,34,Escuintla,Masivo,4465.79,61,2021-09-30,2,0,1,5299.33,566,App,0
+C00302,Rosa Tzul Girón,F,27,San Marcos,Masivo,7491.82,41,2023-05-31,3,0,0,8294.43,619,App,0
+C00303,Héctor Coyoy Cruz,M,33,Guatemala,Masivo,6673.69,52,2022-06-30,2,1,0,4980.73,606,App,0
+C00304,Isabel Batz Estrada,F,40,Quetzaltenango,Preferente,11388.97,30,2024-04-30,2,1,0,10608.6,650,Agencia,0
+C00305,Edgar Recinos Orellana,M,44,Zacapa,Masivo,9359.04,45,2023-01-31,2,1,0,2979.05,698,Web,0
+C00306,Patricia Girón Barrios,F,54,Petén,Masivo,6555.27,34,2023-12-31,3,0,0,3136.45,678,App,0
+C00307,Rosa Estrada Cruz,F,32,San Marcos,Preferente,10400.87,55,2022-03-31,1,0,0,13654.07,727,App,0
+C00308,Lucía Cruz García,F,47,Guatemala,Preferente,11066.02,39,2023-07-31,3,1,0,15961.17,643,App,0
+C00309,Julio Solís Castillo,M,25,Izabal,Masivo,6227.66,143,2014-11-30,2,0,1,5319.48,755,App,1
+C00310,Juana Monterroso Fuentes,F,29,Guatemala,Masivo,6786.62,57,2022-01-31,1,1,0,15288.26,697,App,0
+C00311,Jorge Pérez Aguilar,M,26,Sacatepéquez,Masivo,4547.74,49,2022-09-30,2,1,0,5191.9,657,App,1
+C00312,Diego Coyoy Cifuentes,M,30,Quetzaltenango,Masivo,5697.23,43,2023-03-31,1,0,0,3871.52,692,Agencia,0
+C00313,Valeria Hernández Girón,F,46,Petén,Masivo,6276.07,40,2023-06-30,2,0,0,2137.79,602,Agencia,0
+C00314,Alejandro López Reyes,M,32,San Marcos,Masivo,8339.79,17,2025-05-31,3,0,0,18265.39,502,Agencia,0
+C00315,Silvia Recinos Ramírez,F,33,Huehuetenango,Masivo,5921.72,89,2019-05-31,1,0,0,8123.05,607,Agencia,0
+C00316,Pablo Martínez Juárez,M,41,Escuintla,Masivo,6741.38,125,2016-05-31,1,0,0,18990.5,702,Agencia,0
+C00317,Rosa Barrios Sic,F,43,Quetzaltenango,Masivo,5508.55,34,2023-12-31,3,0,1,20084.55,655,Agencia,0
+C00318,Lucía Pérez Arévalo,F,34,Sacatepéquez,Masivo,8672.62,108,2017-10-31,1,1,0,2818.4,640,App,0
+C00319,Diego Tzul Pérez,M,29,Sacatepéquez,Masivo,9662.23,222,2008-04-30,1,0,0,3145.73,590,App,1
+C00320,Edgar Cifuentes Mejía,M,60,Guatemala,Masivo,9563.95,171,2012-07-31,1,0,0,1031.09,513,App,0
+C00321,Óscar Juárez Juárez,M,34,Sacatepéquez,Masivo,8139.11,121,2016-09-30,2,1,0,12383.82,749,Web,0
+C00322,Juan Orellana Fuentes,M,35,Chimaltenango,Masivo,5130.09,19,2025-03-31,2,1,0,6498.15,635,Web,0
+C00323,Lucía Ortiz Velásquez,F,36,Huehuetenango,Masivo,6515.7,19,2025-03-31,1,1,0,5581.83,619,App,1
+C00324,Claudia Estrada Cruz,F,44,Petén,Masivo,6983.68,80,2020-02-29,2,0,0,2368.22,602,Agencia,0
+C00325,Jennifer Solís Coyoy,F,26,Guatemala,Masivo,6993.19,52,2022-06-30,2,0,0,5256.52,737,Web,0
+C00326,Otto Batz Hernández,M,68,Sacatepéquez,Masivo,8342.5,7,2026-03-31,2,1,0,7595.18,711,Agencia,1
+C00327,Gabriela Coyoy Reyes,F,34,Guatemala,Preferente,15806.35,37,2023-09-30,3,1,0,21871.32,602,App,1
+C00328,Claudia Orellana Girón,F,45,Guatemala,Preferente,11545.02,78,2020-04-30,3,1,1,11180.84,751,App,0
+C00329,Gloria Solís Pérez,F,27,Quetzaltenango,Masivo,5854.24,46,2022-12-31,2,0,0,7453.5,639,App,1
+C00330,Lesly Arévalo Recinos,F,39,Guatemala,Preferente,10835.21,52,2022-06-30,6,1,0,7946.77,627,App,0
+C00331,Paola Barrios Chávez,F,64,Guatemala,Preferente,10644.8,19,2025-03-31,1,0,1,19471.76,649,Agencia,0
+C00332,Fernanda Ramírez Sic,F,61,Alta Verapaz,Masivo,6159.55,37,2023-09-30,1,0,0,7668.12,595,App,0
+C00333,María Arévalo Velásquez,F,45,Quetzaltenango,Preferente,11752.17,80,2020-02-29,4,1,1,4096.12,577,App,0
+C00334,Pedro Morales Barrios,M,30,Quetzaltenango,Masivo,7622.14,35,2023-11-30,1,1,1,16124.95,704,App,1
+C00335,Wendy González Mejía,F,53,Guatemala,Masivo,5277.17,114,2017-04-30,2,1,0,9955.71,634,Agencia,0
+C00336,Carmen Velásquez Recinos,F,25,Sacatepéquez,Masivo,9788.66,53,2022-05-31,2,0,0,10847.27,693,App,1
+C00337,Luis Rodríguez Rodríguez,M,30,Quetzaltenango,Masivo,8838.06,70,2020-12-31,1,1,1,8605.71,670,Agencia,0
+C00338,Brenda Cifuentes Cruz,F,37,Quetzaltenango,Masivo,7437.05,79,2020-03-31,4,0,1,18998.48,688,App,0
+C00339,Gabriela Sic Cifuentes,F,25,Escuintla,Masivo,7983.56,77,2020-05-31,1,1,0,2035.87,506,Agencia,0
+C00340,Juana Chávez Girón,F,33,Guatemala,Masivo,6320.23,23,2024-11-30,3,0,0,12054.88,589,App,0
+C00341,Isabel Pineda Orellana,F,47,San Marcos,Preferente,10497.57,26,2024-08-31,2,1,0,6017.4,709,App,0
+C00342,Miguel Cruz Cruz,M,31,Guatemala,Masivo,7965.19,6,2026-04-30,1,0,1,13715.98,560,Agencia,0
+C00343,Gloria Arévalo Velásquez,F,48,Quetzaltenango,Masivo,8656.08,40,2023-06-30,3,1,1,7533.66,676,Agencia,0
+C00344,Ingrid Orellana Girón,F,75,Guatemala,Masivo,9378.11,25,2024-09-30,1,0,1,3143.03,552,Agencia,1
+C00345,Mariana Arévalo Juárez,F,42,Sacatepéquez,Masivo,5605.45,35,2023-11-30,3,0,0,3167.78,651,Agencia,0
+C00346,Carmen Martínez Juárez,F,48,Guatemala,Masivo,6006.27,43,2023-03-31,1,1,1,9824.42,762,App,0
+C00347,Estuardo Aguilar Rodríguez,M,54,San Marcos,Masivo,4558.02,58,2021-12-31,4,0,0,3147.47,704,Agencia,1
+C00348,Patricia Aguilar Estrada,F,33,Guatemala,Preferente,10281.86,46,2022-12-31,6,0,0,5323.86,540,App,0
+C00349,Edgar Coyoy Méndez,M,47,Escuintla,Masivo,5526.16,45,2023-01-31,2,0,0,2848.03,709,Agencia,0
+C00350,Manuel Pérez Recinos,M,33,Guatemala,Masivo,8537.58,66,2021-04-30,1,0,0,10707.1,777,Agencia,1
+C00351,Julio Castillo Barrios,M,41,Guatemala,Masivo,9434.39,50,2022-08-31,1,0,0,25704.41,845,Agencia,0
+C00352,Julio Orellana Juárez,M,49,Quetzaltenango,Preferente,10460.12,94,2018-12-31,3,1,0,1869.76,703,Agencia,0
+C00353,Luis Mejía Castillo,M,30,Sacatepéquez,Masivo,5537.24,50,2022-08-31,1,0,0,31463.61,554,Web,0
+C00354,Rodrigo Recinos Méndez,M,22,Quetzaltenango,Masivo,7899.35,137,2015-05-31,1,0,1,7288.22,680,App,0
+C00355,Pedro Juárez Ortiz,M,29,Izabal,Preferente,18087.32,22,2024-12-31,1,0,0,21719.8,781,App,0
+C00356,Elena Rodríguez Solís,F,52,Huehuetenango,Preferente,18540.83,40,2023-06-30,3,1,0,10929.31,656,Agencia,0
+C00357,Beatriz González Méndez,F,29,Izabal,Preferente,12581.83,30,2024-04-30,2,1,0,10040.73,743,Web,0
+C00358,Beatriz Barrios Barrios,F,51,Guatemala,Masivo,9299.18,59,2021-11-30,4,1,0,8512.55,591,Web,0
+C00359,Juan Ortiz Tzul,M,30,Petén,Masivo,5826.66,22,2024-12-31,2,0,0,2236.55,676,Agencia,1
+C00360,Walter Chávez Ajú,M,35,Sacatepéquez,Preferente,11041.8,14,2025-08-31,1,0,1,5025.71,495,App,0
+C00361,Carmen Girón Monterroso,F,38,Escuintla,Masivo,7628.78,26,2024-08-31,1,1,0,13984.95,583,Agencia,0
+C00362,Lesly Batz Solís,F,29,Izabal,Preferente,10262.18,15,2025-07-31,1,1,0,2769.53,669,Agencia,1
+C00363,Marta Pineda Reyes,F,36,Alta Verapaz,Masivo,6489.51,44,2023-02-28,1,0,1,7069.37,624,App,0
+C00364,Luis López Girón,M,25,San Marcos,Masivo,7586.94,58,2021-12-31,2,1,0,4682.93,558,App,0
+C00365,Julio Sic Monterroso,M,34,Huehuetenango,Masivo,8647.94,12,2025-10-31,3,0,0,3531.36,615,Web,0
+C00366,Luis Xicará Coyoy,M,37,Guatemala,Masivo,8946.66,38,2023-08-31,2,1,0,28459.7,673,App,0
+C00367,Gabriela Estrada Reyes,F,22,Alta Verapaz,Masivo,9957.81,102,2018-04-30,1,0,1,4083.94,643,Agencia,1
+C00368,Andrea Monterroso Mejía,F,29,Quetzaltenango,Masivo,6600.09,122,2016-08-31,1,0,0,2393.77,654,App,0
+C00369,Patricia Ajú Tzul,F,41,Zacapa,Masivo,5357.3,85,2019-09-30,2,0,0,3760.06,701,App,0
+C00370,Daniel Pineda Recinos,M,28,Petén,Preferente,17633.21,4,2026-06-30,4,1,0,8237.11,645,App,0
+C00371,Andrés Martínez Juárez,M,43,Guatemala,Premium,29301.65,54,2022-04-30,6,0,0,23546.25,785,Agencia,0
+C00372,Otto Castillo Girón,M,44,Guatemala,Masivo,9755.04,110,2017-08-31,1,0,1,8700.84,580,Web,0
+C00373,Mariana Chávez González,F,41,Guatemala,Masivo,5381.19,35,2023-11-30,1,1,0,5073.48,784,Agencia,0
+C00374,Patricia Batz Rodríguez,F,47,Quetzaltenango,Masivo,6219.13,18,2025-04-30,2,1,0,4562.01,727,Agencia,0
+C00375,Héctor Morales Ortiz,M,25,Guatemala,Preferente,10026.69,105,2018-01-31,3,0,1,4906.66,645,App,0
+C00376,Silvia Arévalo Ramírez,F,50,Huehuetenango,Preferente,15105.88,115,2017-03-31,3,0,1,18959.83,649,App,0
+C00377,Fernando Pineda Méndez,M,29,Sacatepéquez,Masivo,5525.25,50,2022-08-31,1,0,0,4087.77,664,App,0
+C00378,Jennifer Ortiz Pérez,F,39,Chimaltenango,Masivo,7724.91,18,2025-04-30,2,1,0,4368.3,691,Agencia,0
+C00379,Silvia Reyes Castillo,F,63,Guatemala,Masivo,8761.51,10,2025-12-31,3,1,0,19751.32,726,App,0
+C00380,Rodrigo Estrada Castillo,M,34,Sacatepéquez,Preferente,11842.32,64,2021-06-30,4,1,1,8702.56,576,Agencia,0
+C00381,Silvia Monterroso García,F,38,Guatemala,Masivo,7137.98,30,2024-04-30,2,1,1,12264.11,680,Agencia,0
+C00382,Sofía Ajú Aguilar,F,29,San Marcos,Masivo,5105.92,47,2022-11-30,2,0,1,9641.18,501,App,0
+C00383,Manuel Chávez Monterroso,M,63,Guatemala,Preferente,10551.21,44,2023-02-28,3,1,0,20789.91,657,Agencia,0
+C00384,Claudia Cifuentes Xicará,F,29,Guatemala,Preferente,13489.11,24,2024-10-31,2,1,0,17506.1,771,Agencia,0
+C00385,Marta Cruz Aguilar,F,45,Guatemala,Masivo,7847.21,10,2025-12-31,1,0,0,6274.98,550,Agencia,0
+C00386,Erick Estrada López,M,54,Petén,Masivo,9575.96,36,2023-10-31,1,0,0,7324.93,538,Agencia,0
+C00387,Brenda Rodríguez Aguilar,F,47,Guatemala,Masivo,6828.23,55,2022-03-31,1,0,1,4604.52,665,App,1
+C00388,Andrea Pineda Tzul,F,41,Escuintla,Masivo,6089.39,57,2022-01-31,4,1,0,1068.84,747,App,0
+C00389,Fernanda Cifuentes Cruz,F,39,Huehuetenango,Preferente,12831.07,29,2024-05-31,4,0,0,16977.53,692,App,0
+C00390,Ana Pérez Velásquez,F,27,Huehuetenango,Masivo,9502.2,113,2017-05-31,3,1,0,9020.55,516,Agencia,0
+C00391,Fernanda Pineda López,F,62,Guatemala,Masivo,9942.9,19,2025-03-31,2,1,0,14176.45,532,Agencia,0
+C00392,Luis Solís Rodríguez,M,40,Guatemala,Preferente,16478.48,97,2018-09-30,3,0,0,12146.13,676,Agencia,0
+C00393,Elena Reyes Barrios,F,38,Quetzaltenango,Masivo,5750.47,54,2022-04-30,3,0,0,7326.63,567,App,0
+C00394,Lucía Castillo Estrada,F,28,Guatemala,Masivo,6657.69,36,2023-10-31,3,0,0,2030.69,659,Agencia,1
+C00395,Patricia Barrios Fuentes,F,38,Alta Verapaz,Masivo,8626.03,70,2020-12-31,2,1,0,3043.95,663,App,0
+C00396,Paola Girón Arévalo,F,37,Guatemala,Masivo,6631.5,42,2023-04-30,1,0,0,937.39,615,Agencia,0
+C00397,Alejandro Juárez Reyes,M,63,Quetzaltenango,Preferente,11385.58,14,2025-08-31,1,1,0,8290.91,797,App,0
+C00398,Marta Méndez Sic,F,38,Guatemala,Masivo,7546.77,18,2025-04-30,1,0,0,3515.59,691,Agencia,0
+C00399,Lucía Reyes Aguilar,F,38,Sacatepéquez,Masivo,5846.34,40,2023-06-30,1,0,1,2485.08,734,Web,1
+C00400,Patricia Pineda Castillo,F,28,Guatemala,Masivo,8312.02,32,2024-02-29,2,1,0,8404.91,714,App,0
+C00401,Lesly Solís Aguilar,F,31,Alta Verapaz,Masivo,8669.87,95,2018-11-30,2,0,1,5149.27,639,App,0
+C00402,Mónica Batz Cifuentes,F,44,Guatemala,Preferente,12256.88,31,2024-03-31,5,0,0,3595.85,656,App,0
+C00403,Héctor Solís García,M,24,Izabal,Masivo,9525.56,29,2024-05-31,2,0,0,45248.61,629,App,0
+C00404,Sergio Girón Arévalo,M,50,Alta Verapaz,Masivo,9814.47,26,2024-08-31,3,0,0,7650.77,697,App,0
+C00405,Gabriela Xicará Rodríguez,F,51,Guatemala,Masivo,9230.97,24,2024-10-31,1,0,0,3459.78,604,Web,1
+C00406,Luis González Fuentes,M,30,Guatemala,Masivo,7544.5,25,2024-09-30,1,0,1,3776.47,770,App,0
+C00407,Alejandra Chávez Castillo,F,42,Guatemala,Masivo,6325.7,16,2025-06-30,3,1,0,4482.93,597,App,0
+C00408,Marta Cifuentes Sic,F,54,Guatemala,Masivo,9108.35,56,2022-02-28,1,0,0,6445.46,665,Agencia,0
+C00409,Héctor Hernández Solís,M,36,Guatemala,Masivo,,45,2023-01-31,1,0,0,14259.78,633,App,0
+C00410,Daniel Ortiz Morales,M,34,San Marcos,Preferente,18286.86,43,2023-03-31,2,1,0,13838.27,638,App,0
+C00411,Marta Martínez Velásquez,F,36,Escuintla,Preferente,15114.48,11,2025-11-30,3,0,0,44307.56,822,Agencia,0
+C00412,Erick Estrada García,M,40,Guatemala,Preferente,10608.09,66,2021-04-30,3,0,1,6270.01,639,App,0
+C00413,Lesly Fuentes Ortiz,F,32,Sacatepéquez,Masivo,9465.01,70,2020-12-31,2,1,0,10205.87,628,Web,0
+C00414,Alejandro González Orellana,M,34,Guatemala,Masivo,7831.29,132,2015-10-31,1,0,0,12811.84,603,Agencia,1
+C00415,Kevin Juárez Arévalo,M,41,Izabal,Masivo,5461.33,68,2021-02-28,4,1,1,10086.07,652,Agencia,0
+C00416,Luis Batz Coyoy,M,33,Guatemala,Masivo,7468.07,150,2014-04-30,1,0,0,14966.34,642,App,0
+C00417,Pedro Reyes Ramírez,M,28,Huehuetenango,Masivo,8431.02,28,2024-06-30,1,0,0,5575.41,571,App,0
+C00418,Edgar Tzul Xicará,M,24,Petén,Masivo,8884.07,137,2015-05-31,3,0,1,7080.0,620,Agencia,0
+C00419,Mario Morales Pineda,M,38,Guatemala,Masivo,9851.07,69,2021-01-31,2,0,0,1389.36,692,Agencia,1
+C00420,Alejandro Mejía Méndez,M,53,Guatemala,Preferente,12176.35,63,2021-07-31,2,1,0,8492.17,741,App,0
+C00421,Juana Ramírez Estrada,F,42,Guatemala,Masivo,6372.0,42,2023-04-30,1,0,1,10942.43,651,Web,0
+C00422,Ingrid Ramírez López,F,28,San Marcos,Masivo,6389.67,36,2023-10-31,3,0,0,9576.62,654,Agencia,1
+C00423,Rosa Castillo Arévalo,F,31,Sacatepéquez,Preferente,16024.58,30,2024-04-30,1,1,1,12066.58,644,Agencia,0
+C00424,Pablo Mejía Orellana,M,34,Alta Verapaz,Preferente,11319.62,140,2015-02-28,2,1,0,29748.88,634,App,0
+C00425,Isabel Aguilar López,F,64,Petén,Masivo,7023.07,41,2023-05-31,2,0,0,4294.15,585,Web,0
+C00426,Wendy Cruz Estrada,F,65,Chimaltenango,Masivo,7774.65,70,2020-12-31,1,1,0,3767.56,541,Agencia,0
+C00427,Estuardo Barrios Tzul,M,62,Quetzaltenango,Masivo,7787.81,81,2020-01-31,1,1,0,4489.33,600,App,0
+C00428,Paola Pérez García,F,39,Sacatepéquez,Masivo,8200.57,80,2020-02-29,1,0,0,2990.18,713,Web,0
+C00429,Fernando Pineda Reyes,M,80,Huehuetenango,Masivo,9864.86,56,2022-02-28,2,0,0,12200.93,620,Agencia,0
+C00430,Daniel Ajú Méndez,M,31,Guatemala,Premium,30137.86,135,2015-07-31,3,1,0,29505.48,665,App,0
+C00431,Claudia Coyoy Velásquez,F,34,Chimaltenango,Masivo,8739.25,66,2021-04-30,1,0,0,10715.23,624,App,1
+C00432,Lesly Pineda Barrios,F,49,Guatemala,Preferente,10755.61,29,2024-05-31,1,1,0,6438.04,757,Agencia,0
+C00433,Elena Rodríguez Rodríguez,F,41,Guatemala,Masivo,4982.02,37,2023-09-30,3,0,0,3826.85,585,Agencia,0
+C00434,Juana Coyoy González,F,41,Petén,Masivo,6804.79,12,2025-10-31,1,1,0,1184.82,669,Agencia,0
+C00435,Paola Fuentes López,F,29,Guatemala,Preferente,14236.04,61,2021-09-30,2,0,0,14820.2,665,Agencia,1
+C00436,Mónica Velásquez Fuentes,F,37,Guatemala,Masivo,9563.74,74,2020-08-31,1,1,0,8199.1,654,Agencia,1
+C00437,Fernanda Cifuentes Monterroso,F,31,Guatemala,Masivo,3808.4,79,2020-03-31,1,0,0,1410.15,667,App,1
+C00438,Paola Girón Girón,F,27,Sacatepéquez,Preferente,10813.06,69,2021-01-31,2,0,0,8039.37,674,App,1
+C00439,Diego Hernández Girón,M,32,Chimaltenango,Preferente,20832.42,42,2023-04-30,3,0,0,13913.68,725,Agencia,0
+C00440,Luis Girón Reyes,M,41,Guatemala,Masivo,4712.87,49,2022-09-30,1,1,0,12963.94,647,Web,1
+C00441,Beatriz Coyoy García,F,46,Guatemala,Preferente,16635.14,49,2022-09-30,2,0,0,6331.8,792,App,0
+C00442,José Tzul Barrios,M,24,Quetzaltenango,Masivo,4246.43,95,2018-11-30,1,1,0,4284.2,653,Agencia,1
+C00443,Ana Solís Ramírez,F,38,Zacapa,Preferente,12277.01,7,2026-03-31,2,0,1,4577.01,550,App,0
+C00444,Wendy González Ramírez,F,37,Guatemala,Masivo,8072.84,34,2023-12-31,1,0,0,4370.38,694,Agencia,1
+C00445,Silvia Ajú Coyoy,F,40,Zacapa,Masivo,4468.57,21,2025-01-31,1,0,0,4339.24,677,Web,1
+C00446,Andrea Castillo Castillo,F,28,San Marcos,Masivo,9749.52,172,2012-06-30,2,0,0,6726.94,652,App,0
+C00447,Mónica Aguilar Chávez,F,28,Guatemala,Preferente,13671.05,108,2017-10-31,4,1,0,10891.07,651,Agencia,0
+C00448,Gloria Castillo Ramírez,F,54,Chimaltenango,Masivo,9405.46,35,2023-11-30,2,0,0,9497.72,501,Agencia,1
+C00449,Lucía Morales Méndez,F,21,Alta Verapaz,Preferente,10376.47,14,2025-08-31,3,1,0,5875.64,533,App,0
+C00450,Fernanda Monterroso Chávez,F,30,Sacatepéquez,Masivo,6973.34,18,2025-04-30,2,0,0,10358.98,765,App,0
+C00451,Kevin Hernández Fuentes,M,34,Quetzaltenango,Masivo,4822.75,95,2018-11-30,2,0,0,3115.42,609,App,0
+C00452,Jorge García Mejía,M,35,Chimaltenango,Preferente,10903.71,11,2025-11-30,4,0,0,8147.17,737,App,0
+C00453,Byron Ramírez Rodríguez,M,31,Petén,Preferente,18916.11,49,2022-09-30,4,1,0,19487.79,557,App,0
+C00454,Rodrigo Pineda Estrada,M,43,Huehuetenango,Preferente,13522.29,84,2019-10-31,3,1,0,12680.89,596,App,0
+C00455,Pedro Ajú Batz,M,42,Izabal,Masivo,4719.14,17,2025-05-31,1,0,0,5926.55,697,App,1
+C00456,Paola Martínez Pineda,F,36,Quetzaltenango,Masivo,5158.39,49,2022-09-30,2,0,0,5151.85,642,App,0
+C00457,Isabel Rodríguez Monterroso,F,32,Petén,Masivo,6089.05,35,2023-11-30,1,1,0,6764.38,687,App,0
+C00458,Marta Ajú García,F,35,San Marcos,Masivo,5075.5,32,2024-02-29,1,0,0,3233.36,649,App,0
+C00459,Elena Aguilar Castillo,F,38,Guatemala,Masivo,8241.37,28,2024-06-30,3,0,0,3120.16,635,App,0
+C00460,Jorge Castillo Pineda,M,31,Guatemala,Masivo,9526.71,89,2019-05-31,1,0,1,2805.58,602,App,0
+C00461,Patricia López Coyoy,F,44,Quetzaltenango,Masivo,5253.51,124,2016-06-30,2,0,1,1305.07,566,Agencia,0
+C00462,Héctor Martínez Coyoy,M,50,Chimaltenango,Preferente,11352.9,40,2023-06-30,3,0,0,31194.39,768,Agencia,0
+C00463,Pedro López Ortiz,M,57,Guatemala,Preferente,10454.12,63,2021-07-31,2,0,0,1776.97,779,Agencia,1
+C00464,Ingrid Batz Hernández,F,56,Huehuetenango,Masivo,6665.98,50,2022-08-31,2,1,0,12298.53,577,App,0
+C00465,Mario Ajú Méndez,M,35,Guatemala,Masivo,7588.09,8,2026-02-28,5,0,1,3417.22,572,Web,0
+C00466,Daniela Mejía Estrada,F,39,Guatemala,Masivo,4749.37,39,2023-07-31,2,1,0,8717.89,625,App,0
+C00467,Karla Velásquez Hernández,F,36,Escuintla,Masivo,7166.18,7,2026-03-31,1,1,0,1226.85,673,App,0
+C00468,Mónica Ajú Estrada,F,36,Guatemala,Masivo,8123.32,33,2024-01-31,1,1,0,5512.56,637,Agencia,1
+C00469,Silvia Cifuentes Velásquez,F,35,San Marcos,Masivo,8664.22,48,2022-10-31,1,0,0,19180.14,684,App,0
+C00470,Kevin Ortiz Méndez,M,38,Guatemala,Masivo,9466.69,80,2020-02-29,1,0,0,12476.94,646,Agencia,0
+C00471,Patricia Chávez García,F,53,San Marcos,Masivo,8939.04,59,2021-11-30,2,0,0,5647.42,641,Agencia,0
+C00472,Carmen Velásquez Chávez,F,41,Guatemala,Masivo,7339.82,91,2019-03-31,3,0,0,1506.95,818,App,0
+C00473,Isabel Ramírez Fuentes,F,28,Izabal,Masivo,9098.16,24,2024-10-31,2,1,0,2884.02,613,App,1
+C00474,Brenda Reyes Coyoy,F,49,Escuintla,Preferente,12674.79,114,2017-04-30,1,1,0,26812.67,784,Agencia,0
+C00475,Estuardo Tzul Aguilar,M,40,Guatemala,Masivo,7809.02,124,2016-06-30,1,0,0,4895.75,751,App,0
+C00476,Carlos Rodríguez López,M,43,Guatemala,Masivo,9220.35,6,2026-04-30,1,1,1,7014.59,685,App,0
+C00477,Daniela Girón Fuentes,F,41,Guatemala,Masivo,7550.17,11,2025-11-30,1,0,1,7366.19,515,App,0
+C00478,Sergio Mejía Aguilar,M,41,Escuintla,Masivo,6461.5,47,2022-11-30,2,1,0,2076.6,652,Agencia,1
+C00479,Karla Ajú Hernández,F,42,Petén,Preferente,10088.9,31,2024-03-31,1,0,1,10733.78,633,App,0
+C00480,Carmen Monterroso Monterroso,F,24,Quetzaltenango,Masivo,6650.85,35,2023-11-30,2,1,0,3966.45,651,Agencia,0
+C00481,Andrés Monterroso Batz,M,43,Quetzaltenango,Masivo,9496.63,59,2021-11-30,4,1,0,9331.4,575,Agencia,0
+C00482,Ana Velásquez Batz,F,31,Escuintla,Masivo,8189.89,93,2019-01-31,2,0,1,4371.57,702,App,1
+C00483,Carmen Morales Fuentes,F,33,Sacatepéquez,Masivo,7237.6,23,2024-11-30,3,0,0,1925.07,718,App,0
+C00484,Rosa García García,F,38,Alta Verapaz,Masivo,7176.47,104,2018-02-28,3,1,1,4256.74,731,Agencia,0
+C00485,Carmen Tzul Chávez,F,60,Quetzaltenango,Masivo,6753.12,27,2024-07-31,2,0,0,8460.48,623,Web,0
+C00486,Erick Ramírez Ramírez,M,29,Huehuetenango,Masivo,5021.93,187,2011-03-31,2,0,0,5293.68,575,App,1
+C00487,Paola Girón Barrios,F,37,Izabal,Masivo,9483.22,114,2017-04-30,1,0,0,7752.63,674,App,0
+C00488,Lesly Hernández Ortiz,F,35,Guatemala,Masivo,8891.81,30,2024-04-30,1,0,0,13338.83,772,Agencia,0
+C00489,Mónica Pérez Méndez,F,49,Guatemala,Preferente,11756.76,14,2025-08-31,4,1,1,8156.12,674,Agencia,0
+C00490,Diego Chávez Rodríguez,M,35,Guatemala,Masivo,6702.03,29,2024-05-31,1,0,0,5577.05,681,App,0
+C00491,Diego Fuentes Rodríguez,M,40,Sacatepéquez,Preferente,20559.8,26,2024-08-31,4,1,0,11755.92,653,App,0
+C00492,Héctor Ajú Pérez,M,29,Guatemala,Masivo,7049.61,73,2020-09-30,1,1,0,11017.24,614,App,0
+C00493,Daniel Barrios Castillo,M,52,Zacapa,Masivo,6038.79,6,2026-04-30,3,0,0,5924.7,696,Agencia,0
+C00494,Diego Monterroso García,M,26,Escuintla,Masivo,5844.53,11,2025-11-30,4,0,0,3166.07,642,App,0
+C00495,Manuel Méndez Cruz,M,43,Sacatepéquez,Masivo,4936.87,72,2020-10-31,2,0,0,1392.73,678,Agencia,0
+C00496,Carlos Recinos Ramírez,M,40,Petén,Preferente,16756.51,25,2024-09-30,5,0,0,29052.84,705,Agencia,0
+C00497,Brenda Méndez García,F,42,Guatemala,Preferente,15349.66,33,2024-01-31,3,1,0,7294.38,694,App,0
+C00498,Paola Barrios Chávez,F,26,Chimaltenango,Preferente,10452.4,84,2019-10-31,6,1,0,8794.56,709,Agencia,0
+C00499,Gloria Barrios Girón,F,35,Guatemala,Masivo,6003.23,96,2018-10-31,2,1,0,24927.56,590,Web,0
+C00500,Fernanda Rodríguez Orellana,F,48,Escuintla,Preferente,19590.02,110,2017-08-31,1,1,0,27465.57,606,Agencia,0
+C00501,Patricia Mejía Estrada,F,63,Zacapa,Masivo,7117.93,79,2020-03-31,3,1,0,17589.08,647,App,0
+C00502,Francisco Pérez Pérez,M,37,Petén,Masivo,7327.58,41,2023-05-31,1,0,0,4022.14,648,Agencia,0
+C00503,Diego Coyoy García,M,47,Chimaltenango,Preferente,15906.88,39,2023-07-31,4,1,0,26931.37,633,App,0
+C00504,Andrea Ortiz Cruz,F,39,Guatemala,Preferente,10737.16,35,2023-11-30,4,1,0,8751.59,686,Agencia,0
+C00505,Wendy Ajú Recinos,F,37,Chimaltenango,Preferente,24606.87,17,2025-05-31,2,0,1,25434.18,733,App,0
+C00506,Lesly Ortiz Solís,F,34,Sacatepéquez,Masivo,8955.82,22,2024-12-31,2,0,0,29481.1,733,App,0
+C00507,Rodrigo Orellana Velásquez,M,38,Escuintla,Masivo,7008.1,101,2018-05-31,2,0,1,4612.97,748,Agencia,1
+C00508,Rosa Morales Girón,F,46,Guatemala,Masivo,6532.38,27,2024-07-31,1,0,0,5296.82,557,Web,0
+C00509,Ingrid Morales Estrada,F,47,Guatemala,Masivo,4835.13,17,2025-05-31,1,0,0,2055.49,568,App,0
+C00510,Silvia Xicará Velásquez,F,27,Sacatepéquez,Masivo,7302.69,107,2017-11-30,1,1,0,10881.1,629,Agencia,1
+C00511,Jorge Ortiz Juárez,M,33,Guatemala,Preferente,13627.11,56,2022-02-28,1,0,0,7363.08,675,App,0
+C00512,Patricia Rodríguez González,F,29,Huehuetenango,Preferente,10443.24,142,2014-12-31,2,1,0,17093.68,653,Agencia,0
+C00513,Kevin Pérez Mejía,M,38,Chimaltenango,Masivo,8164.43,132,2015-10-31,1,0,0,2057.94,611,Agencia,0
+C00514,Estuardo Solís Martínez,M,34,Zacapa,Masivo,5842.57,18,2025-04-30,2,0,0,6862.51,628,App,0
+C00515,Juana Reyes Morales,F,41,Guatemala,Masivo,8874.52,45,2023-01-31,3,1,0,4524.27,683,Web,0
+C00516,Pablo Orellana Cruz,M,42,Zacapa,Preferente,12743.53,21,2025-01-31,2,1,1,17000.5,576,Agencia,0
+C00517,Daniel Hernández Castillo,M,22,Guatemala,Masivo,9683.5,20,2025-02-28,3,0,0,7673.62,814,Agencia,1
+C00518,Mario Aguilar Orellana,M,38,Quetzaltenango,Masivo,8657.09,34,2023-12-31,2,1,0,4761.19,651,App,0
+C00519,Patricia Mejía Recinos,F,53,Chimaltenango,Masivo,6175.92,75,2020-07-31,3,1,0,3769.43,723,Agencia,0
+C00520,Otto Batz Méndez,M,33,Guatemala,Preferente,11857.36,75,2020-07-31,4,1,0,5230.64,629,Web,0
+C00521,Javier Aguilar Aguilar,M,33,Guatemala,Masivo,4102.45,69,2021-01-31,3,0,1,5899.65,690,App,0
+C00522,Alejandra Reyes Méndez,F,50,Guatemala,Masivo,9483.02,41,2023-05-31,3,1,0,3641.2,657,Agencia,0
+C00523,Ingrid Fuentes Recinos,F,47,Sacatepéquez,Premium,30802.33,78,2020-04-30,4,0,1,20439.96,749,App,0
+C00524,Rodrigo Reyes Méndez,M,29,Chimaltenango,Masivo,5165.52,17,2025-05-31,2,0,0,5262.1,636,App,0
+C00525,Julio Ortiz Morales,M,46,Guatemala,Masivo,7400.45,57,2022-01-31,1,0,0,18317.25,758,App,1
+C00526,Rodrigo Orellana Hernández,M,31,Guatemala,Masivo,8075.15,49,2022-09-30,2,0,0,6418.21,545,Agencia,1
+C00527,Julio Juárez Méndez,M,33,Sacatepéquez,Masivo,6855.25,39,2023-07-31,4,0,0,4627.95,716,App,0
+C00528,Silvia Castillo Pineda,F,29,Guatemala,Preferente,12895.58,59,2021-11-30,2,1,0,12494.46,678,App,0
+C00529,Elena Xicará Morales,F,27,Huehuetenango,Masivo,9863.84,21,2025-01-31,2,1,0,1848.38,578,App,0
+C00530,Andrés Castillo Fuentes,M,39,Zacapa,Masivo,8606.25,70,2020-12-31,2,0,1,2975.15,786,App,0
+C00531,Ingrid González Ajú,F,26,Petén,Preferente,11463.0,48,2022-10-31,1,1,0,7051.39,799,Agencia,0
+C00532,Ingrid Barrios González,F,39,San Marcos,Masivo,8153.08,12,2025-10-31,4,1,0,3959.72,504,App,0
+C00533,Jorge Arévalo Barrios,M,39,Sacatepéquez,Premium,45278.38,47,2022-11-30,3,1,1,11811.84,702,App,0
+C00534,Patricia Castillo Castillo,F,36,Chimaltenango,Masivo,8602.91,31,2024-03-31,3,0,0,12546.0,699,Agencia,0
+C00535,Paola Ajú Chávez,F,33,Guatemala,Masivo,8759.17,103,2018-03-31,2,1,0,8404.67,680,App,0
+C00536,Marta Martínez Chávez,F,32,Guatemala,Masivo,4959.0,18,2025-04-30,3,0,0,4376.49,756,App,0
+C00537,Rosa López Ortiz,F,28,Alta Verapaz,Masivo,6676.1,18,2025-04-30,1,1,1,3285.76,741,Agencia,1
+C00538,Ana Cruz Tzul,F,57,Guatemala,Preferente,13646.68,64,2021-06-30,2,1,0,11541.25,688,Agencia,0
+C00539,Fernanda Batz Juárez,F,36,San Marcos,Masivo,5366.95,43,2023-03-31,1,0,0,6154.79,809,App,0
+C00540,Paola Recinos Ramírez,F,35,Alta Verapaz,Masivo,4593.81,41,2023-05-31,1,0,0,3053.04,715,Web,1
+C00541,Silvia Monterroso Cruz,F,29,Zacapa,Masivo,8202.95,188,2011-02-28,2,0,0,8958.03,625,App,0
+C00542,Javier Monterroso Pérez,M,55,Guatemala,Preferente,15347.01,76,2020-06-30,2,1,0,7032.45,631,Agencia,0
+C00543,Miguel Ortiz Morales,M,32,Quetzaltenango,Masivo,8235.5,37,2023-09-30,1,0,0,7053.69,737,App,1
+C00544,Sergio Tzul Fuentes,M,40,Huehuetenango,Masivo,7156.55,10,2025-12-31,1,0,0,12738.56,594,Agencia,1
+C00545,Edgar Coyoy Arévalo,M,43,Guatemala,Masivo,4825.24,35,2023-11-30,2,0,0,9144.3,621,Web,1
+C00546,Carmen Chávez Pineda,F,39,Sacatepéquez,Masivo,9775.9,16,2025-06-30,1,1,0,19808.06,633,Agencia,0
+C00547,Mario Juárez Morales,M,26,Alta Verapaz,Preferente,10748.98,22,2024-12-31,2,0,1,10501.99,694,Agencia,0
+C00548,Francisco Reyes Méndez,M,45,Izabal,Masivo,4892.87,23,2024-11-30,1,0,0,4001.88,636,Agencia,0
+C00549,Brenda Cifuentes López,F,32,Huehuetenango,Preferente,13556.74,97,2018-09-30,1,1,0,7921.56,577,Agencia,0
+C00550,Marta Monterroso Recinos,F,47,Guatemala,Preferente,11291.1,13,2025-09-30,3,1,0,2548.82,751,App,1
+C00551,Luis García Reyes,M,32,Quetzaltenango,Preferente,13541.31,91,2019-03-31,2,0,0,4225.64,641,App,0
+C00552,Rodrigo Orellana Monterroso,M,37,Escuintla,Preferente,10370.3,66,2021-04-30,2,1,1,7375.5,811,Web,0
+C00553,Rosa Reyes Recinos,F,43,Guatemala,Preferente,10711.09,66,2021-04-30,4,0,0,7943.34,691,App,0
+C00554,Claudia Girón Sic,F,54,Quetzaltenango,Preferente,10079.1,21,2025-01-31,1,1,1,21668.87,758,Agencia,0
+C00555,Andrea Aguilar Fuentes,F,45,Guatemala,Preferente,11864.82,83,2019-11-30,2,1,1,23826.38,714,Agencia,0
+C00556,Ingrid Chávez Mejía,F,44,Guatemala,Masivo,4859.79,19,2025-03-31,3,1,0,2404.43,742,Web,0
+C00557,Diego Sic Méndez,M,46,Sacatepéquez,Masivo,5173.55,125,2016-05-31,1,0,0,7339.3,689,App,1
+C00558,Mario Pérez Mejía,M,30,Guatemala,Masivo,6288.2,99,2018-07-31,2,0,1,3602.34,666,Agencia,0
+C00559,Brenda Girón Velásquez,F,48,Escuintla,Masivo,7709.1,140,2015-02-28,3,1,0,9945.19,726,Web,0
+C00560,Edgar Recinos Girón,M,35,Guatemala,Masivo,9504.85,49,2022-09-30,3,1,0,13368.1,824,App,0
+C00561,Héctor Barrios Hernández,M,35,Huehuetenango,Masivo,9248.3,42,2023-04-30,1,0,0,17650.45,631,App,1
+C00562,Ricardo Velásquez Arévalo,M,39,Guatemala,Preferente,13436.02,35,2023-11-30,2,1,1,7613.67,725,App,0
+C00563,María Hernández Sic,F,34,San Marcos,Preferente,13654.54,185,2011-05-31,1,1,0,22218.85,669,Agencia,1
+C00564,Estuardo Arévalo Fuentes,M,29,Guatemala,Masivo,6043.44,74,2020-08-31,2,0,0,1303.25,685,App,0
+C00565,Juan Recinos González,M,38,Sacatepéquez,Masivo,8917.91,16,2025-06-30,2,0,0,17677.08,652,Web,0
+C00566,Julio Solís Barrios,M,35,Guatemala,Masivo,6085.8,116,2017-02-28,1,0,0,4784.12,498,App,0
+C00567,Silvia Orellana Ajú,F,35,Guatemala,Masivo,7544.43,41,2023-05-31,2,1,1,6019.81,635,App,0
+C00568,Brenda Juárez Juárez,F,37,Quetzaltenango,Masivo,9236.88,2,2026-08-31,2,1,0,1775.1,719,App,1
+C00569,Estuardo Velásquez Ajú,M,23,Chimaltenango,Masivo,4013.95,26,2024-08-31,2,0,0,2446.27,596,App,0
+C00570,Carmen Fuentes Recinos,F,35,Zacapa,Premium,27935.79,99,2018-07-31,3,1,1,57719.82,754,Agencia,0
+C00571,Javier Ajú Mejía,M,56,Guatemala,Preferente,10289.66,66,2021-04-30,2,1,1,6106.2,682,Agencia,0
+C00572,Wendy Batz Orellana,F,55,Guatemala,Masivo,6565.62,76,2020-06-30,2,0,0,8654.91,636,App,0
+C00573,Estuardo Coyoy Orellana,M,38,Huehuetenango,Preferente,,115,2017-03-31,3,1,1,17165.28,733,App,0
+C00574,Juana Chávez Mejía,F,38,Escuintla,Masivo,7128.51,8,2026-02-28,1,1,1,11999.05,697,Agencia,0
+C00575,Fernanda Morales Juárez,F,22,Guatemala,Masivo,8537.41,26,2024-08-31,1,0,1,7809.69,679,App,0
+C00576,Sofía Arévalo Coyoy,F,32,Petén,Masivo,6799.83,50,2022-08-31,1,0,0,2833.42,721,App,0
+C00577,Juana Coyoy Pérez,F,46,Sacatepéquez,Preferente,17903.03,101,2018-05-31,4,1,0,14899.71,684,App,0
+C00578,Jennifer Martínez García,F,34,Alta Verapaz,Masivo,7781.16,19,2025-03-31,1,1,1,19094.76,534,Web,0
+C00579,Mariana López Ortiz,F,51,Guatemala,Masivo,8596.39,37,2023-09-30,2,0,1,9743.01,623,Agencia,0
+C00580,Marta Castillo Monterroso,F,50,Quetzaltenango,Preferente,14051.28,48,2022-10-31,2,0,0,10361.09,543,App,0
+C00581,Ricardo González Morales,M,32,Guatemala,Preferente,10377.95,25,2024-09-30,1,0,0,40268.14,716,Agencia,0
+C00582,Luis Rodríguez Rodríguez,M,39,Huehuetenango,Masivo,7932.02,47,2022-11-30,2,0,0,14285.07,712,Agencia,0
+C00583,Julio Pineda Reyes,M,57,Guatemala,Preferente,13389.9,42,2023-04-30,2,0,1,18974.02,735,Agencia,0
+C00584,Beatriz Morales Tzul,F,26,Petén,Premium,30202.78,31,2024-03-31,6,1,1,30172.48,724,Web,0
+C00585,Pedro Sic Reyes,M,34,Petén,Masivo,9219.62,82,2019-12-31,1,0,0,12297.33,717,Agencia,0
+C00586,Rodrigo Velásquez Reyes,M,26,Huehuetenango,Masivo,8483.24,72,2020-10-31,1,0,0,11575.16,539,App,0
+C00587,Ana Méndez Juárez,F,30,Guatemala,Masivo,8670.89,85,2019-09-30,2,0,0,1505.1,642,Agencia,1
+C00588,Daniel Xicará Solís,M,63,Guatemala,Preferente,14861.37,90,2019-04-30,1,0,1,15675.16,570,App,0
+C00589,Juan Ajú Martínez,M,34,Quetzaltenango,Masivo,6558.37,11,2025-11-30,2,1,0,4688.13,624,Agencia,0
+C00590,Patricia Tzul Pineda,F,24,Escuintla,Masivo,7303.41,13,2025-09-30,1,0,0,4117.95,763,App,0
+C00591,Patricia Martínez Cifuentes,F,29,Zacapa,Masivo,5133.98,78,2020-04-30,1,0,0,3582.04,726,App,0
+C00592,Paola Orellana Sic,F,25,Guatemala,Masivo,5564.76,33,2024-01-31,2,0,1,1498.13,696,App,0
+C00593,Rosa Solís García,F,39,San Marcos,Masivo,6731.83,30,2024-04-30,1,0,0,1522.69,637,App,1
+C00594,Jorge Solís Chávez,M,42,Guatemala,Masivo,7927.2,26,2024-08-31,1,1,0,15175.89,580,App,0
+C00595,Julio Cifuentes Solís,M,48,Guatemala,Preferente,19124.75,87,2019-07-31,2,1,0,21143.87,683,App,0
+C00596,Erick Batz Tzul,M,45,Guatemala,Preferente,10148.74,177,2012-01-31,1,0,1,1499.45,747,App,0
+C00597,Elena Castillo Pineda,F,26,Huehuetenango,Masivo,5976.48,90,2019-04-30,3,0,0,3193.82,678,App,0
+C00598,Andrea Orellana Cruz,F,42,Guatemala,Masivo,6303.35,32,2024-02-29,1,1,0,9340.16,539,Web,1
+C00599,Walter Castillo Morales,M,36,Guatemala,Preferente,15379.98,84,2019-10-31,1,1,0,10113.92,677,App,0
+C00600,Brenda Orellana Monterroso,F,50,Petén,Preferente,13501.68,12,2025-10-31,2,1,0,25820.64,536,App,0
+C00601,Julio Velásquez Ortiz,M,47,Sacatepéquez,Masivo,8189.55,40,2023-06-30,4,1,1,13660.95,706,App,0
+C00602,Mario Fuentes Méndez,M,66,Guatemala,Masivo,6901.28,8,2026-02-28,4,0,0,2135.85,601,Agencia,0
+C00603,Ingrid Estrada Mejía,F,29,Guatemala,Preferente,13490.06,33,2024-01-31,5,1,0,9761.86,584,App,0
+C00604,Jorge Chávez Rodríguez,M,28,Sacatepéquez,Masivo,5845.1,54,2022-04-30,1,1,1,3417.12,707,Agencia,0
+C00605,Valeria Cruz Barrios,F,33,Guatemala,Masivo,9520.96,199,2010-03-31,3,0,0,2880.27,689,App,0
+C00606,Andrea Velásquez Pérez,F,37,Guatemala,Premium,25685.88,106,2017-12-31,2,1,1,7424.65,706,App,0
+C00607,Gloria Méndez Orellana,F,31,Escuintla,Masivo,8795.67,9,2026-01-31,3,0,0,4002.43,803,App,0
+C00608,Marta Sic Pérez,F,30,Guatemala,Masivo,6214.7,10,2025-12-31,1,0,0,3174.42,694,Agencia,0
+C00609,Jennifer Xicará Aguilar,F,41,Escuintla,Masivo,9597.46,25,2024-09-30,3,0,1,9361.6,604,App,0
+C00610,Sergio Solís Ajú,M,33,Guatemala,Masivo,6838.37,151,2014-03-31,1,1,1,11362.92,686,App,0
+C00611,Mario Barrios Aguilar,M,31,Guatemala,Masivo,5295.87,9,2026-01-31,1,0,0,6069.86,629,App,0
+C00612,María Ortiz García,F,26,Guatemala,Preferente,10950.75,26,2024-08-31,1,1,0,14813.29,758,App,0
+C00613,Rodrigo Barrios Monterroso,M,22,Guatemala,Preferente,13441.04,26,2024-08-31,3,1,1,8922.15,689,App,1
+C00614,Estuardo Pineda Ortiz,M,55,Guatemala,Masivo,7219.89,64,2021-06-30,2,0,0,8809.2,676,Agencia,0
+C00615,Isabel Orellana Solís,F,55,Guatemala,Masivo,7055.66,86,2019-08-31,1,1,0,5087.69,549,Agencia,1
+C00616,Gloria Morales Girón,F,47,San Marcos,Masivo,5895.57,73,2020-09-30,1,0,0,3462.63,654,Web,1
+C00617,Elena Estrada Martínez,F,44,Chimaltenango,Masivo,7651.64,58,2021-12-31,1,0,0,23098.03,646,App,0
+C00618,Pablo Rodríguez Cifuentes,M,32,Guatemala,Masivo,6635.63,12,2025-10-31,2,0,0,1038.71,578,App,0
+C00619,Julio Xicará González,M,44,Escuintla,Masivo,5817.44,51,2022-07-31,2,1,1,1254.08,634,Agencia,0
+C00620,Mariana Mejía Girón,F,28,Sacatepéquez,Preferente,20521.68,117,2017-01-31,1,1,0,21460.8,700,Agencia,0
+C00621,Luis Ortiz Cruz,M,39,Chimaltenango,Masivo,9837.77,144,2014-10-31,1,0,0,6537.78,649,App,0
+C00622,Isabel Juárez Solís,F,30,Guatemala,Preferente,,63,2021-07-31,3,0,0,3018.72,571,App,0
+C00623,Manuel Coyoy Martínez,M,44,Guatemala,Preferente,11951.63,9,2026-01-31,1,0,1,4569.92,650,App,1
+C00624,Pedro López Estrada,M,59,Guatemala,Preferente,11319.91,64,2021-06-30,3,1,0,4741.41,637,Agencia,0
+C00625,Erick Méndez Arévalo,M,29,Guatemala,Masivo,6969.96,42,2023-04-30,1,1,1,10413.48,663,App,0
+C00626,Karla Pineda Hernández,F,33,Guatemala,Masivo,9045.91,10,2025-12-31,1,1,0,16909.18,655,App,0
+C00627,Andrea Pineda Cruz,F,38,San Marcos,Masivo,7327.57,18,2025-04-30,1,0,0,18470.86,621,App,1
+C00628,Francisco Recinos Hernández,M,24,Zacapa,Masivo,9716.57,21,2025-01-31,2,1,1,2555.84,618,App,0
+C00629,Paola Arévalo González,F,25,Guatemala,Masivo,9315.95,78,2020-04-30,2,0,0,2862.22,654,Agencia,1
+C00630,Wendy Hernández Hernández,F,58,Quetzaltenango,Masivo,7042.56,140,2015-02-28,1,1,1,2062.44,717,Web,0
+C00631,Patricia Ramírez Sic,F,41,Guatemala,Masivo,5374.59,70,2020-12-31,2,0,0,10598.78,669,App,1
+C00632,Ricardo Castillo Velásquez,M,32,Quetzaltenango,Masivo,8585.05,80,2020-02-29,2,0,0,9197.54,749,Web,0
+C00633,Gabriela Orellana Martínez,F,37,Sacatepéquez,Masivo,7500.44,45,2023-01-31,1,0,0,6346.84,729,Web,0
+C00634,Jorge Morales Castillo,M,33,Guatemala,Masivo,4798.2,29,2024-05-31,1,1,1,4507.93,754,Web,0
+C00635,Daniel Chávez González,M,39,Chimaltenango,Preferente,10020.14,71,2020-11-30,4,0,0,7703.76,765,Agencia,0
+C00636,Juan Hernández Tzul,M,33,Izabal,Preferente,12444.69,58,2021-12-31,2,1,0,4541.93,779,App,0
+C00637,Estuardo López García,M,36,Alta Verapaz,Premium,30014.87,23,2024-11-30,4,1,1,34390.15,609,App,0
+C00638,Ingrid Arévalo Arévalo,F,45,Alta Verapaz,Masivo,7022.05,55,2022-03-31,3,0,1,4931.36,695,App,0
+C00639,Mario Recinos Tzul,M,45,Sacatepéquez,Masivo,6686.32,47,2022-11-30,2,0,1,2308.72,735,Agencia,0
+C00640,Jorge González Coyoy,M,57,Guatemala,Masivo,5669.86,37,2023-09-30,2,1,1,6780.3,747,Agencia,0
+C00641,Otto Girón Coyoy,M,42,Guatemala,Masivo,8807.64,28,2024-06-30,2,0,0,5230.07,596,App,0
+C00642,Pablo Monterroso González,M,38,Escuintla,Masivo,8784.64,63,2021-07-31,1,1,0,8240.82,696,Agencia,0
+C00643,Fernando Hernández Velásquez,M,60,Guatemala,Masivo,6150.2,30,2024-04-30,2,1,1,4508.01,655,Agencia,0
+C00644,Edgar Estrada Orellana,M,35,Chimaltenango,Masivo,7581.37,177,2012-01-31,2,0,1,11319.37,779,Agencia,0
+C00645,Manuel Aguilar Tzul,M,22,Quetzaltenango,Masivo,4726.38,68,2021-02-28,2,0,1,4411.13,552,App,0
+C00646,Wendy Sic Arévalo,F,47,Quetzaltenango,Preferente,12206.7,64,2021-06-30,1,0,1,5260.63,616,App,0
+C00647,Rosa Solís Martínez,F,40,Guatemala,Masivo,6223.74,41,2023-05-31,2,1,1,6237.81,523,Agencia,1
+C00648,Elena Coyoy Hernández,F,37,Izabal,Masivo,7992.15,34,2023-12-31,1,1,0,8195.61,660,Agencia,0
+C00649,Otto Pérez Barrios,M,48,Guatemala,Masivo,5257.64,6,2026-04-30,1,0,0,6016.3,808,Agencia,0
+C00650,Brenda González Reyes,F,33,Guatemala,Masivo,6593.46,25,2024-09-30,2,0,1,10892.2,646,Agencia,0
+C00651,Silvia Aguilar Cruz,F,23,Guatemala,Masivo,7300.11,9,2026-01-31,3,1,0,3794.52,657,App,0
+C00652,Carlos González Morales,M,48,Alta Verapaz,Masivo,8064.57,8,2026-02-28,1,0,0,10297.4,688,Agencia,1
+C00653,Wendy Estrada Mejía,F,31,Izabal,Masivo,9895.85,15,2025-07-31,1,1,0,2366.94,641,,0
+C00654,Rodrigo Aguilar Recinos,M,29,Guatemala,Preferente,15922.54,109,2017-09-30,1,0,0,11711.87,695,App,0
+C00655,José Hernández Arévalo,M,23,San Marcos,Preferente,11115.56,109,2017-09-30,3,1,1,7337.08,697,App,0
+C00656,Fernanda Rodríguez Sic,F,47,Guatemala,Preferente,12425.04,25,2024-09-30,1,1,1,27386.82,610,App,0
+C00657,Valeria Aguilar Xicará,F,21,Alta Verapaz,Preferente,15983.32,12,2025-10-31,2,1,0,11461.2,663,App,0
+C00658,Miguel Aguilar Coyoy,M,54,Guatemala,Preferente,10305.13,33,2024-01-31,2,0,0,12617.57,721,Agencia,0
+C00659,Diego Rodríguez Ajú,M,34,Quetzaltenango,Masivo,7985.85,77,2020-05-31,1,0,0,1861.31,715,Agencia,1
+C00660,Walter Velásquez González,M,47,Alta Verapaz,Preferente,12719.87,94,2018-12-31,2,1,1,7954.92,760,App,0
+C00661,Daniel Solís Sic,M,42,Sacatepéquez,Preferente,13137.05,55,2022-03-31,1,0,0,5811.51,693,App,0
+C00662,Sofía Aguilar Batz,F,64,Guatemala,Preferente,,62,2021-08-31,2,0,0,48357.29,694,App,0
+C00663,Alejandro Estrada Sic,M,42,Chimaltenango,Masivo,5225.54,58,2021-12-31,1,0,0,2621.26,702,App,0
+C00664,Rosa Girón Castillo,F,53,Izabal,Masivo,6096.91,9,2026-01-31,2,1,0,5134.25,608,,0
+C00665,Carmen Coyoy López,F,32,Quetzaltenango,Masivo,7312.4,13,2025-09-30,1,0,0,6391.9,605,App,0
+C00666,Edgar Ajú Monterroso,M,25,Escuintla,Preferente,11366.44,144,2014-10-31,2,0,1,2988.84,661,Agencia,1
+C00667,Gabriela Xicará Mejía,F,50,Petén,Masivo,8033.26,55,2022-03-31,3,1,0,4446.97,560,Web,0
+C00668,Mario Chávez Aguilar,M,25,Guatemala,Preferente,13573.04,5,2026-05-31,1,1,0,14415.13,698,App,0
+C00669,Héctor Rodríguez Velásquez,M,47,San Marcos,Preferente,14899.33,65,2021-05-31,3,1,0,12656.59,743,Agencia,0
+C00670,Patricia García Aguilar,F,28,Guatemala,Preferente,14017.6,20,2025-02-28,2,1,0,2240.91,620,App,0
+C00671,Pablo Cifuentes Hernández,M,41,Petén,Preferente,14064.16,99,2018-07-31,5,0,0,7565.45,700,App,0
+C00672,Mario Cifuentes Ramírez,M,64,Guatemala,Masivo,5777.51,92,2019-02-28,4,0,0,9444.23,605,App,0
+C00673,Patricia Coyoy Fuentes,F,45,Guatemala,Masivo,9908.65,74,2020-08-31,2,0,0,11965.42,578,App,0
+C00674,Fernando Estrada Arévalo,M,35,Sacatepéquez,Masivo,6541.17,54,2022-04-30,1,1,1,12275.38,793,Agencia,1
+C00675,Beatriz Barrios Pérez,F,43,Sacatepéquez,Masivo,5018.69,116,2017-02-28,2,0,0,2013.9,579,App,0
+C00676,Miguel Xicará Ortiz,M,33,Chimaltenango,Masivo,,124,2016-06-30,1,1,0,14276.36,560,App,0
+C00677,Andrea Batz Chávez,F,73,Izabal,Preferente,14974.72,21,2025-01-31,2,0,0,11613.12,685,Web,0
+C00678,Otto Ajú Cruz,M,31,Guatemala,Masivo,9812.71,74,2020-08-31,2,0,0,23928.99,668,App,0
+C00679,Carlos Hernández Barrios,M,37,Guatemala,Preferente,22077.32,29,2024-05-31,1,1,0,17702.76,716,Agencia,0
+C00680,Fernando Monterroso Tzul,M,44,Guatemala,Masivo,8694.38,18,2025-04-30,1,1,0,1659.14,790,App,0
+C00681,Alejandra Estrada Xicará,F,42,Quetzaltenango,Premium,28566.61,124,2016-06-30,2,1,0,41412.1,635,Agencia,0
+C00682,Julio Fuentes Fuentes,M,43,Quetzaltenango,Masivo,8695.42,82,2019-12-31,2,0,0,5099.76,609,App,0
+C00683,Lucía Ajú García,F,33,Chimaltenango,Masivo,8171.37,58,2021-12-31,1,1,0,5023.53,762,App,1
+C00684,Marta Monterroso Castillo,F,35,Petén,Masivo,5437.68,23,2024-11-30,1,0,1,1573.09,715,App,0
+C00685,Edgar Xicará Ajú,M,49,Guatemala,Preferente,13391.08,127,2016-03-31,3,1,1,33347.57,726,Agencia,0
+C00686,Sergio Solís Estrada,M,48,Quetzaltenango,Masivo,6766.38,20,2025-02-28,1,1,0,3758.62,608,App,0
+C00687,Daniel Estrada Rodríguez,M,42,Escuintla,Masivo,6460.92,16,2025-06-30,2,0,1,15567.0,728,Agencia,0
+C00688,Alejandra González Recinos,F,55,Quetzaltenango,Preferente,14633.53,47,2022-11-30,5,0,0,8656.42,726,App,0
+C00689,José Cifuentes Pineda,M,50,Guatemala,Preferente,13723.23,77,2020-05-31,2,0,0,5734.64,683,Agencia,1
+C00690,Francisco Estrada Chávez,M,48,Guatemala,Preferente,13539.47,35,2023-11-30,1,1,0,27279.51,629,Web,0
+C00691,Héctor Solís Cifuentes,M,25,Quetzaltenango,Masivo,7092.24,53,2022-05-31,1,0,0,5389.88,657,App,0
+C00692,Ingrid Estrada Sic,F,42,Guatemala,Masivo,7942.26,29,2024-05-31,2,0,0,6077.26,765,App,0
+C00693,Julio Mejía Barrios,M,40,Huehuetenango,Masivo,7915.35,32,2024-02-29,1,0,0,2581.89,573,App,0
+C00694,Rodrigo Castillo Estrada,M,58,Guatemala,Preferente,11382.21,155,2013-11-30,2,0,0,6609.92,614,Agencia,0
+C00695,Carlos Coyoy García,M,20,Escuintla,Preferente,16950.75,44,2023-02-28,2,1,0,18306.49,626,App,0
+C00696,Gloria Velásquez Ramírez,F,36,Sacatepéquez,Masivo,9422.79,121,2016-09-30,2,1,0,3036.06,621,App,0
+C00697,Gabriela Sic Cifuentes,F,39,San Marcos,Preferente,21530.46,8,2026-02-28,2,1,0,11810.2,668,App,0
+C00698,Daniela Fuentes Chávez,F,28,Guatemala,Preferente,12032.67,101,2018-05-31,3,1,1,7171.89,737,App,0
+C00699,Alejandro Reyes Castillo,M,29,Guatemala,Masivo,7417.97,24,2024-10-31,1,1,0,6216.89,682,App,0
+C00700,Valeria Martínez Cruz,F,58,Guatemala,Preferente,11637.96,84,2019-10-31,1,1,0,26227.81,674,Web,0
+C00701,Alejandra Pérez Cruz,F,43,Quetzaltenango,Preferente,18453.5,24,2024-10-31,1,0,1,11966.89,689,App,0
+C00702,Juan Martínez Arévalo,M,64,Guatemala,Preferente,,33,2024-01-31,2,0,1,10768.59,713,,0
+C00703,María Méndez Batz,F,36,Petén,Preferente,13928.44,18,2025-04-30,3,0,0,76191.41,552,Web,0
+C00704,José Arévalo Pérez,M,26,Guatemala,Masivo,8181.61,85,2019-09-30,1,0,0,4833.23,725,Agencia,0
+C00705,Juan Morales Velásquez,M,34,Guatemala,Masivo,7466.66,94,2018-12-31,2,0,0,5227.03,592,Web,0
+C00706,Ana Hernández Fuentes,F,33,Quetzaltenango,Preferente,10335.06,25,2024-09-30,2,0,1,6435.99,638,App,0
+C00707,Jennifer Xicará García,F,46,Petén,Preferente,18124.83,11,2025-11-30,3,1,0,11946.05,693,Agencia,0
+C00708,Ricardo Xicará Ajú,M,45,Chimaltenango,Masivo,9696.51,120,2016-10-31,3,1,0,8191.12,644,App,0
+C00709,Silvia González Solís,F,44,Huehuetenango,Masivo,9785.76,27,2024-07-31,1,0,0,14914.62,684,Agencia,0
+C00710,Erick Ramírez Fuentes,M,71,Sacatepéquez,Masivo,8264.85,42,2023-04-30,1,0,0,8772.83,659,App,0
+C00711,Daniela González Cifuentes,F,54,Huehuetenango,Masivo,7177.1,21,2025-01-31,1,1,0,12203.45,629,App,0
+C00712,Gabriela Pérez Tzul,F,30,Alta Verapaz,Masivo,7617.19,79,2020-03-31,2,1,0,12655.4,757,App,0
+C00713,Rosa Rodríguez Hernández,F,50,Guatemala,Masivo,8547.47,81,2020-01-31,1,0,0,7912.77,699,App,0
+C00714,Carlos Fuentes Batz,M,38,Sacatepéquez,Preferente,18580.47,134,2015-08-31,2,0,0,19344.07,691,Web,0
+C00715,Wendy Tzul Ajú,F,36,Petén,Masivo,7404.85,103,2018-03-31,2,1,1,12872.68,698,Web,0
+C00716,Carmen Fuentes Pineda,F,56,Guatemala,Masivo,8268.82,98,2018-08-31,2,0,0,3038.92,600,App,0
+C00717,Silvia Hernández Estrada,F,30,Alta Verapaz,Masivo,6055.46,45,2023-01-31,2,1,0,27842.53,802,App,0
+C00718,Daniela Morales Arévalo,F,49,Quetzaltenango,Preferente,11031.44,41,2023-05-31,2,1,0,6164.43,593,Agencia,0
+C00719,Wendy Tzul Pérez,F,47,Sacatepéquez,Preferente,15313.63,78,2020-04-30,1,1,1,9582.36,677,Agencia,0
+C00720,Edgar Aguilar Batz,M,29,Guatemala,Preferente,17630.39,43,2023-03-31,2,0,0,6038.47,649,Agencia,1
+C00721,Miguel Sic Ramírez,M,25,Alta Verapaz,Masivo,8788.44,105,2018-01-31,1,1,0,3073.41,627,App,1
+C00722,Marta Velásquez Xicará,F,37,San Marcos,Preferente,10326.97,20,2025-02-28,2,1,0,16337.11,638,Agencia,0
+C00723,Jorge Ortiz González,M,20,Guatemala,Masivo,7641.4,8,2026-02-28,2,1,0,29951.3,595,App,0
+C00724,Walter Batz Castillo,M,52,Guatemala,Preferente,10112.29,72,2020-10-31,5,1,0,5438.7,753,App,0
+C00725,Rodrigo Estrada Aguilar,M,42,Guatemala,Masivo,9206.09,30,2024-04-30,3,0,0,9391.86,565,Web,0
+C00726,Diego Martínez Orellana,M,57,Guatemala,Masivo,8287.33,17,2025-05-31,1,0,0,7734.58,718,App,0
+C00727,Rosa Arévalo Mejía,F,41,Izabal,Masivo,8555.53,191,2010-11-30,1,1,0,13785.34,695,App,0
+C00728,Edgar Martínez Hernández,M,58,Quetzaltenango,Masivo,9774.47,48,2022-10-31,2,0,0,36956.09,623,App,0
+C00729,Francisco Chávez Rodríguez,M,32,Guatemala,Masivo,7262.59,13,2025-09-30,2,0,0,16848.71,687,Agencia,1
+C00730,Héctor González Solís,M,44,Guatemala,Masivo,7397.45,27,2024-07-31,2,1,1,5007.47,638,Agencia,0
+C00731,Fernanda Chávez Castillo,F,34,Izabal,Preferente,18468.29,38,2023-08-31,1,1,0,21392.68,592,Agencia,0
+C00732,Luis Ortiz Cruz,M,36,Guatemala,Premium,33607.88,71,2020-11-30,1,1,0,41731.55,613,App,0
+C00733,Alejandro Orellana Tzul,M,39,Huehuetenango,Masivo,5536.77,27,2024-07-31,3,0,0,4367.56,695,App,0
+C00734,Luis Cruz Recinos,M,42,Guatemala,Masivo,5463.48,42,2023-04-30,3,1,0,2029.5,692,Agencia,1
+C00735,Isabel Ajú Cruz,F,31,Guatemala,Masivo,5902.67,59,2021-11-30,4,0,1,2699.64,666,App,0
+C00736,Paola Girón Ortiz,F,43,Alta Verapaz,Masivo,7786.13,68,2021-02-28,2,1,1,13914.16,622,App,0
+C00737,Francisco García Coyoy,M,38,Guatemala,Preferente,12024.33,45,2023-01-31,1,1,0,23097.03,656,App,0
+C00738,Silvia Chávez Orellana,F,26,Alta Verapaz,Preferente,10407.02,153,2014-01-31,3,1,1,7199.7,647,App,1
+C00739,Gabriela Reyes Reyes,F,24,Guatemala,Masivo,8675.88,80,2020-02-29,1,1,0,8332.32,527,App,1
+C00740,Byron Coyoy Ortiz,M,52,Huehuetenango,Preferente,10116.47,77,2020-05-31,2,1,1,18710.89,674,App,0
+C00741,Pablo Xicará García,M,22,Petén,Masivo,6372.13,75,2020-07-31,1,0,1,1546.2,686,App,0
+C00742,Marta Cifuentes Cruz,F,36,Huehuetenango,Masivo,7393.13,106,2017-12-31,3,0,0,4327.37,654,Agencia,0
+C00743,Lesly Ortiz Pérez,F,26,Guatemala,Masivo,8037.15,56,2022-02-28,2,0,0,26402.03,773,App,0
+C00744,Wendy Castillo Reyes,F,61,Huehuetenango,Masivo,5084.57,19,2025-03-31,1,0,0,5015.75,579,App,0
+C00745,Karla Mejía Castillo,F,44,Izabal,Masivo,5596.03,65,2021-05-31,3,1,0,2030.87,603,App,0
+C00746,Brenda Reyes Coyoy,F,41,Guatemala,Masivo,5652.34,71,2020-11-30,1,0,0,4908.77,659,Agencia,1
+C00747,Byron Aguilar Orellana,M,30,Guatemala,Preferente,11282.56,117,2017-01-31,1,0,0,18451.02,687,Web,0
+C00748,Andrés Cifuentes Orellana,M,26,Chimaltenango,Masivo,,17,2025-05-31,1,0,0,1203.43,516,App,1
+C00749,Alejandra García Méndez,F,40,Guatemala,Preferente,10502.06,22,2024-12-31,2,0,0,9505.09,712,Web,0
+C00750,Andrea Juárez Ajú,F,37,Alta Verapaz,Masivo,4841.5,50,2022-08-31,2,0,0,2984.38,667,Agencia,0
+C00751,Pablo Martínez Chávez,M,28,Huehuetenango,Masivo,5192.94,76,2020-06-30,2,1,0,1316.21,501,App,0
+C00752,Mónica García Juárez,F,28,Guatemala,Preferente,10758.7,14,2025-08-31,4,1,0,9114.99,661,App,0
+C00753,Beatriz López Juárez,F,28,Sacatepéquez,Masivo,4243.4,18,2025-04-30,2,1,0,3085.41,593,App,0
+C00754,Claudia Rodríguez Sic,F,28,Escuintla,Preferente,14204.92,89,2019-05-31,1,1,0,11173.91,638,Agencia,0
+C00755,Erick Reyes Ramírez,M,32,Guatemala,Masivo,4855.78,15,2025-07-31,1,0,0,3044.22,556,App,1
+C00756,Ingrid Morales Rodríguez,F,41,San Marcos,Preferente,11720.72,22,2024-12-31,2,0,0,4587.24,699,App,0
+C00757,María Hernández Recinos,F,43,Guatemala,Masivo,6015.89,93,2019-01-31,2,0,0,1738.28,773,App,0
+C00758,Francisco Ajú Aguilar,M,37,Guatemala,Preferente,12977.47,75,2020-07-31,2,0,0,6401.86,688,Web,1
+C00759,Beatriz Ortiz Monterroso,F,39,Chimaltenango,Premium,46112.16,28,2024-06-30,4,0,0,67316.79,538,Web,0
+C00760,Paola Fuentes Velásquez,F,44,Guatemala,Masivo,4516.54,69,2021-01-31,3,1,0,4253.54,669,App,0
+C00761,Wendy Ajú Barrios,F,23,Chimaltenango,Preferente,10921.69,60,2021-10-31,2,1,0,8324.36,656,App,1
+C00762,Carlos Sic González,M,40,Guatemala,Masivo,4869.17,43,2023-03-31,1,0,1,1881.26,572,Agencia,0
+C00763,Sergio González Orellana,M,55,Quetzaltenango,Masivo,9666.71,35,2023-11-30,1,0,0,5952.46,674,App,0
+C00764,Otto Méndez Coyoy,M,36,Guatemala,Masivo,7493.61,67,2021-03-31,1,1,1,10043.42,711,Agencia,1
+C00765,Rosa Juárez Martínez,F,51,Alta Verapaz,Masivo,8527.96,16,2025-06-30,1,0,0,9713.87,603,App,1
+C00766,Gabriela Cruz González,F,36,Petén,Masivo,5977.14,67,2021-03-31,4,0,0,3423.83,534,Agencia,0
+C00767,Julio Arévalo Morales,M,45,Chimaltenango,Preferente,11371.45,56,2022-02-28,2,1,0,1462.26,529,App,0
+C00768,Julio Cruz Ajú,M,41,Izabal,Masivo,5232.69,59,2021-11-30,2,0,0,2610.1,603,Web,0
+C00769,Elena Estrada López,F,28,Alta Verapaz,Preferente,14331.93,21,2025-01-31,4,1,0,8178.1,659,App,0
+C00770,Diego Reyes Coyoy,M,29,Petén,Masivo,6979.08,119,2016-11-30,2,0,1,2958.85,613,App,1
+C00771,Julio Mejía Chávez,M,58,Sacatepéquez,Masivo,5285.72,28,2024-06-30,1,0,0,3166.55,602,Agencia,1
+C00772,Luis Barrios Orellana,M,48,Zacapa,Preferente,17343.05,32,2024-02-29,1,0,0,24572.63,709,Web,1
+C00773,Byron Velásquez Xicará,M,37,Alta Verapaz,Masivo,7892.79,42,2023-04-30,1,0,1,6151.52,682,Agencia,0
+C00774,Ana Pineda Orellana,F,35,San Marcos,Preferente,20705.89,75,2020-07-31,2,1,0,33117.5,683,App,0
+C00775,Claudia Recinos Coyoy,F,30,Guatemala,Preferente,14180.65,57,2022-01-31,1,1,0,3946.68,727,App,0
+C00776,Ingrid Recinos Orellana,F,42,Quetzaltenango,Masivo,6173.78,10,2025-12-31,3,0,1,3989.33,604,Agencia,0
+C00777,Gloria Martínez Recinos,F,31,Huehuetenango,Masivo,7840.09,48,2022-10-31,2,0,0,1614.12,573,App,1
+C00778,Rodrigo Hernández Rodríguez,M,34,Guatemala,Masivo,8497.89,51,2022-07-31,2,0,0,5043.35,613,Agencia,1
+C00779,Juan Castillo Solís,M,32,Guatemala,Preferente,16698.39,121,2016-09-30,2,1,0,6425.08,628,App,0
+C00780,Carlos García Chávez,M,47,Izabal,Masivo,9712.52,37,2023-09-30,2,1,0,19051.56,506,App,0
+C00781,Valeria Tzul Coyoy,F,36,Quetzaltenango,Masivo,8691.04,71,2020-11-30,2,0,0,9262.25,611,Agencia,1
+C00782,Héctor Ortiz Chávez,M,39,Guatemala,Masivo,7512.44,240,2006-10-31,1,0,0,12228.84,727,App,0
+C00783,María Fuentes Morales,F,28,Guatemala,Masivo,7943.53,107,2017-11-30,3,0,0,4705.21,706,App,0
+C00784,Óscar Recinos Coyoy,M,32,Guatemala,Preferente,14815.45,20,2025-02-28,1,1,1,5805.03,706,App,0
+C00785,Jennifer Martínez Monterroso,F,39,Escuintla,Masivo,8111.69,82,2019-12-31,1,0,1,3108.28,659,App,0
+C00786,Andrea Batz Xicará,F,25,Zacapa,Masivo,7012.96,67,2021-03-31,2,0,0,6755.95,751,App,0
+C00787,Claudia Monterroso Monterroso,F,35,Izabal,Masivo,6631.09,36,2023-10-31,1,0,0,18835.41,575,App,0
+C00788,Pedro Cruz Orellana,M,38,Alta Verapaz,Masivo,6653.97,83,2019-11-30,2,0,0,7104.57,582,App,0
+C00789,Gabriela Reyes García,F,27,Alta Verapaz,Masivo,5286.42,20,2025-02-28,1,1,0,3253.27,728,App,1
+C00790,Mónica Morales Morales,F,51,Guatemala,Masivo,6261.3,28,2024-06-30,2,0,0,4389.01,651,App,0
+C00791,Brenda Rodríguez González,F,42,Chimaltenango,Preferente,16445.22,42,2023-04-30,3,1,0,12871.06,623,App,0
+C00792,Javier López Recinos,M,36,Guatemala,Masivo,7494.08,35,2023-11-30,3,0,0,24769.66,688,App,0
+C00793,Gloria Girón Girón,F,31,Guatemala,Preferente,10968.14,77,2020-05-31,2,1,0,20808.82,639,Agencia,1
+C00794,Lucía Ajú Hernández,F,25,Izabal,Masivo,4393.7,47,2022-11-30,1,1,0,4216.47,591,Web,0
+C00795,Daniela Orellana Batz,F,49,San Marcos,Preferente,10298.58,32,2024-02-29,2,1,0,8896.65,609,App,0
+C00796,Alejandra Castillo Pineda,F,33,Guatemala,Masivo,7619.39,106,2017-12-31,1,0,1,7516.5,672,App,1
+C00797,Pedro Orellana Juárez,M,26,Alta Verapaz,Masivo,6812.56,75,2020-07-31,2,1,0,7703.06,664,App,0
+C00798,Rodrigo Ajú Hernández,M,31,Quetzaltenango,Masivo,8707.7,13,2025-09-30,4,0,0,5216.49,756,App,0
+C00799,Gabriela Fuentes Aguilar,F,43,Guatemala,Masivo,6780.38,12,2025-10-31,1,0,0,3004.27,629,App,0
+C00800,Otto Pérez Arévalo,M,40,Guatemala,Masivo,4617.52,32,2024-02-29,2,0,0,7608.52,628,Agencia,0
+C00801,Mariana Aguilar Orellana,F,28,Guatemala,Preferente,12181.86,14,2025-08-31,3,0,0,9896.61,770,Web,1
+C00802,Andrés Tzul Rodríguez,M,52,Sacatepéquez,Masivo,8934.47,95,2018-11-30,1,0,0,13886.02,718,Web,0
+C00803,Lesly Orellana Martínez,F,26,Quetzaltenango,Masivo,7212.2,29,2024-05-31,2,0,0,18264.18,660,App,1
+C00804,Brenda Castillo Velásquez,F,56,Sacatepéquez,Masivo,5888.16,70,2020-12-31,3,0,0,6781.72,540,Agencia,0
+C00805,Alejandra Orellana Mejía,F,40,Guatemala,Masivo,5208.3,82,2019-12-31,2,0,0,5355.34,593,Agencia,0
+C00806,Beatriz Martínez Ramírez,F,34,Zacapa,Masivo,8863.53,7,2026-03-31,1,0,0,66617.79,576,App,0
+C00807,Mario Ramírez Chávez,M,35,Escuintla,Preferente,17522.22,31,2024-03-31,5,0,0,16203.71,672,Agencia,0
+C00808,Óscar Recinos Mejía,M,39,San Marcos,Masivo,8787.72,41,2023-05-31,1,0,0,3276.67,614,App,1
+C00809,Daniel Rodríguez Hernández,M,44,Guatemala,Masivo,5309.4,59,2021-11-30,1,0,0,3488.52,762,Agencia,1
+C00810,Lesly Tzul Ajú,F,24,Escuintla,Masivo,8868.04,91,2019-03-31,1,0,0,21020.32,539,App,0
+C00811,Alejandro Barrios Velásquez,M,31,Chimaltenango,Masivo,7935.07,197,2010-05-31,1,1,0,2565.7,568,App,1
+C00812,Andrea Orellana Ramírez,F,38,Guatemala,Preferente,11839.24,143,2014-11-30,3,0,0,5593.21,687,App,0
+C00813,Carlos Batz Monterroso,M,53,Guatemala,Preferente,10481.18,46,2022-12-31,4,0,0,18191.17,706,Web,0
+C00814,Rodrigo López Martínez,M,52,Guatemala,Masivo,4156.55,46,2022-12-31,3,1,0,2749.47,468,Agencia,1
+C00815,Karla Pineda Aguilar,F,59,Guatemala,Preferente,10191.28,133,2015-09-30,2,1,0,7547.5,548,Agencia,0
+C00816,Ingrid Cifuentes Pineda,F,51,Quetzaltenango,Masivo,5829.2,48,2022-10-31,2,1,0,9885.78,631,Agencia,0
+C00817,Daniela Xicará Tzul,F,30,Guatemala,Masivo,5263.41,30,2024-04-30,2,0,0,2549.41,744,App,0
+C00818,Fernando Recinos Estrada,M,37,Guatemala,Masivo,7543.81,96,2018-10-31,1,1,0,2158.82,782,Web,1
+C00819,Pablo Orellana Girón,M,51,Alta Verapaz,Masivo,9599.99,61,2021-09-30,1,0,0,2904.9,620,App,0
+C00820,Carmen Morales Ortiz,F,50,Guatemala,Masivo,5026.98,12,2025-10-31,4,0,1,6043.13,638,Agencia,0
+C00821,Carlos Chávez Mejía,M,36,Guatemala,Preferente,10968.99,38,2023-08-31,1,1,0,10520.45,611,App,0
+C00822,Pablo Chávez Cifuentes,M,43,Alta Verapaz,Preferente,11278.43,15,2025-07-31,1,0,0,5556.41,714,App,0
+C00823,Alejandra Ortiz Arévalo,F,33,Guatemala,Masivo,8250.43,2,2026-08-31,1,1,0,2932.83,756,App,0
+C00824,Diego Sic Fuentes,M,26,Guatemala,Masivo,6051.6,156,2013-10-31,1,1,1,4005.94,737,Agencia,0
+C00825,Fernanda Ramírez Martínez,F,36,Guatemala,Masivo,5867.13,53,2022-05-31,3,0,0,10255.19,647,Web,0
+C00826,José Juárez Velásquez,M,36,Guatemala,Preferente,12827.89,39,2023-07-31,2,1,0,5716.78,611,App,0
+C00827,Rosa Fuentes Fuentes,F,33,Quetzaltenango,Masivo,5162.4,32,2024-02-29,2,1,0,2597.06,650,,1
+C00828,Kevin Solís Ortiz,M,44,Guatemala,Preferente,13080.21,49,2022-09-30,1,0,0,4547.56,766,App,0
+C00829,Isabel Ajú Pérez,F,35,Guatemala,Masivo,7608.58,32,2024-02-29,2,0,0,4706.5,621,App,1
+C00830,Brenda Fuentes Recinos,F,42,Izabal,Masivo,7808.02,20,2025-02-28,1,0,1,7914.24,522,App,0
+C00831,Paola Hernández Coyoy,F,47,Zacapa,Masivo,4961.27,33,2024-01-31,2,0,0,17446.46,624,Agencia,0
+C00832,Julio Velásquez Tzul,M,75,Guatemala,Masivo,7660.78,125,2016-05-31,1,1,1,7137.89,630,Agencia,0
+C00833,Ingrid García Tzul,F,37,Guatemala,Preferente,10514.27,94,2018-12-31,2,0,1,8101.22,542,Agencia,0
+C00834,Carlos Arévalo García,M,53,Quetzaltenango,Masivo,5365.78,33,2024-01-31,1,1,1,7853.46,666,App,0
+C00835,Óscar Fuentes González,M,40,Chimaltenango,Masivo,9979.71,167,2012-11-30,1,1,1,12997.56,685,App,0
+C00836,Daniel García Monterroso,M,41,Petén,Masivo,8389.31,46,2022-12-31,1,0,0,4479.23,780,Agencia,0
+C00837,Manuel López Ajú,M,37,Guatemala,Masivo,6467.52,25,2024-09-30,2,0,0,25921.98,556,App,0
+C00838,Otto López Orellana,M,39,Guatemala,Preferente,11785.37,63,2021-07-31,3,0,0,9268.74,721,Web,0
+C00839,Lucía Aguilar Barrios,F,35,Quetzaltenango,Masivo,4563.19,138,2015-04-30,1,0,0,4307.43,717,Agencia,0
+C00840,Pablo Solís Girón,M,50,San Marcos,Masivo,9335.95,121,2016-09-30,1,0,0,10986.56,686,App,0
+C00841,Daniela Tzul Juárez,F,31,San Marcos,Preferente,17580.76,26,2024-08-31,2,0,1,17917.4,599,App,0
+C00842,Pablo Pineda Fuentes,M,26,Guatemala,Preferente,15930.03,17,2025-05-31,2,1,0,37071.22,595,Agencia,0
+C00843,Isabel Orellana Cifuentes,F,33,Escuintla,Masivo,9511.75,36,2023-10-31,2,0,0,5035.17,656,Web,1
+C00844,Julio Ajú García,M,32,Guatemala,Masivo,7243.34,71,2020-11-30,2,1,0,10027.25,656,Agencia,0
+C00845,Carlos Sic Pineda,M,33,Alta Verapaz,Masivo,6483.53,86,2019-08-31,1,1,0,5820.11,610,Web,0
+C00846,Juana Ramírez Cifuentes,F,36,Zacapa,Masivo,7240.17,109,2017-09-30,2,0,0,11523.72,740,App,0
+C00847,Héctor Orellana Cruz,M,33,Quetzaltenango,Preferente,10184.66,55,2022-03-31,3,1,0,7009.38,641,Agencia,0
+C00848,Claudia Batz Pineda,F,36,Guatemala,Masivo,6157.44,57,2022-01-31,1,0,0,3854.44,517,Agencia,1
+C00849,Andrea Reyes González,F,33,Escuintla,Preferente,11246.7,54,2022-04-30,1,1,0,15020.0,654,Agencia,0
+C00850,Francisco Ortiz Castillo,M,42,Quetzaltenango,Preferente,23631.17,100,2018-06-30,2,1,1,24288.87,703,App,0
+C00851,Pedro Pérez Chávez,M,74,Chimaltenango,Masivo,7909.23,87,2019-07-31,5,0,0,3563.28,673,Agencia,0
+C00852,Ingrid Méndez Ortiz,F,40,Guatemala,Masivo,5355.93,25,2024-09-30,1,0,0,10990.04,673,,0
+C00853,Byron Reyes Arévalo,M,33,San Marcos,Masivo,5355.5,79,2020-03-31,1,1,0,7154.47,754,App,0
+C00854,Javier Chávez Solís,M,22,Guatemala,Preferente,11349.85,95,2018-11-30,3,0,0,8620.28,591,Agencia,0
+C00855,Rodrigo Xicará Ortiz,M,65,Guatemala,Masivo,7915.68,101,2018-05-31,2,1,0,4562.82,620,Agencia,0
+C00856,Estuardo Chávez Reyes,M,41,Guatemala,Preferente,11913.32,62,2021-08-31,3,1,0,12297.61,778,Web,0
+C00857,Karla Ortiz Cifuentes,F,36,Guatemala,Masivo,6697.31,59,2021-11-30,2,0,0,8507.11,512,Agencia,0
+C00858,Carmen García Mejía,F,22,Guatemala,Preferente,11648.73,47,2022-11-30,2,1,0,3053.23,666,App,1
+C00859,Francisco Pérez Pineda,M,36,Alta Verapaz,Masivo,7627.99,51,2022-07-31,2,1,0,7937.97,736,Agencia,0
+C00860,José Xicará Chávez,M,39,Guatemala,Masivo,6294.8,150,2014-04-30,2,0,0,7951.56,734,Web,1
+C00861,Gabriela Arévalo Martínez,F,33,Guatemala,Masivo,6998.65,53,2022-05-31,3,0,0,1078.81,696,Web,0
+C00862,Alejandro Xicará Barrios,M,27,Guatemala,Masivo,5546.71,27,2024-07-31,1,0,0,5090.59,697,Web,1
+C00863,José Chávez Sic,M,26,Guatemala,Preferente,21712.99,62,2021-08-31,3,0,0,28247.18,597,App,0
+C00864,Pablo Arévalo Estrada,M,65,San Marcos,Masivo,7806.41,84,2019-10-31,3,0,1,9378.47,746,Agencia,1
+C00865,Andrea Girón Cifuentes,F,39,Zacapa,Preferente,10665.6,98,2018-08-31,3,1,0,14963.2,585,App,0
+C00866,Wendy Velásquez Morales,F,33,Guatemala,Masivo,6690.3,20,2025-02-28,2,1,0,4255.53,570,Agencia,0
+C00867,Mariana Chávez Solís,F,38,Petén,Masivo,5754.86,130,2015-12-31,1,0,1,2223.24,677,App,0
+C00868,Héctor Rodríguez Aguilar,M,37,Huehuetenango,Masivo,7420.42,82,2019-12-31,1,0,1,1684.17,615,App,0
+C00869,Kevin Ajú Chávez,M,26,Izabal,Preferente,13327.06,125,2016-05-31,3,1,1,22901.66,684,Web,0
+C00870,Claudia Estrada Estrada,F,49,Guatemala,Masivo,6725.41,14,2025-08-31,1,1,0,8801.26,680,Agencia,1
+C00871,Sergio Solís Ramírez,M,36,Guatemala,Masivo,6046.61,103,2018-03-31,1,1,1,10960.48,774,Agencia,0
+C00872,Daniel Coyoy Rodríguez,M,39,Quetzaltenango,Masivo,8617.35,19,2025-03-31,2,0,1,4149.7,680,App,0
+C00873,Claudia Velásquez Batz,F,58,Chimaltenango,Masivo,9981.44,39,2023-07-31,4,1,0,14016.98,606,App,0
+C00874,Beatriz Rodríguez Rodríguez,F,27,Huehuetenango,Preferente,17811.78,84,2019-10-31,1,0,0,4977.06,717,App,1
+C00875,Alejandro Méndez López,M,31,Quetzaltenango,Masivo,9364.41,18,2025-04-30,2,0,1,4076.05,591,Agencia,0
+C00876,Sergio Estrada Arévalo,M,41,Guatemala,Preferente,10663.02,32,2024-02-29,1,1,0,9316.83,733,Agencia,0
+C00877,Carlos Girón Cruz,M,49,Huehuetenango,Preferente,11045.2,13,2025-09-30,2,1,1,14056.68,674,Agencia,0
+C00878,Jorge Chávez Morales,M,32,Chimaltenango,Masivo,5607.65,83,2019-11-30,1,0,0,14531.18,678,App,0
+C00879,Elena Arévalo Arévalo,F,32,Guatemala,Masivo,5892.73,25,2024-09-30,1,0,0,3984.97,525,Agencia,1
+C00880,Carlos Reyes Orellana,M,45,Alta Verapaz,Masivo,5707.18,50,2022-08-31,3,1,0,2490.68,492,App,0
+C00881,Estuardo Ajú Sic,M,72,Quetzaltenango,Masivo,5371.05,67,2021-03-31,3,0,0,2261.15,544,Agencia,0
+C00882,Valeria Juárez Girón,F,38,Quetzaltenango,Preferente,11453.03,62,2021-08-31,2,0,0,5661.1,792,Web,0
+C00883,Wendy García Ajú,F,31,Sacatepéquez,Masivo,9113.02,58,2021-12-31,2,0,1,34511.04,569,App,0
+C00884,Otto Rodríguez Sic,M,28,Petén,Masivo,8357.51,58,2021-12-31,1,0,0,11356.93,701,App,1
+C00885,Andrés Barrios Coyoy,M,36,Izabal,Masivo,4332.84,14,2025-08-31,2,0,0,7552.3,605,Agencia,0
+C00886,Julio Hernández Morales,M,48,Quetzaltenango,Preferente,22570.99,41,2023-05-31,3,1,0,15275.22,653,App,0
+C00887,Valeria Girón Coyoy,F,80,Guatemala,Masivo,6006.29,57,2022-01-31,1,0,0,4799.49,646,App,0
+C00888,Andrea López Solís,F,35,Guatemala,Preferente,22522.4,53,2022-05-31,1,0,1,29395.8,785,Agencia,0
+C00889,Jorge García Ortiz,M,38,Guatemala,Masivo,5231.68,45,2023-01-31,1,0,0,2937.41,690,Agencia,0
+C00890,Sergio Castillo Martínez,M,61,Guatemala,Masivo,6148.22,28,2024-06-30,3,1,0,4011.25,676,Agencia,1
+C00891,Luis Ortiz Fuentes,M,41,Guatemala,Masivo,4562.79,61,2021-09-30,2,0,1,2276.18,740,App,0
+C00892,Jorge Xicará Martínez,M,40,Quetzaltenango,Masivo,9398.3,69,2021-01-31,2,0,0,5496.66,605,Web,0
+C00893,Elena Pérez Morales,F,57,Guatemala,Masivo,5681.73,35,2023-11-30,2,0,0,4703.92,724,App,0
+C00894,José Sic Monterroso,M,39,Guatemala,Masivo,5723.31,98,2018-08-31,1,0,0,2575.92,713,App,0
+C00895,Andrea Chávez Juárez,F,29,Petén,Masivo,5321.71,132,2015-10-31,1,0,0,5200.92,712,App,1
+C00896,Juan García Aguilar,M,53,Guatemala,Preferente,11354.13,51,2022-07-31,1,1,1,11085.58,659,Web,0
+C00897,Mariana Sic Juárez,F,25,Escuintla,Preferente,11004.6,26,2024-08-31,3,0,0,7765.54,639,App,0
+C00898,Miguel Girón Mejía,M,50,San Marcos,Preferente,19598.6,17,2025-05-31,1,0,0,8785.41,609,App,0
+C00899,Carlos Orellana Barrios,M,38,Sacatepéquez,Masivo,6384.54,39,2023-07-31,2,0,0,5497.04,593,App,0
+C00900,Óscar Ajú Velásquez,M,35,Guatemala,Masivo,8844.87,48,2022-10-31,2,1,1,4969.21,585,Web,0
+C00901,Miguel Coyoy Recinos,M,34,Guatemala,Masivo,5424.93,16,2025-06-30,5,1,0,4483.83,675,App,0
+C00902,Estuardo Fuentes Arévalo,M,36,Escuintla,Masivo,7159.25,38,2023-08-31,2,1,0,12353.64,634,App,0
+C00903,Carlos Solís García,M,33,Sacatepéquez,Masivo,6729.54,95,2018-11-30,1,0,0,2239.62,680,App,0
+C00904,Patricia Chávez Batz,F,43,Guatemala,Masivo,9828.85,5,2026-05-31,2,1,0,36003.6,684,Agencia,1
+C00905,Ingrid Arévalo Ramírez,F,34,Quetzaltenango,Preferente,12770.51,53,2022-05-31,3,1,1,9710.7,595,Agencia,0
+C00906,Walter Estrada López,M,23,Sacatepéquez,Preferente,12605.4,31,2024-03-31,1,0,0,13453.9,593,App,0
+C00907,Byron González Xicará,M,38,Guatemala,Masivo,6094.55,49,2022-09-30,1,0,0,2878.66,633,Agencia,0
+C00908,Pedro Reyes Castillo,M,23,Escuintla,Preferente,12652.17,137,2015-05-31,3,0,0,22516.16,615,Web,0
+C00909,Rodrigo Cifuentes Girón,M,38,Guatemala,Masivo,7963.25,47,2022-11-30,2,1,0,5834.3,588,Web,0
+C00910,Erick Cruz Rodríguez,M,33,Guatemala,Masivo,7185.36,42,2023-04-30,2,1,0,4362.39,768,App,0
+C00911,Óscar Mejía Juárez,M,49,Petén,Masivo,6340.44,79,2020-03-31,2,0,0,3390.39,542,App,0
+C00912,Miguel Rodríguez Pineda,M,35,Guatemala,Masivo,6640.81,62,2021-08-31,1,1,0,4402.38,791,App,1
+C00913,Javier Aguilar Batz,M,47,Escuintla,Preferente,,53,2022-05-31,2,1,1,20196.29,690,App,0
+C00914,Gabriela Pérez Ortiz,F,45,Quetzaltenango,Masivo,9180.42,63,2021-07-31,2,1,0,8288.73,719,App,0
+C00915,Luis Fuentes Cifuentes,M,46,Guatemala,Masivo,8685.05,113,2017-05-31,1,0,0,6756.86,710,Agencia,0
+C00916,Mariana Juárez Recinos,F,59,Zacapa,Masivo,7345.31,91,2019-03-31,2,1,0,3571.28,693,App,0
+C00917,Byron Reyes Recinos,M,35,Guatemala,Premium,28534.75,40,2023-06-30,3,1,0,13323.88,806,App,0
+C00918,Pedro Xicará Batz,M,38,Guatemala,Preferente,14818.73,132,2015-10-31,1,1,0,8586.03,594,Agencia,1
+C00919,Manuel González Juárez,M,42,San Marcos,Masivo,6316.47,33,2024-01-31,1,0,1,6974.15,639,Web,0
+C00920,Wendy Orellana Estrada,F,39,Huehuetenango,Masivo,7315.62,53,2022-05-31,2,0,0,9304.05,590,App,1
+C00921,Otto Juárez Méndez,M,35,Alta Verapaz,Masivo,7473.3,58,2021-12-31,2,0,0,10445.01,531,Agencia,0
+C00922,Claudia García Girón,F,30,Guatemala,Masivo,8583.78,39,2023-07-31,1,1,0,6859.98,603,App,0
+C00923,Carlos Aguilar Girón,M,38,Guatemala,Masivo,6354.45,123,2016-07-31,1,1,0,6649.26,781,App,0
+C00924,Valeria Pérez Girón,F,26,Escuintla,Masivo,9718.08,37,2023-09-30,1,1,0,6909.72,637,App,0
+C00925,Mónica Morales Mejía,F,23,Guatemala,Preferente,16035.3,45,2023-01-31,3,0,0,3788.77,808,App,1
+C00926,Manuel Batz Batz,M,28,Guatemala,Masivo,5394.16,100,2018-06-30,2,0,0,3709.97,796,Agencia,1
+C00927,Pablo Rodríguez Fuentes,M,45,Petén,Masivo,5642.91,34,2023-12-31,2,0,1,3471.29,850,App,1
+C00928,Lesly Barrios Arévalo,F,40,Guatemala,Masivo,6808.7,16,2025-06-30,1,0,0,2631.95,783,Agencia,0
+C00929,Valeria Arévalo Fuentes,F,46,Guatemala,Masivo,6914.55,54,2022-04-30,2,0,0,3718.46,815,App,0
+C00930,Valeria López Arévalo,F,31,Guatemala,Preferente,21828.81,21,2025-01-31,2,0,1,19195.02,692,Agencia,0
+C00931,Rodrigo Pineda Solís,M,51,Quetzaltenango,Preferente,12672.74,19,2025-03-31,4,0,0,4586.13,685,App,0
+C00932,Valeria Aguilar Morales,F,26,Escuintla,Preferente,12315.5,5,2026-05-31,3,0,0,5990.44,690,Agencia,1
+C00933,Karla Recinos Cifuentes,F,28,San Marcos,Masivo,7339.76,6,2026-04-30,1,1,0,17351.76,650,App,1
+C00934,Jennifer Ajú Chávez,F,50,Guatemala,Masivo,7282.74,7,2026-03-31,1,0,1,1897.37,660,Agencia,1
+C00935,Marta Recinos Ramírez,F,39,Guatemala,Masivo,5228.87,144,2014-10-31,1,1,0,3679.67,702,Agencia,0
+C00936,Gabriela Pineda Pineda,F,46,Sacatepéquez,Preferente,11377.97,7,2026-03-31,3,1,0,4023.37,637,Web,0
+C00937,Luis Orellana Barrios,M,40,Guatemala,Masivo,9945.94,20,2025-02-28,3,1,0,4701.47,553,App,1
+C00938,Juan Sic Solís,M,32,Quetzaltenango,Preferente,14670.41,45,2023-01-31,3,1,0,10219.25,695,Web,0
+C00939,Carmen Girón Pérez,F,28,Zacapa,Masivo,7482.57,77,2020-05-31,3,0,0,2998.55,601,App,0
+C00940,Pedro Xicará Aguilar,M,24,Sacatepéquez,Masivo,7674.84,82,2019-12-31,4,0,0,9175.67,608,App,0
+C00941,Julio Aguilar Solís,M,63,Quetzaltenango,Masivo,8668.83,26,2024-08-31,2,0,1,17857.0,640,Agencia,0
+C00942,Brenda Cruz González,F,25,Izabal,Preferente,12001.46,53,2022-05-31,1,1,1,17306.11,643,Agencia,0
+C00943,Héctor Martínez Barrios,M,57,Guatemala,Masivo,5207.9,44,2023-02-28,2,0,0,8535.74,727,Agencia,0
+C00944,Walter García Cifuentes,M,39,Zacapa,Preferente,11133.18,50,2022-08-31,2,0,0,3390.48,658,App,1
+C00945,Javier Morales Cruz,M,41,Sacatepéquez,Masivo,8035.9,56,2022-02-28,3,1,0,5422.87,731,App,0
+C00946,Mónica Chávez Rodríguez,F,40,Sacatepéquez,Masivo,5744.77,67,2021-03-31,2,0,0,6374.73,664,App,0
+C00947,Andrea Orellana Ramírez,F,44,Zacapa,Masivo,4645.87,31,2024-03-31,1,0,0,6839.19,643,Agencia,0
+C00948,Mariana Cifuentes López,F,30,Sacatepéquez,Masivo,7690.0,37,2023-09-30,1,1,0,20991.64,661,Agencia,0
+C00949,Ana Sic García,F,22,Quetzaltenango,Preferente,,191,2010-11-30,1,1,1,27047.71,579,App,0
+C00950,Byron Orellana Chávez,M,32,Guatemala,Preferente,18132.05,33,2024-01-31,1,0,0,27169.08,693,App,0
+C00951,Edgar Cifuentes González,M,43,Alta Verapaz,Masivo,9370.97,53,2022-05-31,2,0,0,47370.04,709,App,0
+C00952,Jorge Monterroso García,M,28,Sacatepéquez,Preferente,21369.46,45,2023-01-31,1,1,1,18287.83,739,App,0
+C00953,Daniel Orellana Ortiz,M,51,Guatemala,Masivo,7966.75,52,2022-06-30,3,0,0,5205.9,555,Agencia,0
+C00954,Pablo González Castillo,M,36,Huehuetenango,Preferente,12370.47,101,2018-05-31,2,1,1,11204.54,563,Web,0
+C00955,María Fuentes Pineda,F,28,Alta Verapaz,Masivo,6881.22,43,2023-03-31,4,0,1,2901.17,612,,1
+C00956,Rosa García Castillo,F,39,Guatemala,Masivo,6738.86,18,2025-04-30,2,1,0,5652.46,746,App,0
+C00957,Isabel Pineda Sic,F,43,Guatemala,Masivo,6400.56,30,2024-04-30,2,0,0,1528.74,665,App,0
+C00958,Juana Martínez Ajú,F,44,Quetzaltenango,Masivo,4663.65,43,2023-03-31,1,1,0,2575.37,595,Agencia,1
+C00959,Otto López Mejía,M,20,Guatemala,Preferente,14678.9,57,2022-01-31,1,1,1,10832.32,568,App,0
+C00960,Valeria Martínez Ramírez,F,20,Guatemala,Masivo,6471.79,26,2024-08-31,1,0,0,10064.9,602,App,1
+C00961,Gloria Barrios Pérez,F,51,Quetzaltenango,Masivo,6167.85,28,2024-06-30,1,1,1,10739.95,597,App,0
+C00962,Elena Coyoy Ortiz,F,26,Guatemala,Masivo,5570.13,58,2021-12-31,1,1,0,2269.92,715,Agencia,1
+C00963,Ricardo Ajú Aguilar,M,51,Guatemala,Masivo,7500.19,60,2021-10-31,2,0,0,25661.92,720,Agencia,0
+C00964,Walter Ortiz Ramírez,M,52,Alta Verapaz,Preferente,19064.11,92,2019-02-28,2,1,0,16920.49,596,Agencia,0
+C00965,Lucía Morales González,F,28,Guatemala,Preferente,23086.51,30,2024-04-30,3,1,1,21848.59,722,App,0
+C00966,Brenda Xicará García,F,29,Izabal,Masivo,5007.02,71,2020-11-30,5,0,0,1290.86,695,Agencia,0
+C00967,Juana Rodríguez Sic,F,46,Zacapa,Masivo,7111.22,45,2023-01-31,2,1,0,3685.81,567,Agencia,0
+C00968,José Coyoy Ajú,M,34,Escuintla,Masivo,5781.53,34,2023-12-31,2,0,1,9644.63,644,Agencia,0
+C00969,Juana Coyoy Orellana,F,55,Izabal,Preferente,12588.21,46,2022-12-31,1,0,0,11341.43,693,App,0
+C00970,Pablo Tzul Ortiz,M,60,San Marcos,Masivo,9099.7,51,2022-07-31,1,0,0,7850.43,661,App,1
+C00971,Erick Ajú Fuentes,M,28,Guatemala,Masivo,6481.98,16,2025-06-30,2,0,1,6079.38,530,App,0
+C00972,Mario Arévalo Pineda,M,30,Huehuetenango,Masivo,8334.51,17,2025-05-31,1,0,1,2427.88,659,Agencia,0
+C00973,Beatriz Solís Mejía,F,39,Guatemala,Masivo,6821.62,78,2020-04-30,2,0,0,5100.44,694,Agencia,0
+C00974,Patricia Rodríguez Cruz,F,22,Alta Verapaz,Preferente,17530.07,37,2023-09-30,2,0,0,37585.01,780,App,0
+C00975,Gabriela Girón Girón,F,24,Quetzaltenango,Preferente,10199.2,57,2022-01-31,1,0,0,17459.1,623,Agencia,0
+C00976,Mario Girón Méndez,M,30,Guatemala,Preferente,10791.89,77,2020-05-31,4,0,0,7909.08,631,Agencia,0
+C00977,Beatriz Aguilar Pineda,F,67,Guatemala,Masivo,4295.75,46,2022-12-31,2,1,0,10268.19,635,App,0
+C00978,Andrea Martínez González,F,40,Zacapa,Masivo,7894.46,72,2020-10-31,1,0,0,2616.01,670,Web,0
+C00979,Wendy Ajú Rodríguez,F,32,Guatemala,Preferente,22942.89,51,2022-07-31,2,0,0,9296.85,676,Web,0
+C00980,Óscar Ajú Coyoy,M,29,Guatemala,Preferente,14985.81,53,2022-05-31,2,0,0,44189.88,712,App,0
+C00981,Byron Rodríguez Cruz,M,27,Guatemala,Masivo,4835.05,107,2017-11-30,2,1,1,5796.93,571,Web,0
+C00982,Beatriz Cifuentes Ramírez,F,32,Quetzaltenango,Masivo,7213.51,42,2023-04-30,3,0,0,4714.26,677,App,0
+C00983,Óscar Fuentes Coyoy,M,32,Chimaltenango,Masivo,5540.63,79,2020-03-31,1,0,0,4264.14,598,Agencia,0
+C00984,Pedro Coyoy López,M,35,Huehuetenango,Preferente,18507.26,13,2025-09-30,2,0,1,8418.05,659,Agencia,0
+C00985,Andrés Xicará Pérez,M,43,Quetzaltenango,Masivo,8939.18,56,2022-02-28,1,0,1,8679.08,769,Agencia,1
+C00986,Pedro Solís Tzul,M,37,Guatemala,Masivo,6229.04,125,2016-05-31,2,0,0,5721.61,552,Agencia,0
+C00987,Mónica Ramírez González,F,47,Guatemala,Masivo,8208.89,200,2010-02-28,1,0,1,6659.16,630,App,0
+C00988,Daniel Ajú Martínez,M,35,Quetzaltenango,Masivo,4325.37,14,2025-08-31,2,0,0,1536.53,560,App,0
+C00989,Héctor Mejía Pérez,M,61,Chimaltenango,Masivo,5705.61,36,2023-10-31,1,0,0,5493.88,660,Agencia,1
+C00990,Jorge Recinos Reyes,M,47,Huehuetenango,Masivo,8216.27,21,2025-01-31,2,1,0,4537.22,723,App,1
+C00991,Ricardo Morales Pineda,M,40,Quetzaltenango,Preferente,11733.98,44,2023-02-28,3,0,0,4707.52,681,Agencia,0
+C00992,Héctor Ramírez Arévalo,M,43,Escuintla,Masivo,4756.22,88,2019-06-30,4,0,0,9235.27,641,App,0
+C00993,Mónica Martínez Girón,F,32,Quetzaltenango,Masivo,7046.19,110,2017-08-31,4,0,0,25742.63,742,App,0
+C00994,Luis Recinos López,M,35,Escuintla,Preferente,12723.54,112,2017-06-30,4,0,1,39652.12,693,App,0
+C00995,Javier Ramírez Ramírez,M,35,Sacatepéquez,Masivo,5229.15,13,2025-09-30,3,0,0,6594.2,707,Web,1
+C00996,Claudia Estrada Ortiz,F,31,Alta Verapaz,Masivo,8883.06,50,2022-08-31,1,0,0,5900.83,700,App,0
+C00997,Silvia Fuentes Orellana,F,26,Sacatepéquez,Masivo,8312.69,30,2024-04-30,1,0,0,6330.57,448,App,0
+C00998,Otto Cruz Pérez,M,44,Zacapa,Preferente,18541.52,42,2023-04-30,5,1,0,19703.39,664,App,0
+C00999,Rosa Rodríguez Cifuentes,F,50,Quetzaltenango,Masivo,7430.45,33,2024-01-31,1,1,1,4429.42,574,Agencia,1
+C01000,José Pineda González,M,42,Guatemala,Masivo,7590.66,13,2025-09-30,3,0,0,15286.07,591,Web,0
+C01001,Jorge Ajú Pérez,M,37,Guatemala,Preferente,11787.01,110,2017-08-31,4,0,1,2267.88,773,Web,0
+C01002,Luis Estrada Pérez,M,71,Sacatepéquez,Masivo,5378.26,26,2024-08-31,2,0,0,3498.08,623,Agencia,0
+C01003,Karla González Hernández,F,31,Sacatepéquez,Masivo,7455.34,30,2024-04-30,1,1,0,10449.32,782,App,0
+C01004,Elena Ortiz López,F,40,Sacatepéquez,Masivo,6870.92,126,2016-04-30,1,0,0,3042.08,551,App,0
+C01005,Kevin Fuentes Xicará,M,52,Huehuetenango,Masivo,7683.03,11,2025-11-30,1,0,0,5195.36,574,Agencia,0
+C01006,Ricardo Velásquez Reyes,M,28,Guatemala,Preferente,11749.54,66,2021-04-30,2,0,1,14242.36,723,App,0
+C01007,Jennifer Orellana Arévalo,F,45,Alta Verapaz,Preferente,10232.56,96,2018-10-31,2,1,0,23693.95,646,Agencia,0
+C01008,Silvia Orellana Mejía,F,63,Huehuetenango,Masivo,6264.46,119,2016-11-30,1,1,0,2025.86,671,Agencia,1
+C01009,Alejandra Orellana Pérez,F,38,Quetzaltenango,Masivo,8551.88,63,2021-07-31,2,1,0,2625.72,642,App,0
+C01010,Fernando Pérez Méndez,M,39,Quetzaltenango,Preferente,16373.68,80,2020-02-29,1,1,0,6755.19,660,Agencia,0
+C01011,Fernando López Juárez,M,31,Guatemala,Masivo,6114.62,96,2018-10-31,4,0,0,1667.4,628,Web,0
+C01012,Elena Fuentes Tzul,F,43,Quetzaltenango,Masivo,8581.32,44,2023-02-28,1,1,0,2459.55,662,App,1
+C01013,Beatriz Batz Fuentes,F,30,Petén,Masivo,7530.89,23,2024-11-30,2,1,0,3049.59,694,,0
+C01014,Isabel González Orellana,F,37,San Marcos,Masivo,7905.85,132,2015-10-31,2,0,0,14997.82,763,Agencia,1
+C01015,Manuel Recinos Ajú,M,26,Escuintla,Masivo,5037.09,74,2020-08-31,2,0,1,3238.89,635,App,0
+C01016,Mónica Pérez Orellana,F,21,Guatemala,Preferente,15680.73,50,2022-08-31,1,1,1,12823.14,642,App,0
+C01017,Silvia Tzul Barrios,F,33,Alta Verapaz,Masivo,6217.01,14,2025-08-31,1,1,0,2548.03,613,App,0
+C01018,Carmen Fuentes Morales,F,33,Huehuetenango,Preferente,12828.79,4,2026-06-30,2,0,1,15990.97,772,,0
+C01019,Ricardo Barrios Juárez,M,34,Guatemala,Masivo,6512.8,65,2021-05-31,2,1,0,19368.75,698,Web,0
+C01020,Sofía Tzul Ramírez,F,46,Chimaltenango,Masivo,6504.39,4,2026-06-30,2,0,0,2795.45,517,Web,0
+C01021,Marta Girón Mejía,F,50,Guatemala,Preferente,14119.85,49,2022-09-30,3,0,1,37779.32,533,Agencia,0
+C01022,Alejandro Fuentes López,M,41,Guatemala,Preferente,12623.18,27,2024-07-31,1,1,1,13033.05,611,App,0
+C01023,Fernanda Pérez González,F,45,Guatemala,Masivo,8807.73,33,2024-01-31,1,1,0,7129.85,666,App,1
+C01024,Juana Hernández Fuentes,F,31,Guatemala,Preferente,11266.67,113,2017-05-31,2,1,0,11926.85,667,Agencia,0
+C01025,Otto Sic Arévalo,M,29,San Marcos,Masivo,7276.98,27,2024-07-31,3,1,0,7651.8,686,App,0
+C01026,Mario González Cruz,M,43,Quetzaltenango,Masivo,,51,2022-07-31,2,0,0,23699.26,637,Web,0
+C01027,Lesly Juárez Martínez,F,28,Guatemala,Masivo,6431.88,27,2024-07-31,1,1,1,7405.91,747,App,0
+C01028,Ingrid Tzul Ajú,F,27,Quetzaltenango,Preferente,12073.32,61,2021-09-30,2,0,0,14106.41,724,App,0
+C01029,Paola Girón Arévalo,F,80,Guatemala,Masivo,6369.56,55,2022-03-31,1,1,0,3793.68,655,Agencia,1
+C01030,Fernando González Recinos,M,38,Guatemala,Preferente,16326.51,49,2022-09-30,4,1,1,23500.0,750,App,0
+C01031,Jorge Mejía Cifuentes,M,33,Guatemala,Masivo,7207.42,97,2018-09-30,2,1,0,2951.09,534,Web,0
+C01032,Daniel Pineda Orellana,M,32,Alta Verapaz,Masivo,8165.07,11,2025-11-30,1,0,0,7049.98,644,Web,1
+C01033,Walter Coyoy Juárez,M,26,Guatemala,Preferente,11253.68,8,2026-02-28,2,1,1,67751.74,679,Agencia,0
+C01034,Marta Chávez Chávez,F,41,Petén,Masivo,8175.8,17,2025-05-31,1,1,0,1133.26,692,Agencia,0
+C01035,Byron Aguilar Recinos,M,35,Guatemala,Masivo,7252.97,55,2022-03-31,3,1,0,6831.0,529,App,0
+C01036,Ricardo Ramírez Méndez,M,50,Huehuetenango,Masivo,8006.41,68,2021-02-28,1,0,0,7746.45,631,App,0
+C01037,Rosa Juárez Mejía,F,44,Petén,Preferente,12012.77,1,2026-09-30,1,0,1,8192.05,698,Agencia,1
+C01038,José Ajú Velásquez,M,34,Guatemala,Masivo,6429.45,68,2021-02-28,2,0,0,4457.47,683,App,0
+C01039,Daniel Pérez Ortiz,M,23,Guatemala,Masivo,7719.42,37,2023-09-30,1,1,0,6583.61,733,App,0
+C01040,Fernando Coyoy Castillo,M,38,Zacapa,Masivo,8132.52,134,2015-08-31,1,1,0,5453.87,703,App,0
+C01041,Javier Arévalo Martínez,M,37,Quetzaltenango,Preferente,11842.36,64,2021-06-30,5,0,1,11066.53,665,Web,0
+C01042,Juana Juárez Pineda,F,22,Escuintla,Masivo,7796.23,124,2016-06-30,2,1,0,4433.41,697,App,0
+C01043,Sofía Méndez Cruz,F,42,Guatemala,Preferente,19556.83,109,2017-09-30,2,0,0,64447.83,655,App,0
+C01044,Mónica Hernández Ramírez,F,28,Guatemala,Masivo,7632.96,37,2023-09-30,4,0,1,5118.81,660,App,0
+C01045,Julio Aguilar Mejía,M,50,Sacatepéquez,Masivo,7410.27,88,2019-06-30,1,0,0,8832.62,705,Agencia,0
+C01046,Carlos Castillo Fuentes,M,37,San Marcos,Masivo,7592.25,37,2023-09-30,2,0,0,3802.5,646,App,0
+C01047,Juana Pineda Recinos,F,32,Guatemala,Masivo,5390.38,146,2014-08-31,1,1,0,8286.87,675,Web,0
+C01048,Beatriz Tzul Estrada,F,40,Petén,Masivo,5777.92,40,2023-06-30,2,0,0,7723.96,717,App,1
+C01049,Mariana Reyes Sic,F,39,Alta Verapaz,Masivo,6703.75,71,2020-11-30,2,1,0,7192.26,699,App,0
+C01050,Diego Tzul Cruz,M,39,Guatemala,Preferente,13565.79,164,2013-02-28,2,1,0,5287.12,756,App,1
+C01051,Claudia Martínez Fuentes,F,48,Guatemala,Masivo,7996.85,73,2020-09-30,1,1,0,3778.1,812,App,0
+C01052,Lesly Hernández Orellana,F,40,Guatemala,Masivo,6805.37,34,2023-12-31,3,0,0,17723.47,699,App,0
+C01053,Mónica Recinos Estrada,F,31,Quetzaltenango,Preferente,14219.07,15,2025-07-31,3,0,1,6665.93,637,Agencia,0
+C01054,Julio Chávez Rodríguez,M,35,Escuintla,Preferente,16928.46,11,2025-11-30,3,0,0,21210.24,705,App,1
+C01055,Beatriz Morales Tzul,F,56,Quetzaltenango,Preferente,14435.69,68,2021-02-28,1,1,1,5961.31,702,Agencia,0
+C01056,Paola Reyes González,F,30,Guatemala,Masivo,6076.67,46,2022-12-31,3,1,0,9847.14,692,App,0
+C01057,Brenda Batz Reyes,F,42,Alta Verapaz,Masivo,6781.66,17,2025-05-31,1,0,0,3355.5,754,App,0
+C01058,Lesly Solís Monterroso,F,49,Escuintla,Preferente,19617.67,82,2019-12-31,3,0,0,7996.91,552,Agencia,1
+C01059,Isabel Chávez Cruz,F,43,Sacatepéquez,Masivo,8927.46,81,2020-01-31,2,1,0,4337.72,755,Agencia,0
+C01060,Rodrigo Sic Coyoy,M,38,Sacatepéquez,Masivo,7331.23,45,2023-01-31,2,0,0,3980.22,779,App,0
+C01061,Byron Solís Batz,M,40,Guatemala,Preferente,11040.37,128,2016-02-29,1,1,0,11724.57,709,App,0
+C01062,Héctor García Arévalo,M,44,Alta Verapaz,Preferente,12708.31,9,2026-01-31,3,1,1,10672.62,711,Web,0
+C01063,Javier González Castillo,M,30,Guatemala,Masivo,6616.4,35,2023-11-30,1,0,0,2459.11,633,App,1
+C01064,Héctor Pineda Méndez,M,37,Guatemala,Masivo,8847.15,73,2020-09-30,2,1,0,6940.6,650,Web,0
+C01065,Andrea Mejía Méndez,F,71,Guatemala,Preferente,12207.81,19,2025-03-31,2,1,0,4386.28,718,Agencia,0
+C01066,Alejandro Girón Méndez,M,42,Escuintla,Masivo,5597.46,87,2019-07-31,3,1,1,7026.29,694,App,1
+C01067,Andrea Hernández Batz,F,39,Escuintla,Masivo,8139.06,106,2017-12-31,1,1,0,11615.76,700,Agencia,1
+C01068,Andrea Morales Girón,F,34,Guatemala,Masivo,5662.68,2,2026-08-31,1,1,0,4454.84,693,App,0
+C01069,Luis Sic López,M,30,Chimaltenango,Masivo,5860.47,131,2015-11-30,1,0,0,5670.31,712,Agencia,0
+C01070,Isabel Monterroso Pineda,F,40,Chimaltenango,Masivo,6634.08,70,2020-12-31,2,0,0,18093.69,705,Agencia,0
+C01071,Mariana Ortiz Solís,F,41,Guatemala,Masivo,9884.34,32,2024-02-29,3,1,0,7081.5,578,Web,0
+C01072,Ingrid Hernández Xicará,F,37,Alta Verapaz,Masivo,7191.83,12,2025-10-31,1,1,0,2970.77,708,Agencia,0
+C01073,Patricia Juárez Chávez,F,80,Guatemala,Masivo,6458.18,96,2018-10-31,1,1,0,7749.6,780,Agencia,0
+C01074,Estuardo Hernández Aguilar,M,31,Izabal,Masivo,8265.36,16,2025-06-30,3,0,1,2992.39,648,App,0
+C01075,Erick González Juárez,M,29,Guatemala,Masivo,5616.18,70,2020-12-31,2,0,0,3877.19,754,App,1
+C01076,Wendy Monterroso Pérez,F,34,Guatemala,Masivo,9675.35,17,2025-05-31,1,1,0,5089.32,585,App,0
+C01077,Gabriela Aguilar Rodríguez,F,37,Quetzaltenango,Preferente,13534.84,49,2022-09-30,3,0,0,6625.0,667,App,1
+C01078,Edgar Solís Rodríguez,M,30,Guatemala,Masivo,7857.3,93,2019-01-31,4,0,1,5276.37,605,App,0
+C01079,Juan Pineda Fuentes,M,40,Alta Verapaz,Masivo,7504.86,32,2024-02-29,1,1,0,11272.11,746,App,0
+C01080,Silvia Ramírez Pérez,F,41,Quetzaltenango,Masivo,9444.41,130,2015-12-31,1,0,0,16383.06,764,Agencia,1
+C01081,Manuel Girón Cifuentes,M,46,Guatemala,Masivo,4687.79,74,2020-08-31,2,0,1,7171.84,643,App,0
+C01082,Ingrid Mejía Orellana,F,33,Sacatepéquez,Preferente,10152.52,19,2025-03-31,1,1,0,10278.21,751,App,1
+C01083,Fernanda Arévalo Hernández,F,55,San Marcos,Premium,43064.34,13,2025-09-30,2,1,0,28764.73,805,App,0
+C01084,Ana Fuentes Méndez,F,45,Petén,Masivo,7729.7,25,2024-09-30,2,0,0,1187.02,647,Agencia,0
+C01085,Juan Batz Ortiz,M,31,Quetzaltenango,Masivo,7739.98,47,2022-11-30,1,0,0,8009.42,659,App,0
+C01086,Carmen Mejía Chávez,F,30,Guatemala,Preferente,11173.1,139,2015-03-31,1,1,0,1812.73,721,App,0
+C01087,Jennifer Aguilar Recinos,F,35,Guatemala,Preferente,17836.52,156,2013-10-31,3,1,0,3712.66,611,App,0
+C01088,Brenda Orellana Xicará,F,41,San Marcos,Preferente,12504.48,31,2024-03-31,2,1,0,8933.21,677,,1
+C01089,Lucía Xicará Batz,F,43,Huehuetenango,Masivo,4595.16,30,2024-04-30,2,0,0,4424.09,799,App,0
+C01090,Julio García Recinos,M,45,Escuintla,Preferente,10275.58,83,2019-11-30,3,0,1,5994.65,634,Agencia,0
+C01091,Silvia Hernández Solís,F,69,San Marcos,Premium,30832.97,82,2019-12-31,2,1,0,72263.04,749,App,0
+C01092,Mónica Ortiz Martínez,F,24,Guatemala,Preferente,10557.26,117,2017-01-31,2,1,1,11671.4,706,App,1
+C01093,Luis Pérez Castillo,M,24,Alta Verapaz,Masivo,5605.43,119,2016-11-30,2,0,0,3765.97,638,Web,0
+C01094,Diego Chávez Coyoy,M,36,Guatemala,Masivo,9081.39,23,2024-11-30,2,1,0,19172.95,665,Web,0
+C01095,Gloria Girón Orellana,F,67,Guatemala,Masivo,5436.01,11,2025-11-30,1,1,1,13006.91,772,Agencia,0
+C01096,Manuel Xicará Mejía,M,46,Quetzaltenango,Preferente,14265.77,75,2020-07-31,2,0,0,16338.27,708,App,0
+C01097,Pedro Mejía García,M,29,Guatemala,Masivo,5904.72,57,2022-01-31,1,1,0,2745.4,699,Agencia,0
+C01098,Jorge Fuentes Morales,M,40,Zacapa,Masivo,8340.05,5,2026-05-31,1,0,0,4539.13,762,Web,0
+C01099,Óscar Hernández Coyoy,M,36,Guatemala,Masivo,6068.55,10,2025-12-31,2,1,0,1763.43,629,Agencia,0
+C01100,Estuardo Chávez González,M,35,Chimaltenango,Masivo,6669.65,72,2020-10-31,4,0,0,5179.62,576,App,0
+C01101,María Estrada Hernández,F,33,Huehuetenango,Preferente,16335.37,44,2023-02-28,2,0,1,6266.14,793,App,0
+C01102,Daniela Velásquez Ajú,F,39,Alta Verapaz,Masivo,8437.98,73,2020-09-30,3,1,0,5361.52,659,App,0
+C01103,Marta Recinos Sic,F,51,Zacapa,Masivo,6642.37,18,2025-04-30,1,1,0,6377.3,712,Agencia,1
+C01104,Isabel García Ramírez,F,33,Quetzaltenango,Masivo,5618.63,77,2020-05-31,3,0,0,1121.14,596,Web,0
+C01105,Diego Cifuentes Tzul,M,45,Guatemala,Masivo,4813.96,63,2021-07-31,2,0,0,1590.04,677,Web,0
+C01106,Rosa Morales Girón,F,47,Guatemala,Masivo,5474.2,81,2020-01-31,3,0,0,3071.32,573,App,1
+C01107,Wendy López Cruz,F,55,Guatemala,Masivo,8466.86,33,2024-01-31,3,0,0,6528.96,654,App,0
+C01108,Sergio Ramírez Arévalo,M,30,San Marcos,Preferente,12537.37,27,2024-07-31,2,0,1,7098.24,624,App,1
+C01109,Walter Velásquez Girón,M,38,Quetzaltenango,Masivo,6639.92,12,2025-10-31,1,1,0,4395.56,588,Agencia,1
+C01110,Rodrigo Cruz Juárez,M,32,Guatemala,Preferente,17110.38,38,2023-08-31,2,1,0,8349.58,648,App,0
+C01111,Daniela Velásquez Sic,F,39,Guatemala,Masivo,6323.25,102,2018-04-30,2,1,0,1834.02,489,App,0
+C01112,Daniela Monterroso Ramírez,F,39,Quetzaltenango,Masivo,7409.39,122,2016-08-31,3,0,0,4076.66,568,App,0
+C01113,Miguel López Fuentes,M,28,Huehuetenango,Masivo,5713.56,16,2025-06-30,2,0,0,3937.24,704,App,1
+C01114,Rosa Estrada González,F,39,Guatemala,Preferente,12603.47,47,2022-11-30,3,1,0,8113.71,694,Agencia,0
+C01115,Ana Batz Hernández,F,71,Huehuetenango,Preferente,23137.48,140,2015-02-28,2,1,0,20016.71,594,Web,0
+C01116,Jorge Méndez Coyoy,M,43,Escuintla,Masivo,4911.02,153,2014-01-31,2,1,0,5267.54,688,Agencia,0
+C01117,María González Reyes,F,27,Petén,Masivo,7131.65,37,2023-09-30,2,1,0,9194.52,588,Web,0
+C01118,Erick Hernández Juárez,M,29,Guatemala,Preferente,14507.2,109,2017-09-30,1,0,0,7448.52,720,App,0
+C01119,Andrea Méndez Castillo,F,37,Escuintla,Masivo,5234.3,96,2018-10-31,3,0,1,1389.62,641,App,0
+C01120,Byron Pérez Aguilar,M,30,Guatemala,Preferente,10290.95,91,2019-03-31,3,0,1,20050.19,647,Web,0
+C01121,Miguel Solís Arévalo,M,54,Guatemala,Preferente,14181.51,9,2026-01-31,2,1,0,14859.03,663,Agencia,0
+C01122,Fernando Juárez Fuentes,M,26,Huehuetenango,Masivo,8353.29,30,2024-04-30,2,0,1,3425.5,829,App,1
+C01123,Gloria Tzul García,F,43,Escuintla,Preferente,10214.48,43,2023-03-31,3,0,1,9924.99,616,Agencia,0
+C01124,Manuel Orellana García,M,25,Guatemala,Preferente,19036.1,42,2023-04-30,2,0,0,32162.14,685,App,0
+C01125,Héctor García Cruz,M,37,Chimaltenango,Preferente,21201.36,46,2022-12-31,5,0,0,56902.85,724,App,1
+C01126,Luis Mejía Girón,M,29,Guatemala,Masivo,7908.98,164,2013-02-28,1,0,0,7540.45,582,App,0
+C01127,Lucía González Fuentes,F,46,Escuintla,Masivo,6700.03,38,2023-08-31,1,1,0,11254.16,538,Agencia,1
+C01128,Andrea González Coyoy,F,51,Izabal,Masivo,5963.38,65,2021-05-31,1,0,1,2045.77,607,App,1
+C01129,Alejandra Fuentes Rodríguez,F,41,Sacatepéquez,Preferente,12516.94,63,2021-07-31,1,0,0,9765.03,723,App,0
+C01130,Karla Aguilar Arévalo,F,51,Petén,Masivo,5322.6,47,2022-11-30,2,1,0,3367.97,626,App,0
+C01131,José Martínez González,M,22,Escuintla,Masivo,7370.76,17,2025-05-31,1,1,0,7494.55,633,App,1
+C01132,Manuel Morales Pérez,M,39,Petén,Masivo,8435.38,52,2022-06-30,1,1,0,20845.27,713,App,0
+C01133,Ricardo Juárez Rodríguez,M,43,Alta Verapaz,Masivo,6764.44,5,2026-05-31,1,1,1,6445.99,593,Agencia,0
+C01134,Alejandro Cifuentes Ramírez,M,45,Alta Verapaz,Masivo,9073.68,70,2020-12-31,1,0,0,3765.39,643,App,0
+C01135,Estuardo Sic Cruz,M,24,Guatemala,Premium,30691.95,4,2026-06-30,1,0,0,10139.61,584,Agencia,0
+C01136,Elena Reyes Morales,F,42,Huehuetenango,Masivo,7732.81,65,2021-05-31,1,1,0,19577.38,672,Agencia,0
+C01137,Rosa López Sic,F,45,Guatemala,Masivo,6917.77,28,2024-06-30,2,0,0,7929.62,666,Agencia,0
+C01138,Luis Morales López,M,39,Izabal,Preferente,12759.67,20,2025-02-28,5,1,1,13968.47,725,Agencia,0
+C01139,Ana Cifuentes López,F,27,Guatemala,Masivo,8921.66,84,2019-10-31,2,0,0,5610.99,569,App,0
+C01140,Jennifer Méndez González,F,32,Guatemala,Preferente,15924.79,34,2023-12-31,2,0,0,15367.22,656,App,0
+C01141,Diego Hernández Méndez,M,54,Chimaltenango,Masivo,8649.85,50,2022-08-31,1,1,0,3467.82,560,App,1
+C01142,Héctor Tzul Pineda,M,52,Guatemala,Masivo,7381.73,9,2026-01-31,2,1,0,7743.88,632,App,0
+C01143,Elena Aguilar Hernández,F,43,Guatemala,Masivo,4891.07,128,2016-02-29,3,0,0,1719.2,753,App,1
+C01144,Gabriela Ortiz Barrios,F,46,Huehuetenango,Masivo,5048.12,54,2022-04-30,1,0,0,3140.46,627,Agencia,1
+C01145,Ingrid González Hernández,F,50,Guatemala,Masivo,4844.94,54,2022-04-30,1,0,1,2471.35,554,Agencia,0
+C01146,Otto Ajú Ortiz,M,43,Guatemala,Masivo,9468.59,71,2020-11-30,1,0,0,774.67,602,App,0
+C01147,Pedro Monterroso Girón,M,53,Quetzaltenango,Masivo,5334.12,2,2026-08-31,4,0,0,3347.6,537,Agencia,1
+C01148,José García Girón,M,53,Guatemala,Preferente,14437.17,137,2015-05-31,3,1,1,6156.18,579,App,0
+C01149,Julio Ramírez Monterroso,M,79,Guatemala,Masivo,8196.29,36,2023-10-31,1,0,0,5659.1,696,App,1
+C01150,Wendy González Martínez,F,33,Guatemala,Masivo,7392.96,132,2015-10-31,1,0,1,5921.5,548,App,0
+C01151,Carlos Girón Estrada,M,33,Guatemala,Masivo,6092.73,35,2023-11-30,2,1,0,16802.12,671,App,0
+C01152,Gabriela Martínez Sic,F,20,Guatemala,Preferente,10556.38,29,2024-05-31,4,1,1,10452.94,671,App,0
+C01153,Marta Girón Martínez,F,42,Guatemala,Masivo,6162.36,67,2021-03-31,1,0,0,6228.87,612,App,1
+C01154,Ricardo Pérez Ramírez,M,66,Escuintla,Masivo,5857.62,186,2011-04-30,4,0,1,6629.5,665,App,0
+C01155,Sergio Reyes Coyoy,M,55,Escuintla,Preferente,13938.99,109,2017-09-30,4,0,1,20528.46,604,Agencia,0
+C01156,Alejandra Xicará Tzul,F,48,Guatemala,Masivo,9367.92,73,2020-09-30,2,1,0,10299.99,708,Agencia,0
+C01157,Andrea García Reyes,F,56,Guatemala,Masivo,7417.62,66,2021-04-30,3,0,0,7227.65,601,App,0
+C01158,Ana Rodríguez Juárez,F,43,San Marcos,Preferente,10650.37,51,2022-07-31,3,0,0,14017.74,642,Agencia,0
+C01159,Fernando Castillo García,M,35,Escuintla,Masivo,8128.22,128,2016-02-29,1,1,0,1189.53,614,Web,0
+C01160,Mario Recinos Monterroso,M,72,Quetzaltenango,Masivo,9483.7,85,2019-09-30,1,1,1,32745.55,698,Agencia,0
+C01161,Mónica López Reyes,F,42,Quetzaltenango,Masivo,6140.3,12,2025-10-31,2,0,0,14947.45,688,App,0
+C01162,Juana Pineda Estrada,F,52,Guatemala,Preferente,22770.19,20,2025-02-28,1,0,1,21206.41,486,Agencia,0
+C01163,Rosa Ortiz García,F,22,Chimaltenango,Masivo,6599.19,75,2020-07-31,3,0,0,1963.44,667,App,0
+C01164,Wendy González Tzul,F,22,Zacapa,Preferente,16973.68,17,2025-05-31,2,1,0,31682.54,547,App,1
+C01165,Alejandra Xicará Pineda,F,40,Zacapa,Masivo,7542.71,53,2022-05-31,1,0,1,3712.57,626,Agencia,0
+C01166,Daniela López Sic,F,30,Guatemala,Preferente,11517.26,90,2019-04-30,2,1,0,13388.44,662,Agencia,0
+C01167,Silvia Rodríguez García,F,41,Guatemala,Preferente,11123.52,68,2021-02-28,1,1,0,3625.11,645,Agencia,0
+C01168,Pablo Tzul González,M,33,Guatemala,Preferente,13642.98,14,2025-08-31,2,0,0,51860.96,705,Agencia,0
+C01169,Óscar Chávez González,M,80,Guatemala,Masivo,6098.38,21,2025-01-31,2,0,0,1777.71,700,App,0
+C01170,Jennifer Sic Rodríguez,F,51,Guatemala,Preferente,13154.59,69,2021-01-31,1,1,0,11044.33,615,Agencia,0
+C01171,Kevin Morales Coyoy,M,58,Escuintla,Preferente,19988.59,173,2012-05-31,1,1,0,3620.05,613,App,0
+C01172,Brenda Aguilar Castillo,F,23,Guatemala,Masivo,7354.64,45,2023-01-31,2,0,0,5716.36,647,Agencia,1
+C01173,Fernando Hernández Fuentes,M,47,Zacapa,Masivo,8210.66,93,2019-01-31,1,1,1,4877.29,541,App,0
+C01174,Daniela Girón Aguilar,F,36,Guatemala,Masivo,6719.48,68,2021-02-28,1,0,0,11916.16,616,App,0
+C01175,Andrés Batz Orellana,M,58,Guatemala,Masivo,7130.97,28,2024-06-30,2,0,0,4235.66,744,Web,0
+C01176,Karla Ramírez Velásquez,F,45,Chimaltenango,Preferente,18510.61,93,2019-01-31,4,1,0,32859.37,564,Agencia,0
+C01177,Carlos Sic Aguilar,M,37,Huehuetenango,Masivo,5828.02,9,2026-01-31,1,0,0,2276.52,626,App,1
+C01178,Brenda Estrada Sic,F,28,Guatemala,Masivo,5927.03,89,2019-05-31,3,0,0,3892.32,608,Web,1
+C01179,Francisco Recinos Castillo,M,39,Escuintla,Preferente,17497.49,71,2020-11-30,2,1,0,11653.14,810,App,0
+C01180,Jennifer Mejía Castillo,F,53,Guatemala,Preferente,10567.53,30,2024-04-30,4,0,0,11959.84,632,App,0
+C01181,Héctor García González,M,59,Guatemala,Preferente,23452.63,18,2025-04-30,3,0,0,24281.17,636,Agencia,0
+C01182,Lucía Morales Barrios,F,34,Quetzaltenango,Masivo,6883.04,33,2024-01-31,2,1,0,9129.17,577,App,0
+C01183,Francisco Fuentes Cifuentes,M,78,Guatemala,Masivo,8515.9,26,2024-08-31,3,0,0,8211.81,650,Agencia,0
+C01184,Lesly Chávez Estrada,F,52,Escuintla,Masivo,6433.76,39,2023-07-31,1,0,0,8177.09,668,Agencia,0
+C01185,Diego Sic López,M,30,Guatemala,Masivo,8574.82,36,2023-10-31,1,1,0,3658.97,587,Web,0
+C01186,Manuel Fuentes Arévalo,M,28,Alta Verapaz,Masivo,4899.8,30,2024-04-30,1,0,0,5145.95,719,App,0
+C01187,Mario Castillo Arévalo,M,36,Petén,Preferente,10868.47,8,2026-02-28,3,0,0,26801.73,688,App,0
+C01188,Claudia Ajú Ortiz,F,34,Guatemala,Masivo,9243.53,16,2025-06-30,2,0,0,2281.39,709,Agencia,0
+C01189,Wendy Rodríguez Mejía,F,43,Guatemala,Masivo,7922.31,104,2018-02-28,1,0,0,8924.9,627,Agencia,0
+C01190,Carmen Batz Juárez,F,38,Quetzaltenango,Masivo,7024.04,31,2024-03-31,3,0,0,9024.48,667,Agencia,0
+C01191,Diego Martínez Recinos,M,35,Petén,Masivo,6005.48,40,2023-06-30,3,1,0,13361.26,635,App,1
+C01192,Pedro Recinos Cifuentes,M,25,Alta Verapaz,Preferente,11089.31,34,2023-12-31,3,0,0,14747.46,772,Web,0
+C01193,Isabel Reyes Sic,F,46,Huehuetenango,Masivo,5582.41,130,2015-12-31,3,1,0,4790.8,658,App,0
+C01194,Héctor Pérez Pérez,M,25,Quetzaltenango,Preferente,10039.2,25,2024-09-30,3,1,0,10852.6,670,Web,0
+C01195,Carmen Solís Hernández,F,52,Guatemala,Preferente,22824.65,24,2024-10-31,1,0,0,10915.36,637,Agencia,0
+C01196,Walter Velásquez Cifuentes,M,23,Sacatepéquez,Preferente,16329.76,72,2020-10-31,2,1,0,9956.92,633,Agencia,0
+C01197,Silvia Barrios Arévalo,F,25,Guatemala,Masivo,5169.08,57,2022-01-31,1,0,0,1623.46,666,App,0
+C01198,Mariana Girón Reyes,F,30,Huehuetenango,Masivo,6690.59,74,2020-08-31,2,1,0,15157.25,707,Agencia,0
+C01199,Isabel Mejía Ramírez,F,33,Guatemala,Masivo,9644.16,70,2020-12-31,1,1,0,10573.16,602,App,0
+C01200,Lesly Tzul García,F,32,Guatemala,Masivo,7883.97,95,2018-11-30,2,0,0,3321.48,658,App,0
+C01201,Gabriela García Xicará,F,33,Sacatepéquez,Masivo,5289.6,14,2025-08-31,2,0,0,5116.9,662,Web,0
+C01202,Marta Méndez Hernández,F,41,Quetzaltenango,Masivo,9493.2,67,2021-03-31,1,0,0,17098.24,675,App,0
+C01203,Wendy Monterroso Ajú,F,30,Escuintla,Masivo,8068.56,24,2024-10-31,1,0,0,12933.05,530,App,0
+C01204,Andrea Batz Cruz,F,41,Quetzaltenango,Preferente,20786.17,5,2026-05-31,2,1,1,8686.74,605,Agencia,0
+C01205,Miguel Juárez Pérez,M,22,Zacapa,Masivo,7369.03,70,2020-12-31,2,1,1,657.35,554,App,1
+C01206,Claudia Estrada Pineda,F,30,Chimaltenango,Preferente,13792.78,67,2021-03-31,3,1,0,14552.63,672,App,0
+C01207,Beatriz Recinos Fuentes,F,25,San Marcos,Masivo,5453.57,48,2022-10-31,1,1,0,2345.08,586,App,0
+C01208,Pedro Mejía Reyes,M,52,Escuintla,Masivo,5791.25,96,2018-10-31,3,0,0,7162.32,615,Agencia,0
+C01209,Kevin Velásquez Cifuentes,M,31,Escuintla,Preferente,11057.65,24,2024-10-31,1,1,1,17204.45,586,App,0
+C01210,Sofía Barrios González,F,45,Escuintla,Preferente,13208.89,78,2020-04-30,1,1,0,23041.33,641,App,0
+C01211,Javier Orellana Tzul,M,24,Quetzaltenango,Masivo,5902.29,43,2023-03-31,2,0,0,16014.83,571,App,0
+C01212,Otto Solís Reyes,M,59,Guatemala,Masivo,8176.49,46,2022-12-31,2,0,0,15542.36,703,Agencia,0
+C01213,Sergio Pérez González,M,39,Escuintla,Masivo,5310.82,7,2026-03-31,2,0,0,14458.56,683,App,1
+C01214,Gloria Aguilar Aguilar,F,69,Guatemala,Masivo,7563.88,97,2018-09-30,1,1,0,15888.3,660,App,0
+C01215,Rosa Sic Ramírez,F,37,Guatemala,Preferente,11684.3,65,2021-05-31,3,1,0,26087.46,648,Agencia,0
+C01216,Elena Orellana Aguilar,F,26,Chimaltenango,Masivo,6918.81,76,2020-06-30,3,0,0,5378.95,507,Agencia,0
+C01217,Ricardo Sic Sic,M,29,Guatemala,Masivo,7380.11,21,2025-01-31,2,1,0,2394.36,617,App,1
+C01218,Otto García Chávez,M,35,Sacatepéquez,Masivo,5640.55,60,2021-10-31,5,0,0,25647.02,596,Agencia,0
+C01219,Alejandro Ramírez Girón,M,29,Escuintla,Masivo,6458.3,43,2023-03-31,2,1,0,5399.41,667,Agencia,0
+C01220,Héctor Pérez Batz,M,50,Guatemala,Preferente,19005.97,68,2021-02-28,2,0,0,35934.77,713,Web,0
+C01221,Wendy Juárez Tzul,F,38,San Marcos,Masivo,8335.68,58,2021-12-31,1,1,0,4536.74,672,App,0
+C01222,Jennifer López Pineda,F,29,Guatemala,Masivo,5831.03,147,2014-07-31,1,0,1,9159.54,738,App,0
+C01223,Walter Castillo Méndez,M,48,San Marcos,Masivo,7210.11,117,2017-01-31,1,1,0,1041.71,610,Agencia,0
+C01224,Otto Girón Pérez,M,34,Petén,Masivo,5070.91,39,2023-07-31,1,0,1,3043.68,607,Web,0
+C01225,Valeria Tzul González,F,47,Guatemala,Masivo,5812.59,70,2020-12-31,1,0,0,4340.52,722,App,0
+C01226,Gloria Morales Recinos,F,33,Guatemala,Preferente,15261.76,36,2023-10-31,3,0,0,16878.37,681,,0
+C01227,Juan Recinos García,M,44,Guatemala,Masivo,7672.84,94,2018-12-31,2,0,0,13000.15,632,Agencia,0
+C01228,Elena Reyes Chávez,F,34,Guatemala,Preferente,20504.65,44,2023-02-28,2,0,0,7626.34,799,App,0
+C01229,Lucía Batz Tzul,F,50,Guatemala,Masivo,7809.46,32,2024-02-29,2,0,0,9916.2,690,Agencia,0
+C01230,Javier Chávez Ajú,M,24,Izabal,Masivo,7988.08,59,2021-11-30,1,0,0,15081.57,636,Web,0
+C01231,Elena Ajú Pérez,F,27,Guatemala,Preferente,10647.71,111,2017-07-31,4,0,0,44006.59,621,Agencia,0
+C01232,Patricia Reyes Ortiz,F,36,Chimaltenango,Masivo,4292.99,100,2018-06-30,2,1,0,5632.08,742,Agencia,0
+C01233,Ricardo Reyes Ramírez,M,31,Guatemala,Masivo,8794.16,34,2023-12-31,1,0,1,5100.25,664,App,1
+C01234,Daniela Monterroso Ramírez,F,33,Izabal,Masivo,7948.31,138,2015-04-30,1,1,0,2610.6,651,Agencia,1
+C01235,Walter Mejía Coyoy,M,45,Guatemala,Preferente,16334.37,22,2024-12-31,2,1,0,47019.84,717,App,0
+C01236,Lucía Morales Cifuentes,F,33,Quetzaltenango,Preferente,12440.58,29,2024-05-31,2,0,1,16675.82,731,Agencia,1
+C01237,Brenda Pérez Cifuentes,F,41,Sacatepéquez,Masivo,5634.99,92,2019-02-28,2,0,0,4439.18,688,Agencia,0
+C01238,Wendy González Ramírez,F,30,Guatemala,Preferente,14335.7,5,2026-05-31,3,0,0,3690.41,731,Agencia,1
+C01239,Mario Velásquez Velásquez,M,23,Chimaltenango,Masivo,7345.13,50,2022-08-31,3,0,0,3061.99,681,Web,1
+C01240,Beatriz Castillo Aguilar,F,47,Guatemala,Masivo,5989.2,39,2023-07-31,1,0,0,7453.91,688,Agencia,0
+C01241,Rodrigo Recinos Reyes,M,63,Sacatepéquez,Masivo,8765.75,144,2014-10-31,2,1,1,8983.52,598,App,0
+C01242,Beatriz Batz Rodríguez,F,40,Sacatepéquez,Masivo,7504.54,19,2025-03-31,5,0,0,1537.15,776,App,0
+C01243,Karla Ajú Coyoy,F,37,Escuintla,Preferente,16810.38,21,2025-01-31,3,1,0,20940.43,583,App,0
+C01244,Fernando Batz Recinos,M,39,Guatemala,Masivo,9311.68,157,2013-09-30,2,1,0,2484.87,671,Agencia,1
+C01245,Edgar Recinos Estrada,M,56,Guatemala,Masivo,8796.78,39,2023-07-31,1,1,0,18156.86,556,Agencia,0
+C01246,Javier Arévalo Batz,M,40,Guatemala,Preferente,12053.08,108,2017-10-31,2,0,1,11158.1,663,Web,0
+C01247,Isabel Reyes Rodríguez,F,48,Guatemala,Preferente,13270.57,34,2023-12-31,1,0,0,7675.32,630,App,0
+C01248,Elena Tzul Tzul,F,47,Guatemala,Preferente,11388.13,28,2024-06-30,1,0,1,18220.29,679,Agencia,0
+C01249,Walter Barrios García,M,51,Zacapa,Preferente,15754.53,112,2017-06-30,1,1,1,16142.15,693,Web,0
+C01250,Marta Castillo Ramírez,F,36,Sacatepéquez,Preferente,10490.58,182,2011-08-31,4,0,0,21216.59,603,Agencia,0
+C01251,Brenda Girón Barrios,F,32,Escuintla,Masivo,8660.34,118,2016-12-31,1,1,1,7329.76,647,Agencia,1
+C01252,Kevin Pérez Juárez,M,44,Guatemala,Preferente,14313.43,32,2024-02-29,2,0,0,12619.31,767,Web,0
+C01253,Miguel Mejía Reyes,M,50,Guatemala,Masivo,7822.6,48,2022-10-31,3,0,0,5125.35,558,Agencia,0
+C01254,Sofía Batz Coyoy,F,53,Sacatepéquez,Masivo,8205.95,22,2024-12-31,1,0,0,7891.55,590,App,0
+C01255,Ricardo Recinos Reyes,M,58,Guatemala,Preferente,18616.98,25,2024-09-30,1,0,0,48886.25,730,App,0
+C01256,Carlos Velásquez González,M,49,Guatemala,Preferente,17605.14,24,2024-10-31,2,0,1,9905.72,675,Agencia,0
+C01257,Sofía Orellana Xicará,F,32,Quetzaltenango,Masivo,8074.32,35,2023-11-30,3,0,0,10166.66,660,Web,0
+C01258,Diego Velásquez Castillo,M,40,Sacatepéquez,Masivo,6875.9,54,2022-04-30,1,1,0,2970.02,721,App,1
+C01259,Francisco Tzul Martínez,M,39,Izabal,Preferente,16132.17,50,2022-08-31,2,0,1,3037.27,614,App,0
+C01260,Paola Pérez Velásquez,F,38,Guatemala,Preferente,11480.33,83,2019-11-30,4,1,0,10619.72,633,App,0
+C01261,Mariana Mejía Batz,F,44,Quetzaltenango,Masivo,9212.43,56,2022-02-28,1,0,0,9551.46,605,App,0
+C01262,Jennifer Coyoy Ortiz,F,35,Guatemala,Masivo,7192.21,77,2020-05-31,3,0,0,5327.16,625,App,0
+C01263,Fernando Castillo Girón,M,35,Guatemala,Masivo,9276.1,86,2019-08-31,3,0,0,2604.15,743,,1
+C01264,Claudia Chávez Monterroso,F,65,Huehuetenango,Masivo,8032.14,33,2024-01-31,1,0,0,7951.16,530,Agencia,1
+C01265,Silvia Fuentes Ramírez,F,37,Guatemala,Masivo,6426.5,44,2023-02-28,2,0,1,6194.77,566,App,0
+C01266,Ana Mejía Ajú,F,51,Escuintla,Masivo,8525.41,240,2006-10-31,2,1,0,3661.09,554,App,1
+C01267,Brenda Tzul Aguilar,F,52,Quetzaltenango,Masivo,9018.8,31,2024-03-31,1,0,0,2797.49,748,App,0
+C01268,Sofía Ajú Pineda,F,40,Guatemala,Masivo,7060.11,80,2020-02-29,1,0,0,4733.41,606,App,0
+C01269,Pablo Castillo Estrada,M,36,Zacapa,Preferente,12071.9,15,2025-07-31,3,1,0,15253.17,647,Agencia,0
+C01270,Julio Castillo Ajú,M,30,Quetzaltenango,Preferente,14692.4,88,2019-06-30,1,0,0,15734.33,556,App,0
+C01271,Brenda Rodríguez López,F,25,Petén,Preferente,12472.94,26,2024-08-31,1,0,0,5386.16,651,App,0
+C01272,Lesly Estrada Rodríguez,F,45,Quetzaltenango,Masivo,7308.78,51,2022-07-31,1,0,1,6435.18,710,Agencia,0
+C01273,Karla Monterroso Fuentes,F,42,Zacapa,Preferente,11238.13,12,2025-10-31,2,0,0,16729.23,687,Agencia,0
+C01274,Héctor Morales Xicará,M,47,Guatemala,Masivo,8352.4,47,2022-11-30,1,0,0,2940.38,642,App,0
+C01275,Erick Castillo Rodríguez,M,33,Quetzaltenango,Masivo,5494.69,48,2022-10-31,1,0,1,4594.44,540,App,1
+C01276,Alejandro Monterroso Ajú,M,67,Huehuetenango,Preferente,10806.53,42,2023-04-30,3,1,0,22081.84,647,Agencia,0
+C01277,Edgar Sic Fuentes,M,43,Guatemala,Masivo,8584.68,68,2021-02-28,3,1,0,2813.37,660,Agencia,0
+C01278,Mariana González Ortiz,F,37,Guatemala,Premium,,106,2017-12-31,3,0,1,56130.93,620,Agencia,0
+C01279,Andrea Estrada Solís,F,23,Izabal,Preferente,16080.49,21,2025-01-31,4,1,0,39960.62,715,App,0
+C01280,Ingrid Ramírez Monterroso,F,34,Sacatepéquez,Preferente,11002.98,43,2023-03-31,3,0,0,7534.4,731,Agencia,0
+C01281,José Castillo Juárez,M,48,Alta Verapaz,Masivo,8957.5,7,2026-03-31,1,1,0,5636.38,612,App,0
+C01282,Claudia Méndez Mejía,F,58,Alta Verapaz,Masivo,8646.44,56,2022-02-28,1,1,0,14255.89,700,App,0
+C01283,María Pineda Ortiz,F,38,Chimaltenango,Masivo,5828.87,19,2025-03-31,2,1,1,4093.45,642,Agencia,1
+C01284,Héctor Pérez Recinos,M,61,San Marcos,Masivo,4932.14,49,2022-09-30,3,1,0,759.91,730,Agencia,0
+C01285,Edgar Ramírez Estrada,M,29,Sacatepéquez,Masivo,6043.14,58,2021-12-31,1,0,1,4511.47,792,App,1
+C01286,Lesly Arévalo Recinos,F,43,Guatemala,Masivo,7952.17,9,2026-01-31,1,0,0,8842.63,573,App,0
+C01287,Francisco Rodríguez Juárez,M,43,Guatemala,Masivo,4630.66,64,2021-06-30,1,1,0,6219.03,703,Agencia,0
+C01288,Juan Pérez Hernández,M,45,Escuintla,Masivo,6674.22,102,2018-04-30,2,0,0,2882.53,741,App,0
+C01289,Kevin Coyoy García,M,40,Chimaltenango,Masivo,7383.87,75,2020-07-31,1,0,1,4890.5,582,App,0
+C01290,Daniel Hernández Morales,M,42,Quetzaltenango,Masivo,7470.09,21,2025-01-31,3,1,1,11841.36,609,App,0
+C01291,Ana Ajú Pérez,F,29,Guatemala,Masivo,6431.68,47,2022-11-30,2,1,0,4933.72,608,App,0
+C01292,Otto Aguilar Velásquez,M,56,Guatemala,Masivo,7143.16,51,2022-07-31,3,1,1,1959.9,640,Agencia,1
+C01293,Héctor Estrada Cifuentes,M,50,Sacatepéquez,Preferente,18641.35,44,2023-02-28,1,0,0,35466.38,645,App,0
+C01294,Julio Morales Coyoy,M,41,Chimaltenango,Preferente,10753.34,14,2025-08-31,1,1,0,7405.29,656,Web,0
+C01295,Javier Velásquez López,M,50,Guatemala,Masivo,6640.03,24,2024-10-31,2,1,0,11402.43,708,Agencia,1
+C01296,Daniel Cruz Velásquez,M,56,Escuintla,Masivo,7889.77,41,2023-05-31,2,1,1,2376.44,517,App,0
+C01297,Diego Cifuentes Orellana,M,45,Huehuetenango,Masivo,8011.69,57,2022-01-31,1,0,0,5888.89,581,Agencia,0
+C01298,Kevin Ajú Mejía,M,70,Zacapa,Masivo,6228.75,30,2024-04-30,1,0,0,7119.57,696,Web,0
+C01299,Javier Juárez Sic,M,46,Guatemala,Masivo,6226.59,6,2026-04-30,1,1,1,4686.49,688,Agencia,0
+C01300,Javier Recinos González,M,30,Zacapa,Preferente,12728.89,32,2024-02-29,2,1,0,4448.76,595,Agencia,0
+C01301,Carmen García Recinos,F,41,Escuintla,Masivo,6954.25,147,2014-07-31,2,0,0,1046.5,689,Agencia,1
+C01302,Daniel García García,M,51,Petén,Masivo,,65,2021-05-31,2,0,0,13224.65,742,App,0
+C01303,Juana Recinos Castillo,F,56,Guatemala,Masivo,7966.14,56,2022-02-28,2,0,0,7581.29,646,Agencia,0
+C01304,Byron Castillo Velásquez,M,40,Sacatepéquez,Masivo,8487.52,24,2024-10-31,2,0,0,15366.87,579,Web,0
+C01305,Erick Mejía Aguilar,M,30,Escuintla,Masivo,4731.09,33,2024-01-31,1,1,0,7250.57,711,App,0
+C01306,Pedro Solís Juárez,M,36,Guatemala,Masivo,7973.46,6,2026-04-30,2,1,1,9686.84,770,App,0
+C01307,Julio Velásquez Xicará,M,27,Quetzaltenango,Preferente,11861.97,23,2024-11-30,2,0,0,7578.06,607,App,0
+C01308,Lucía Estrada Monterroso,F,48,Sacatepéquez,Masivo,9771.48,62,2021-08-31,2,0,0,11013.93,652,App,0
+C01309,Wendy Ramírez Ramírez,F,34,Sacatepéquez,Premium,25033.05,56,2022-02-28,4,1,1,54588.83,766,App,0
+C01310,Fernando Cruz López,M,31,Guatemala,Preferente,14403.33,28,2024-06-30,2,1,0,12212.05,678,Agencia,0
+C01311,Jorge Orellana Fuentes,M,49,Quetzaltenango,Preferente,16007.87,44,2023-02-28,2,0,1,48478.85,547,Agencia,0
+C01312,Carlos Ramírez Velásquez,M,61,Guatemala,Premium,35548.89,50,2022-08-31,3,0,1,9955.95,721,App,0
+C01313,Juan Hernández Cifuentes,M,31,Zacapa,Preferente,11250.62,29,2024-05-31,1,1,1,2922.51,601,Agencia,0
+C01314,Miguel Méndez López,M,40,Izabal,Masivo,8644.14,67,2021-03-31,1,1,0,13809.97,561,Agencia,0
+C01315,Paola Solís Solís,F,36,Guatemala,Preferente,12496.84,55,2022-03-31,2,1,0,5636.21,549,App,0
+C01316,Mariana Batz Sic,F,57,Guatemala,Masivo,6642.29,34,2023-12-31,2,0,0,22212.36,733,Agencia,0
+C01317,Kevin Barrios Morales,M,37,Guatemala,Masivo,8452.32,15,2025-07-31,2,1,1,17243.52,591,Agencia,0
+C01318,Julio Recinos Rodríguez,M,29,Quetzaltenango,Masivo,6459.56,32,2024-02-29,1,0,1,15700.89,673,App,0
+C01319,Luis Girón García,M,38,San Marcos,Masivo,9545.69,31,2024-03-31,1,1,0,14183.11,690,App,0
+C01320,Héctor Solís García,M,53,Sacatepéquez,Masivo,6451.2,28,2024-06-30,2,0,0,2707.47,661,App,0
+C01321,Otto González Juárez,M,35,Guatemala,Masivo,6382.16,10,2025-12-31,1,1,0,1598.11,670,Agencia,1
+C01322,Sergio Batz Hernández,M,32,Guatemala,Masivo,9610.5,121,2016-09-30,1,0,0,21898.52,676,App,0
+C01323,Carlos Juárez Batz,M,37,Guatemala,Masivo,7686.46,117,2017-01-31,3,0,1,2152.48,659,App,0
+C01324,Paola Castillo Rodríguez,F,29,Chimaltenango,Masivo,4767.44,43,2023-03-31,1,0,0,11566.19,596,App,0
+C01325,Estuardo Monterroso Solís,M,36,Escuintla,Masivo,5224.48,57,2022-01-31,1,1,0,6678.82,590,App,0
+C01326,Andrés Pineda Sic,M,33,Sacatepéquez,Masivo,5615.75,67,2021-03-31,1,0,1,4259.09,642,App,0
+C01327,Silvia Orellana Barrios,F,75,Guatemala,Masivo,6025.4,43,2023-03-31,3,0,0,6568.42,641,Agencia,1
+C01328,Daniel Sic Orellana,M,24,Zacapa,Masivo,9614.5,60,2021-10-31,3,0,0,10652.9,680,App,0
+C01329,Estuardo Cifuentes Chávez,M,30,Guatemala,Masivo,8845.31,73,2020-09-30,2,0,0,6141.42,727,Agencia,0
+C01330,Ricardo Estrada Sic,M,32,Chimaltenango,Preferente,13085.58,54,2022-04-30,3,1,0,28398.84,694,App,0
+C01331,Carmen Velásquez Batz,F,29,San Marcos,Preferente,11222.0,83,2019-11-30,2,0,1,23776.87,613,App,0
+C01332,Edgar Girón Ramírez,M,43,Quetzaltenango,Preferente,13129.66,27,2024-07-31,1,1,0,11712.91,517,App,0
+C01333,Ingrid González Girón,F,31,San Marcos,Preferente,10489.2,47,2022-11-30,4,1,0,5513.54,616,App,0
+C01334,Óscar Xicará Arévalo,M,26,Guatemala,Masivo,8811.42,240,2006-10-31,1,0,0,17585.47,555,Agencia,0
+C01335,Javier Estrada López,M,39,Alta Verapaz,Preferente,13314.54,97,2018-09-30,2,0,0,2585.51,618,Agencia,0
+C01336,Kevin Girón López,M,35,Guatemala,Preferente,12164.85,55,2022-03-31,5,1,0,13278.31,686,App,0
+C01337,Kevin Estrada Barrios,M,32,Quetzaltenango,Masivo,9455.28,21,2025-01-31,4,0,0,12694.04,655,Agencia,0
+C01338,Jennifer Pérez Solís,F,57,Guatemala,Preferente,14555.35,49,2022-09-30,2,1,0,6520.62,800,Agencia,0
+C01339,Estuardo Estrada López,M,43,Guatemala,Masivo,4471.12,92,2019-02-28,4,1,0,7072.01,683,App,0
+C01340,Daniel Pineda Batz,M,42,Guatemala,Masivo,7272.06,79,2020-03-31,1,0,0,5711.18,783,Web,0
+C01341,Juana Tzul Monterroso,F,44,Guatemala,Masivo,7232.87,7,2026-03-31,3,1,0,3949.16,700,Agencia,0
+C01342,Valeria Pineda Ajú,F,43,Escuintla,Preferente,13684.05,10,2025-12-31,2,1,0,21484.76,745,Agencia,1
+C01343,Brenda Morales Castillo,F,35,Quetzaltenango,Preferente,17118.43,11,2025-11-30,2,0,0,6404.71,644,App,0
+C01344,Luis Batz Arévalo,M,31,Guatemala,Masivo,5230.61,67,2021-03-31,1,1,0,7689.22,574,App,0
+C01345,Diego Cruz Xicará,M,39,Izabal,Preferente,15684.15,11,2025-11-30,2,1,0,3132.6,638,App,0
+C01346,Walter Juárez Orellana,M,35,Zacapa,Masivo,5581.92,20,2025-02-28,2,0,0,5454.18,649,App,0
+C01347,Mario Pineda Recinos,M,23,Guatemala,Masivo,5624.31,42,2023-04-30,2,0,0,4639.68,606,App,0
+C01348,Lesly Pineda Estrada,F,29,Quetzaltenango,Masivo,7419.34,103,2018-03-31,4,1,0,4068.03,579,App,0
+C01349,Rodrigo Mejía Morales,M,34,Alta Verapaz,Masivo,7201.44,70,2020-12-31,3,0,0,7567.59,679,App,0
+C01350,Isabel López Ortiz,F,49,Huehuetenango,Masivo,5111.63,38,2023-08-31,2,0,1,3867.76,579,App,0
+C01351,Beatriz Girón Batz,F,39,Guatemala,Preferente,10692.17,84,2019-10-31,2,1,0,17897.39,562,Web,0
+C01352,Claudia Aguilar Ramírez,F,30,Huehuetenango,Preferente,10840.27,175,2012-03-31,2,1,0,12835.7,591,App,0
+C01353,Gabriela Tzul Méndez,F,28,Guatemala,Preferente,13011.26,49,2022-09-30,3,0,0,14289.97,653,App,0
+C01354,Andrés Chávez Castillo,M,53,Guatemala,Masivo,6922.3,14,2025-08-31,2,0,0,6793.1,580,Agencia,0
+C01355,Estuardo Cruz Batz,M,36,Huehuetenango,Masivo,7977.03,21,2025-01-31,2,1,0,4585.53,634,Agencia,1
+C01356,Jorge Solís Solís,M,20,Escuintla,Masivo,8005.17,20,2025-02-28,2,1,1,5184.54,692,App,0
+C01357,Sofía Sic Coyoy,F,36,Chimaltenango,Preferente,18268.09,25,2024-09-30,2,0,0,17387.71,710,,0
+C01358,Andrea Estrada Estrada,F,46,Guatemala,Masivo,4218.85,36,2023-10-31,1,0,0,2989.38,603,Agencia,0
+C01359,Wendy Coyoy Monterroso,F,28,Guatemala,Masivo,5903.01,58,2021-12-31,1,1,1,10281.39,558,App,0
+C01360,Erick Estrada Coyoy,M,38,Guatemala,Masivo,8117.49,12,2025-10-31,2,1,0,6933.0,609,Agencia,0
+C01361,Lesly Pérez Tzul,F,39,Guatemala,Masivo,5704.71,15,2025-07-31,1,1,0,5937.72,695,App,1
+C01362,Carmen Ortiz Estrada,F,28,Guatemala,Masivo,7355.62,73,2020-09-30,1,1,0,2204.37,712,App,0
+C01363,Carlos Estrada Castillo,M,55,Sacatepéquez,Masivo,7719.88,31,2024-03-31,1,0,0,11952.21,674,Agencia,0
+C01364,Walter Estrada López,M,40,Sacatepéquez,Masivo,6439.7,22,2024-12-31,1,1,1,3429.85,734,App,0
+C01365,Miguel Girón Reyes,M,34,Alta Verapaz,Masivo,,39,2023-07-31,2,1,0,3203.31,771,App,0
+C01366,Mónica López Batz,F,36,Guatemala,Preferente,10585.12,115,2017-03-31,2,1,1,26806.27,636,App,0
+C01367,Luis Castillo Orellana,M,27,Guatemala,Masivo,7414.05,80,2020-02-29,2,0,0,9665.55,754,App,1
+C01368,Ingrid Orellana Solís,F,27,Alta Verapaz,Masivo,6876.71,76,2020-06-30,3,0,0,10902.19,631,App,0
+C01369,Pablo Castillo Martínez,M,33,Guatemala,Masivo,7607.0,143,2014-11-30,2,0,0,8365.14,721,App,0
+C01370,Ingrid Chávez Coyoy,F,34,San Marcos,Masivo,8076.64,60,2021-10-31,2,0,0,6053.44,699,Agencia,0
+C01371,Ricardo Castillo Coyoy,M,35,Guatemala,Masivo,4930.9,152,2014-02-28,1,1,0,3243.51,511,App,0
+C01372,Diego Solís Arévalo,M,56,Sacatepéquez,Masivo,9816.24,160,2013-06-30,1,1,0,13548.44,582,Agencia,0
+C01373,Héctor Juárez García,M,45,San Marcos,Masivo,6881.75,12,2025-10-31,1,0,0,12164.15,564,App,0
+C01374,Ana Velásquez Recinos,F,24,Escuintla,Preferente,14482.46,9,2026-01-31,3,1,0,11045.97,545,App,0
+C01375,Elena Coyoy Morales,F,53,Escuintla,Preferente,10406.07,19,2025-03-31,2,0,1,35517.51,731,Agencia,0
+C01376,Walter Barrios Coyoy,M,33,Alta Verapaz,Preferente,13807.51,108,2017-10-31,1,1,0,9620.98,814,App,0
+C01377,José Barrios Batz,M,47,Guatemala,Masivo,5817.49,40,2023-06-30,2,0,0,1754.04,631,App,0
+C01378,Ingrid Rodríguez García,F,34,Alta Verapaz,Masivo,7069.83,36,2023-10-31,1,0,0,1694.91,709,Agencia,1
+C01379,Wendy Méndez Orellana,F,39,San Marcos,Masivo,5485.81,86,2019-08-31,1,1,0,1346.59,753,App,0
+C01380,Jennifer Orellana Aguilar,F,28,Izabal,Masivo,6346.82,29,2024-05-31,2,0,1,3800.54,664,App,0
+C01381,Wendy Ortiz Martínez,F,41,Quetzaltenango,Preferente,14410.86,55,2022-03-31,3,0,1,9800.43,668,Agencia,0
+C01382,Gloria Monterroso Estrada,F,48,Guatemala,Preferente,16347.32,73,2020-09-30,1,0,0,21088.76,652,App,0
+C01383,Mónica Orellana Martínez,F,25,Huehuetenango,Masivo,5614.53,21,2025-01-31,1,0,0,4402.57,687,App,0
+C01384,Paola Ajú González,F,49,Sacatepéquez,Masivo,6865.08,17,2025-05-31,1,1,0,9911.18,711,App,0
+C01385,Mariana Tzul Velásquez,F,31,Guatemala,Masivo,7866.27,49,2022-09-30,2,0,0,6493.91,682,App,0
+C01386,Juan Ramírez Mejía,M,62,Guatemala,Preferente,10380.16,54,2022-04-30,2,1,1,8383.1,699,Web,0
+C01387,Marta Ramírez Fuentes,F,47,Guatemala,Masivo,4912.86,81,2020-01-31,2,0,0,2623.35,646,Agencia,0
+C01388,Isabel Hernández Cruz,F,44,Quetzaltenango,Masivo,5065.18,19,2025-03-31,3,0,1,10968.83,538,App,0
+C01389,Rosa Orellana Aguilar,F,36,Guatemala,Masivo,9939.6,26,2024-08-31,2,1,0,2721.94,712,Agencia,0
+C01390,Ricardo Sic González,M,80,Guatemala,Masivo,4749.99,159,2013-07-31,3,1,0,4692.27,560,,0
+C01391,Karla Reyes Aguilar,F,33,Guatemala,Masivo,6891.42,95,2018-11-30,2,0,0,4854.85,693,App,0
+C01392,Ingrid Morales Tzul,F,29,Zacapa,Masivo,8640.68,43,2023-03-31,3,0,1,11948.02,702,App,0
+C01393,Valeria Mejía Chávez,F,31,Guatemala,Masivo,9619.74,106,2017-12-31,1,1,0,7584.4,570,App,0
+C01394,Brenda Juárez López,F,51,Guatemala,Masivo,7675.02,19,2025-03-31,2,0,1,6177.28,607,Agencia,1
+C01395,Andrea Pineda Juárez,F,39,Quetzaltenango,Masivo,7083.54,39,2023-07-31,1,0,1,4701.97,798,App,0
+C01396,Ana Ortiz Recinos,F,37,Guatemala,Preferente,11727.69,54,2022-04-30,2,0,0,24880.61,664,Agencia,0
+C01397,Julio Fuentes Batz,M,33,Izabal,Masivo,9094.36,35,2023-11-30,2,0,0,7287.75,564,App,0
+C01398,Brenda Estrada López,F,37,Zacapa,Masivo,6460.98,37,2023-09-30,2,0,0,20519.86,706,Agencia,0
+C01399,Paola Barrios Chávez,F,33,Quetzaltenango,Masivo,8220.41,79,2020-03-31,1,0,0,7956.98,595,Agencia,0
+C01400,Héctor Solís Ajú,M,46,Quetzaltenango,Masivo,9484.35,96,2018-10-31,1,0,0,7703.94,515,App,1
+C01401,Luis Reyes Morales,M,35,Guatemala,Preferente,18581.91,32,2024-02-29,3,0,0,13427.65,706,App,0
+C01402,Andrés Ramírez Pérez,M,32,Guatemala,Preferente,11402.97,13,2025-09-30,1,1,1,13540.74,605,App,0
+C01403,Andrea Orellana Rodríguez,F,50,Guatemala,Preferente,14130.41,10,2025-12-31,2,0,0,7488.06,692,Web,0
+C01404,María Juárez Sic,F,29,Guatemala,Masivo,6534.84,5,2026-05-31,1,0,0,5789.37,593,Agencia,0
+C01405,Jennifer Ortiz Sic,F,39,Guatemala,Masivo,6717.87,141,2015-01-31,2,0,0,5404.99,699,App,0
+C01406,Mario Arévalo López,M,23,Sacatepéquez,Masivo,7416.41,79,2020-03-31,1,1,0,7450.08,662,App,0
+C01407,Gabriela Aguilar Chávez,F,26,Guatemala,Masivo,7669.73,67,2021-03-31,3,0,0,7839.37,468,,0
+C01408,Sergio Ortiz Sic,M,34,Guatemala,Masivo,5822.12,29,2024-05-31,3,0,0,6171.35,676,Agencia,1
+C01409,Walter Girón Ramírez,M,33,Quetzaltenango,Preferente,14516.01,29,2024-05-31,1,0,1,12410.49,649,App,1
+C01410,Edgar Girón Ortiz,M,33,Quetzaltenango,Preferente,11951.35,98,2018-08-31,4,0,0,28673.15,769,Agencia,0
+C01411,Fernanda Tzul Xicará,F,47,Guatemala,Masivo,7233.16,9,2026-01-31,2,1,0,7778.24,677,App,0
+C01412,Miguel Fuentes Xicará,M,48,Guatemala,Preferente,10651.74,34,2023-12-31,3,1,0,52813.67,722,Web,0
+C01413,Patricia Morales Batz,F,41,Guatemala,Masivo,8859.87,108,2017-10-31,1,0,0,7339.6,600,App,0
+C01414,Manuel Arévalo Barrios,M,29,Guatemala,Preferente,11048.09,34,2023-12-31,3,0,0,17293.89,614,App,0
+C01415,Byron Ramírez Pérez,M,36,Petén,Masivo,5356.04,76,2020-06-30,2,0,0,2577.57,648,App,1
+C01416,Byron Martínez Hernández,M,65,Zacapa,Masivo,7663.78,44,2023-02-28,1,0,1,16344.87,624,App,0
+C01417,Ingrid Mejía Velásquez,F,77,Quetzaltenango,Masivo,7920.84,1,2026-09-30,1,1,0,3870.39,743,Web,0
+C01418,Rodrigo González Estrada,M,50,Quetzaltenango,Preferente,10563.11,43,2023-03-31,2,1,0,11627.1,659,Agencia,0
+C01419,Valeria Monterroso García,F,29,Huehuetenango,Masivo,6498.44,50,2022-08-31,2,0,0,4320.28,564,App,1
+C01420,Claudia Tzul Chávez,F,37,Escuintla,Masivo,4382.02,40,2023-06-30,3,0,0,4810.36,592,Web,0
+C01421,Patricia López López,F,40,Guatemala,Masivo,5710.42,16,2025-06-30,1,0,1,3875.95,717,Web,0
+C01422,Edgar Ortiz Xicará,M,38,Guatemala,Masivo,7911.75,41,2023-05-31,1,0,0,3642.71,638,App,0
+C01423,Fernando López Monterroso,M,52,Quetzaltenango,Masivo,8305.8,5,2026-05-31,1,0,0,5494.22,634,App,0
+C01424,Gabriela Girón López,F,46,Sacatepéquez,Preferente,18224.54,33,2024-01-31,3,1,1,42893.98,744,App,0
+C01425,Manuel Castillo Cifuentes,M,29,Guatemala,Preferente,10366.61,80,2020-02-29,3,1,0,11502.22,605,App,0
+C01426,José Chávez Mejía,M,32,Guatemala,Masivo,8364.29,136,2015-06-30,1,1,1,2714.57,493,Agencia,0
+C01427,Gabriela Orellana Morales,F,50,Guatemala,Masivo,7999.12,121,2016-09-30,1,0,1,13776.38,590,App,0
+C01428,Alejandro Cruz Morales,M,57,Guatemala,Preferente,13347.45,18,2025-04-30,2,1,0,5720.88,686,Agencia,0
+C01429,Otto Barrios Velásquez,M,40,Quetzaltenango,Masivo,6577.25,11,2025-11-30,2,0,0,8853.6,632,Agencia,1
+C01430,Brenda Castillo Juárez,F,59,Alta Verapaz,Masivo,7679.11,54,2022-04-30,2,0,0,9048.29,540,Agencia,1
+C01431,Isabel Méndez Hernández,F,39,Sacatepéquez,Masivo,5699.28,47,2022-11-30,2,0,0,7018.95,721,App,0
+C01432,Sergio Fuentes Ramírez,M,30,Guatemala,Preferente,15749.79,72,2020-10-31,2,1,0,46104.75,681,Agencia,0
+C01433,Mariana Reyes Cruz,F,45,Guatemala,Masivo,9522.9,27,2024-07-31,2,0,1,4265.28,677,Web,0
+C01434,Alejandro Rodríguez Cruz,M,80,Chimaltenango,Masivo,6342.34,48,2022-10-31,1,0,0,7780.81,679,Agencia,0
+C01435,Alejandra Pineda Ramírez,F,27,Quetzaltenango,Masivo,7753.53,46,2022-12-31,2,0,0,14980.01,559,Web,0
+C01436,Wendy López Ortiz,F,58,Guatemala,Preferente,10029.09,34,2023-12-31,3,0,0,5114.13,691,App,0
+C01437,Alejandra Chávez Estrada,F,44,Guatemala,Masivo,7375.66,8,2026-02-28,3,1,1,3500.88,713,Agencia,0
+C01438,Francisco Arévalo Barrios,M,31,Petén,Masivo,6695.5,79,2020-03-31,1,1,1,4380.93,729,Web,0
+C01439,Pablo Solís Solís,M,24,Huehuetenango,Masivo,6446.49,54,2022-04-30,2,0,0,6473.43,700,Web,0
+C01440,Walter Rodríguez Castillo,M,22,San Marcos,Masivo,9305.04,84,2019-10-31,2,1,0,2773.41,685,Web,0
+C01441,Alejandra Ramírez Fuentes,F,33,Escuintla,Masivo,7102.37,98,2018-08-31,1,0,1,8358.39,528,Web,0
+C01442,Jorge Velásquez Pineda,M,42,Quetzaltenango,Masivo,6875.42,43,2023-03-31,3,0,0,2052.25,648,App,0
+C01443,Pablo Méndez Castillo,M,49,Quetzaltenango,Masivo,5366.21,80,2020-02-29,2,1,1,10615.44,583,App,0
+C01444,Elena Batz Ajú,F,52,Guatemala,Masivo,8351.34,138,2015-04-30,3,1,1,9572.7,739,Agencia,0
+C01445,Óscar Pineda Estrada,M,41,Alta Verapaz,Masivo,7563.87,169,2012-09-30,1,0,0,23090.87,729,Web,0
+C01446,Lesly Juárez Pérez,F,39,Escuintla,Masivo,7192.77,59,2021-11-30,2,1,0,9189.68,583,Agencia,0
+C01447,Alejandro Reyes Reyes,M,34,Guatemala,Masivo,8771.78,62,2021-08-31,4,0,0,5669.29,646,App,0
+C01448,Pablo Aguilar Girón,M,42,San Marcos,Preferente,11196.43,58,2021-12-31,3,1,1,5121.14,687,App,0
+C01449,Elena Monterroso Ortiz,F,31,Guatemala,Preferente,10953.48,70,2020-12-31,1,1,0,10357.77,733,Agencia,0
+C01450,Patricia Mejía Pineda,F,27,Guatemala,Preferente,10225.91,95,2018-11-30,1,1,1,8009.32,552,Web,0
+C01451,Estuardo Mejía Monterroso,M,39,Guatemala,Masivo,7402.31,57,2022-01-31,1,1,0,13584.72,495,App,0
+C01452,Ana Ortiz Recinos,F,47,San Marcos,Masivo,6625.81,163,2013-03-31,3,0,1,2767.09,652,App,0
+C01453,Elena Barrios Morales,F,26,Zacapa,Masivo,5766.98,147,2014-07-31,2,0,0,18984.76,472,Agencia,0
+C01454,Brenda Fuentes Ortiz,F,33,Quetzaltenango,Masivo,6570.91,50,2022-08-31,1,1,0,12830.85,661,Agencia,1
+C01455,Héctor Coyoy Ortiz,M,38,Zacapa,Masivo,8162.33,49,2022-09-30,1,1,0,5662.81,691,App,0
+C01456,Daniela Barrios Ortiz,F,38,San Marcos,Masivo,6195.24,32,2024-02-29,2,1,0,17446.03,736,App,1
+C01457,Jennifer Rodríguez Orellana,F,44,Chimaltenango,Masivo,8412.98,73,2020-09-30,3,1,0,3890.13,606,App,0
+C01458,Walter Velásquez Juárez,M,65,Chimaltenango,Masivo,5889.33,37,2023-09-30,2,1,1,5440.72,661,Web,0
+C01459,Jennifer Juárez Girón,F,22,Guatemala,Masivo,5006.89,31,2024-03-31,1,0,0,1639.09,695,App,0
+C01460,Fernando Batz Mejía,M,66,Huehuetenango,Preferente,11585.77,72,2020-10-31,2,1,1,33758.51,587,App,0
+C01461,Diego Xicará Tzul,M,64,Escuintla,Masivo,6828.4,17,2025-05-31,1,1,0,1724.22,714,Agencia,1
+C01462,Kevin Girón Batz,M,49,Huehuetenango,Masivo,6104.66,96,2018-10-31,1,0,0,1781.76,669,App,0
+C01463,Wendy Mejía Barrios,F,40,Guatemala,Masivo,5692.55,74,2020-08-31,1,0,1,2920.39,607,Agencia,0
+C01464,Andrés Xicará Rodríguez,M,32,Huehuetenango,Masivo,9650.87,142,2014-12-31,2,0,0,19482.78,659,App,1
+C01465,Rodrigo Barrios Ajú,M,49,Zacapa,Preferente,15381.29,60,2021-10-31,4,1,1,24008.3,660,App,0
+C01466,Marta Chávez Chávez,F,41,Guatemala,Masivo,6993.72,82,2019-12-31,2,0,1,6094.0,704,App,0
+C01467,Patricia Aguilar Castillo,F,35,Izabal,Masivo,7469.72,90,2019-04-30,1,1,0,12194.22,624,App,0
+C01468,Gabriela Hernández Arévalo,F,48,Guatemala,Preferente,13127.86,115,2017-03-31,2,1,1,9687.18,685,Agencia,0
+C01469,María Monterroso Recinos,F,51,Guatemala,Masivo,4867.14,55,2022-03-31,2,0,0,5233.41,606,Agencia,0
+C01470,Elena Martínez Sic,F,20,Guatemala,Preferente,21430.05,32,2024-02-29,4,1,0,54481.37,604,Web,0
+C01471,Mónica López Morales,F,57,Petén,Premium,28501.99,61,2021-09-30,3,1,0,19186.31,702,Agencia,0
+C01472,Lesly Xicará Orellana,F,31,Sacatepéquez,Masivo,4276.81,96,2018-10-31,1,0,1,2000.91,587,Agencia,0
+C01473,Ingrid Barrios Fuentes,F,54,Guatemala,Masivo,7803.11,105,2018-01-31,1,0,0,8676.68,706,Agencia,0
+C01474,Ana Juárez Martínez,F,35,Escuintla,Masivo,6320.5,8,2026-02-28,2,0,0,8489.64,691,App,0
+C01475,Daniel Cifuentes Ortiz,M,40,Guatemala,Masivo,7338.7,240,2006-10-31,3,0,1,6342.87,596,Agencia,0
+C01476,Daniela Hernández Ortiz,F,42,Quetzaltenango,Masivo,6957.54,31,2024-03-31,1,0,0,11235.17,664,App,0
+C01477,Carmen Martínez González,F,53,San Marcos,Preferente,11543.14,83,2019-11-30,3,1,1,8021.03,616,App,0
+C01478,Jennifer Monterroso Arévalo,F,47,Alta Verapaz,Masivo,7759.02,124,2016-06-30,2,0,0,6786.9,537,Agencia,0
+C01479,Ana Aguilar Barrios,F,34,Petén,Masivo,5978.43,46,2022-12-31,1,1,0,6216.56,608,Web,1
+C01480,Patricia Recinos Castillo,F,23,Escuintla,Masivo,7589.03,108,2017-10-31,2,0,0,7423.96,646,App,1
+C01481,Silvia Pérez Orellana,F,44,Izabal,Preferente,10052.23,8,2026-02-28,1,1,0,24876.94,706,Agencia,0
+C01482,Miguel Martínez Tzul,M,40,Guatemala,Masivo,5564.96,111,2017-07-31,2,1,0,5766.33,660,App,1
+C01483,Carlos Solís Ramírez,M,27,Guatemala,Masivo,5021.5,102,2018-04-30,1,1,0,3247.4,713,Web,0
+C01484,Luis Chávez Cruz,M,41,Guatemala,Preferente,21755.93,67,2021-03-31,2,1,1,25187.05,601,Agencia,1
+C01485,Byron Batz Coyoy,M,38,Sacatepéquez,Masivo,6470.19,96,2018-10-31,2,1,0,10488.27,623,App,0
+C01486,Óscar Estrada Sic,M,56,Escuintla,Masivo,7687.49,150,2014-04-30,1,0,0,10574.18,765,Agencia,0
+C01487,Gabriela Chávez Batz,F,68,Huehuetenango,Masivo,7006.28,126,2016-04-30,2,0,0,9270.42,514,Agencia,0
+C01488,Diego Recinos Orellana,M,51,Guatemala,Preferente,10204.42,48,2022-10-31,4,0,0,2860.63,638,Agencia,0
+C01489,Javier Cruz Tzul,M,37,Guatemala,Preferente,19165.09,60,2021-10-31,1,1,0,2678.32,594,Agencia,0
+C01490,Erick Castillo Martínez,M,39,Escuintla,Preferente,10353.3,42,2023-04-30,4,1,0,20223.53,656,Web,0
+C01491,Luis Orellana Aguilar,M,30,Izabal,Masivo,5154.61,38,2023-08-31,1,1,1,5606.62,619,App,0
+C01492,Isabel Xicará Ajú,F,32,Guatemala,Masivo,5307.77,90,2019-04-30,1,1,1,4182.56,692,Web,0
+C01493,Pablo Ramírez Ortiz,M,37,Guatemala,Masivo,7003.49,42,2023-04-30,2,1,1,9109.19,667,App,0
+C01494,Francisco Tzul Ramírez,M,36,Guatemala,Masivo,7329.65,90,2019-04-30,1,1,0,22598.9,558,App,1
+C01495,Sofía Estrada Cifuentes,F,27,Quetzaltenango,Masivo,4948.12,46,2022-12-31,3,0,0,10647.62,608,App,0
+C01496,Lucía Cruz Velásquez,F,57,Guatemala,Preferente,11585.41,52,2022-06-30,1,0,0,18177.01,669,Web,0
+C01497,Miguel Martínez Ortiz,M,59,Guatemala,Masivo,5703.61,24,2024-10-31,4,0,0,2452.84,701,Agencia,0
+C01498,Fernanda Orellana Fuentes,F,56,Escuintla,Preferente,16399.27,88,2019-06-30,4,0,0,7724.06,840,Agencia,0
+C01499,Gloria Xicará Pérez,F,60,Guatemala,Preferente,19695.19,8,2026-02-28,1,1,1,2964.62,719,Agencia,1
+C01500,Rosa Martínez López,F,75,Guatemala,Masivo,,114,2017-04-30,2,0,0,9201.67,579,Web,0
