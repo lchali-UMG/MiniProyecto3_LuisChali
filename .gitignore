@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Base de datos y archivos generados (se recrean con run_pipeline.py)
+data/db/*.db
+data/raw/*.csv
+models/*.joblib
+
+# Entorno / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# UiPath
+uipath/**/.local/
+uipath/**/.settings/
+
+# Power BI (archivos temporales)
+~$*
