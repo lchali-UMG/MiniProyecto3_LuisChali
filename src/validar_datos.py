@@ -12,6 +12,8 @@ y distribuciones.
 
 Uso:  python -m src.validar_datos
 """
+from datetime import timedelta
+
 import matplotlib
 matplotlib.use("Agg")  # genera las imágenes sin abrir ventanas
 import matplotlib.pyplot as plt
@@ -88,7 +90,7 @@ def validar(tablas):
             res.append(("Rango", t, f"{col} entre {mn:,} y {mx:,}: {fuera} fuera de rango", estado(fuera == 0)))
 
     # Fechas dentro de la ventana observada
-    ini, fin = pd.Timestamp(config.FECHA_INICIO), pd.Timestamp(config.FECHA_CORTE) + pd.Timedelta(days=1)
+    ini, fin = pd.Timestamp(config.FECHA_INICIO), pd.Timestamp(config.FECHA_CORTE) + timedelta(days=1)
     for t in ["transacciones", "interacciones"]:
         f = tablas[t]["fecha"]
         fuera = int(((f < ini) | (f >= fin)).sum())

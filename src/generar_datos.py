@@ -14,6 +14,8 @@ actividad durante los últimos meses, como pasa en la vida real.
 
 Uso:  python -m src.generar_datos
 """
+from datetime import timedelta
+
 import numpy as np
 import pandas as pd
 
@@ -202,7 +204,7 @@ def generar_transacciones(rng, clientes):
             dias_mes = mes.days_in_month
             for _ in range(n_mes):
                 tipo = rng.choice(TIPOS_TRANSACCION, p=p_tipos)
-                fecha = mes + pd.Timedelta(days=int(rng.integers(0, dias_mes)),
+                fecha = mes + timedelta(days=int(rng.integers(0, dias_mes)),
                                            minutes=int(rng.integers(6 * 60, 22 * 60)))
                 monto = max(10.0, montos_por_tipo(rng, tipo, c.ingreso_mensual))
                 filas.append((c.cliente_id, fecha, tipo,
@@ -226,7 +228,7 @@ def generar_interacciones(rng, clientes, quejas):
         n_consultas = rng.poisson(1.5)
         tipos = ["Consulta"] * n_consultas + list(rng.choice(["Queja", "Reclamo"], n_quejas, p=[0.7, 0.3]))
         for tipo in tipos:
-            fecha = inicio + pd.Timedelta(days=int(rng.integers(0, dias_ventana + 1)))
+            fecha = inicio + timedelta(days=int(rng.integers(0, dias_ventana + 1)))
             if tipo == "Consulta":
                 p_resuelta = 0.95
             else:
