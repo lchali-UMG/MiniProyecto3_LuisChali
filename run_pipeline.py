@@ -6,6 +6,8 @@ Pipeline completo del MVP de NovaBank (de principio a fin).
   3. Ingesta  -> Bronze
   4. Limpieza -> Silver
   5. Variables por cliente -> Gold
+  6. Entrenamiento y evaluación del modelo
+  7. Predicción + acción recomendada -> Gold (gold_predicciones)
 
 Uso:
   python run_pipeline.py              # usa los CSV existentes
@@ -14,7 +16,7 @@ Uso:
 import argparse
 import time
 
-from src import config, generar_datos, ingesta, transformar, validar_datos
+from src import config, generar_datos, ingesta, modelo, predecir, transformar, validar_datos
 
 
 def paso(numero, titulo):
@@ -42,6 +44,12 @@ def main():
 
     paso(4, "Limpieza -> capa SILVER  |  Variables -> capa GOLD")
     transformar.main()
+
+    paso(5, "Modelo de abandono: entrenamiento y evaluación")
+    modelo.main()
+
+    paso(6, "Predicción y acción recomendada -> GOLD")
+    predecir.main()
 
     print(f"\nPipeline terminado en {time.time() - inicio:.1f} s  ->  {config.DB_PATH}")
 

@@ -1,0 +1,60 @@
+{
+  "fecha_entrenamiento": "2026-11-09T18:17:51",
+  "modelo_elegido": "Regresión Logística",
+  "umbral": 0.3,
+  "registros": {
+    "entrenamiento": 1125,
+    "prueba": 375,
+    "tasa_abandono": 0.1827
+  },
+  "comparacion": {
+    "Regresión Logística": {
+      "auc_cv_media": 0.8431,
+      "auc_cv_desv": 0.0484,
+      "umbral": 0.3,
+      "prueba": {
+        "auc": 0.8215,
+        "f1": 0.5563,
+        "precision": 0.506,
+        "recall": 0.6176,
+        "exactitud": 0.8213,
+        "matriz_confusion": {
+          "vn": 266,
+          "fp": 41,
+          "fn": 26,
+          "vp": 42
+        }
+      }
+    },
+    "Random Forest": {
+      "auc_cv_media": 0.8209,
+      "auc_cv_desv": 0.0475,
+      "umbral": 0.3,
+      "prueba": {
+        "auc": 0.82,
+        "f1": 0.5828,
+        "precision": 0.5301,
+        "recall": 0.6471,
+        "exactitud": 0.832,
+        "matriz_confusion": {
+          "vn": 268,
+          "fp": 39,
+          "fn": 24,
+          "vp": 44
+        }
+      }
+    }
+  },
+  "importancia_variables": {
+    "trx_ult_3m": 0.2178,
+    "trx_12m": 0.0757,
+    "quejas_no_resueltas": 0.0691,
+    "dias_sin_trx": 0.0244,
+    "num_productos": 0.0092,
+    "tiene_tarjeta_credito": 0.0091,
+    "saldo_promedio": 0.0087,
+    "edad": 0.0079,
+    "monto_12m": 0.0046,
+    "segmento": 0.0029
+  }
+}

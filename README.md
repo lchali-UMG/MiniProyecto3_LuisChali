@@ -110,15 +110,47 @@ pytest -m ingesta
 Al terminar se genera automáticamente el reporte `reports/pruebas_ingesta.html`
 (HTML simple, sin JavaScript, se abre en cualquier navegador).
 
-31 pruebas que comprueban que los datos llegan **completos y correctos** a cada capa:
+33 pruebas que comprueban que los datos llegan **completos y correctos** a cada capa:
 
 | Capa | Qué se comprueba |
 |---|---|
 | Bronze | Mismo número de registros y columnas que el CSV; metadatos de carga completos |
 | Silver | Mínimo 1,000 clientes; no se pierden registros válidos; columnas y tipos esperados; sin nulos; sin duplicados; integridad referencial; rangos válidos |
-| Gold | Una fila por cliente; columnas del modelo; sin nulos; el total de transacciones cuadra con Silver; tasa de abandono realista |
+| Gold | Una fila por cliente; columnas del modelo; sin nulos; el total de transacciones cuadra con Silver; tasa de abandono realista; una predicción válida por cliente |
 | Control | La bitácora registra todas las tablas de las 3 capas |
 
 > Si la base no existe, las pruebas la construyen automáticamente antes de correr.
+
+### Parte 4 — Modelo, métrica y predicciones
+
+```bash
+python -m src.modelo     # entrena, compara y evalúa
+python -m src.predecir   # predice cada cliente y guarda en Gold
+```
+
+**Qué predice:** la probabilidad de que el cliente **abandone el banco en los próximos 90 días**.
+
+| | Regresión Logística (elegido) | Random Forest |
+|---|---|---|
+| AUC validación cruzada (5 pliegues) | **0.843** ± 0.048 | 0.821 ± 0.047 |
+| AUC conjunto de prueba (375 clientes) | **0.822** | 0.820 |
+
+Métricas del modelo elegido en el conjunto de prueba (umbral 0.30, elegido por máximo F1 en validación cruzada):
+**AUC 0.822 · F1 0.556 · Precisión 0.506 · Recall 0.618 · Exactitud 0.821**.
+
+- Las probabilidades están **calibradas** (no se usa `class_weight`): en el grupo de riesgo Alto la probabilidad
+  media es 66 % y el abandono real 70 %.
+- Variables más importantes: transacciones de los últimos 3 meses, transacciones del año, quejas no resueltas,
+  días sin transacciones y número de productos.
+- Métricas completas: `reports/metricas_modelo.json` · Gráficas: `reports/figuras/03_curva_roc.png`,
+  `04_matriz_confusion.png`, `05_importancia_variables.png`.
+
+**Nivel de riesgo y acción recomendada** (`src/predecir.py` → tabla `gold_predicciones`):
+
+| Riesgo | Probabilidad | Acciones posibles (según el perfil del cliente) |
+|---|---|---|
+| Alto | ≥ 45 % | Resolver queja pendiente · Llamada de asesor personal (alto valor) · Campaña de reactivación · Exoneración de comisiones |
+| Medio | 20 % – 45 % | Tarjeta de crédito preaprobada (venta cruzada) · Invitación a la app · Plan de ahorro programado |
+| Bajo | < 20 % | Sin acción: seguimiento normal |
 
 > Las siguientes partes del pipeline se agregan a medida que avanza el proyecto.

@@ -178,6 +178,22 @@ def test_gold_tasa_de_abandono_razonable(consultar):
     assert 0.05 <= tasa <= 0.40
 
 
+def test_gold_predicciones_una_por_cliente(consultar):
+    """Cada cliente tiene exactamente una predicción guardada en Gold."""
+    n = contar(consultar, "gold_predicciones")
+    unicos = consultar("SELECT COUNT(DISTINCT cliente_id) AS n FROM gold_predicciones")["n"][0]
+    assert n == unicos == contar(consultar, "gold_features_cliente")
+
+
+def test_gold_predicciones_completas_y_validas(consultar):
+    """Toda predicción tiene probabilidad entre 0 y 1, nivel de riesgo y acción."""
+    p = consultar("SELECT * FROM gold_predicciones")
+    assert p.isna().sum().sum() == 0
+    assert p["prob_abandono"].between(0, 1).all()
+    assert set(p["nivel_riesgo"]) <= {"Alto", "Medio", "Bajo"}
+    assert (p["accion"].str.len() > 0).all()
+
+
 # ===========================================================================
 # Bitácora de cargas
 # ===========================================================================
@@ -185,5 +201,5 @@ def test_control_cargas_registra_todas_las_capas(consultar):
     """La bitácora tiene registro de cada tabla cargada en Bronze, Silver y Gold."""
     tablas = set(consultar("SELECT DISTINCT tabla FROM control_cargas")["tabla"])
     esperadas = {f"{capa}_{t}" for capa in ["bronze", "silver"] for t in TABLAS}
-    esperadas.add("gold_features_cliente")
+    esperadas |= {"gold_features_cliente", "gold_predicciones"}
     assert esperadas <= tablas

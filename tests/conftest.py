@@ -4,7 +4,7 @@ import time
 import pandas as pd
 import pytest
 
-from src import config, ingesta, transformar
+from src import config, ingesta, modelo, predecir, transformar
 from src.db import conectar
 from tests.reporte_html import escribir_reporte, resultado_desde_reporte
 
@@ -42,6 +42,8 @@ def con():
     if not config.DB_PATH.exists():
         ingesta.main()
         transformar.main()
+        modelo.main()
+        predecir.main()
     conexion = conectar()
     yield conexion
     conexion.close()
