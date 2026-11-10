@@ -193,4 +193,21 @@ Ejemplo de `POST /acciones`:
 { "cliente_id": "C01108", "estado": "Ejecutada", "ejecutado_por": "UiPath", "detalle": "Correo enviado al equipo de retención" }
 ```
 
+### Parte 6 — Pruebas unitarias (pytest)
+
+```bash
+pytest -m unitaria     # solo unitarias  -> reports/pruebas_unitarias.html
+pytest                 # todas (ingesta + unitarias) -> reports/pruebas_todas.html
+```
+
+26 pruebas unitarias con datos pequeños hechos a mano (no dependen de la base real):
+
+| Componente | Qué se prueba |
+|---|---|
+| Regla de decisión | Umbrales de riesgo (incluidos los límites 0.45 y 0.20); la acción correcta para cada perfil; las quejas tienen prioridad sobre el valor del cliente; siempre devuelve acción, canal, motivo y prioridad |
+| Limpieza Silver | Elimina duplicados; imputa ingreso con la mediana del segmento y canal con la moda; convierte tipos; descarta transacciones huérfanas y montos inválidos |
+| Variables Gold | Cálculo de la tendencia de actividad, conteo de quejas y valores por defecto para clientes sin transacciones |
+| Métricas | AUC, matriz de confusión, precisión y recall con un resultado conocido |
+| API | `GET /recomendacion` (200 y 404), `POST /acciones` (201, 404 y 422), exclusión de clientes ya contactados, `/health` y `/resumen` — con una base temporal para no tocar la real |
+
 > Las siguientes partes del pipeline se agregan a medida que avanza el proyecto.
