@@ -210,4 +210,24 @@ pytest                 # todas (ingesta + unitarias) -> reports/pruebas_todas.ht
 | Métricas | AUC, matriz de confusión, precisión y recall con un resultado conocido |
 | API | `GET /recomendacion` (200 y 404), `POST /acciones` (201, 404 y 422), exclusión de clientes ya contactados, `/health` y `/resumen` — con una base temporal para no tocar la real |
 
+### Parte 7 — Automatización con UiPath
+
+Proyecto en `uipath/NovaBank_Robot_Retencion/` (Windows, VB, `UiPath.System.Activities 25.10.5`).
+Guía completa de configuración: [`uipath/README.md`](uipath/README.md).
+
+```
+Disparador (Time Trigger / manual)
+  -> GET /health                          ¿la API está disponible?
+  -> GET /clientes/alto-riesgo            obtener predicciones (pendientes de contactar)
+  -> Regla de decisión (Switch)           prob >= 0.70 -> Urgente | si no -> Campaña
+  -> POST /acciones                       registro en gold_acciones_log (capa Gold)
+  -> GET /resumen + correo SMTP Gmail     resumen HTML al equipo de retención
+```
+
+```bash
+python -m src.api                  # 1. levantar la API
+python -m src.reiniciar_acciones   # 2. (opcional) limpiar la bitácora antes de una demo
+# 3. ejecutar el robot desde UiPath Studio / Assistant / Orchestrator
+```
+
 > Las siguientes partes del pipeline se agregan a medida que avanza el proyecto.

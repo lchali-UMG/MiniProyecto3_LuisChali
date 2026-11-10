@@ -1,0 +1,108 @@
+{
+  "name": "NovaBank_Robot_Retencion",
+  "projectId": "1445c2cf-7bd9-51b5-8c05-6c7b497b4a40",
+  "description": "MVP NovaBank: obtiene predicciones de abandono desde la API, aplica la regla de decisión, registra acciones y envía un correo resumen.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[25.10.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*",
+      "*clave*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "04a6c71a-7887-5a04-b416-43321b4bc412",
+      "input": [
+        {
+          "name": "in_ApiUrl",
+          "type": "System.String",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "in_Umbral",
+          "type": "System.Double",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "in_UmbralUrgente",
+          "type": "System.Double",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "in_Limite",
+          "type": "System.Int32",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "in_Destinatario",
+          "type": "System.String",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "in_AssetGmail",
+          "type": "System.String",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "in_SmtpServidor",
+          "type": "System.String",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "in_SmtpPuerto",
+          "type": "System.Int32",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
