@@ -1,6 +1,6 @@
 {
   "name": "NovaBank",
-  "dataColors": ["#1F4E79", "#C0504D", "#F79646", "#9BBB59", "#5B9BD5", "#7F7F7F", "#264478", "#A5A5A5"],
+  "dataColors": ["#C0504D", "#9BBB59", "#F79646", "#1F4E79", "#5B9BD5", "#7F7F7F", "#264478", "#A5A5A5"],
   "good": "#9BBB59",
   "neutral": "#F79646",
   "bad": "#C0504D",
