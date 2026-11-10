@@ -15,7 +15,7 @@ import joblib
 import pandas as pd
 
 from src import config
-from src.db import conectar, guardar_tabla, leer_tabla, registrar_control
+from src.db import conectar, crear_tabla_acciones, guardar_tabla, leer_tabla, registrar_control
 from src.modelo import ARCHIVO_MODELO
 
 # Niveles de riesgo según la probabilidad de abandono
@@ -97,6 +97,7 @@ def predecir():
     pred = pred.sort_values("prob_abandono", ascending=False).reset_index(drop=True)
 
     guardar_tabla(con, pred, "gold_predicciones")
+    crear_tabla_acciones(con)  # la bitácora de acciones queda lista para UiPath
     registrar_control(con, "gold", "gold_predicciones", len(gold), len(pred),
                       f"modelo: {paquete['nombre']}; umbral: {umbral}")
     con.close()

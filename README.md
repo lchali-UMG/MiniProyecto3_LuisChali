@@ -153,4 +153,44 @@ Métricas del modelo elegido en el conjunto de prueba (umbral 0.30, elegido por 
 | Medio | 20 % – 45 % | Tarjeta de crédito preaprobada (venta cruzada) · Invitación a la app · Plan de ahorro programado |
 | Bajo | < 20 % | Sin acción: seguimiento normal |
 
+### Parte 5 — API (FastAPI)
+
+```bash
+python -m src.api          # levanta la API en http://127.0.0.1:8000
+```
+
+Documentación interactiva (Swagger): **http://127.0.0.1:8000/docs**
+
+| Método | Ruta | Para qué sirve |
+|---|---|---|
+| GET | `/health` | Estado de la API y número de predicciones disponibles |
+| GET | `/recomendacion/{cliente_id}` | Probabilidad de abandono, nivel de riesgo y acción recomendada de un cliente (404 si no existe) |
+| GET | `/clientes/alto-riesgo?umbral=0.45&limite=50&solo_pendientes=true` | Clientes a contactar, del más al menos riesgoso (lo usa UiPath). Con `solo_pendientes` se excluyen los que ya tienen una acción ejecutada |
+| POST | `/acciones` | Registra una acción ejecutada en `gold_acciones_log` (si no se envía la acción, usa la recomendada) |
+| GET | `/acciones` | Consulta la bitácora de acciones |
+| GET | `/resumen` | Indicadores: clientes y saldo por nivel de riesgo, acciones ejecutadas |
+
+Ejemplo de respuesta de `GET /recomendacion/C01108`:
+
+```json
+{
+  "cliente_id": "C01108",
+  "nombre": "Sergio Ramírez Arévalo",
+  "segmento": "Preferente",
+  "prob_abandono": 0.9618,
+  "nivel_riesgo": "Alto",
+  "prediccion_abandono": 1,
+  "accion": "Resolver queja pendiente y llamada de seguimiento",
+  "canal_contacto": "Llamada",
+  "motivo": "Tiene quejas sin resolver",
+  "prioridad": 1
+}
+```
+
+Ejemplo de `POST /acciones`:
+
+```json
+{ "cliente_id": "C01108", "estado": "Ejecutada", "ejecutado_por": "UiPath", "detalle": "Correo enviado al equipo de retención" }
+```
+
 > Las siguientes partes del pipeline se agregan a medida que avanza el proyecto.
