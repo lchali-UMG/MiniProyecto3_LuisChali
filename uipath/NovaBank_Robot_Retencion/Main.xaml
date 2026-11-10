@@ -450,7 +450,7 @@
                 <InArgument x:TypeArguments="x:String">[New System.Net.NetworkCredential("", secGmailClave).Password]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:LogMessage DisplayName="Log credencial" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;Credencial de Gmail obtenida de Orchestrator: &quot; &amp; strGmailUsuario]" />
+            <ui:LogMessage DisplayName="Log credencial" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;Credencial de Gmail obtenida de Orchestrator. Usuario: '&quot; &amp; strGmailUsuario &amp; &quot;'&quot;]" />
           </Sequence>
         </TryCatch.Try>
         <TryCatch.Catches>
@@ -487,9 +487,9 @@
           </Catch>
         </TryCatch.Catches>
       </TryCatch>
-      <If Condition="[String.IsNullOrWhiteSpace(strGmailUsuario) OrElse String.IsNullOrWhiteSpace(strGmailClave)]" DisplayName="¿Hay credenciales?" sap:VirtualizedContainerService.HintSize="488,1741" sap2010:WorkflowViewState.IdRef="If_5">
+      <If Condition="[String.IsNullOrWhiteSpace(strGmailClave) OrElse Not System.Text.RegularExpressions.Regex.IsMatch(If(strGmailUsuario, &quot;&quot;).Trim(), &quot;^[^@\s]+@[^@\s]+\.[^@\s]+$&quot;)]" DisplayName="¿Credenciales válidas?" sap:VirtualizedContainerService.HintSize="488,1741" sap2010:WorkflowViewState.IdRef="If_5">
         <If.Then>
-          <ui:LogMessage DisplayName="Log sin correo" sap:VirtualizedContainerService.HintSize="486,143" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Warn" Message="[&quot;Sin credenciales de Gmail: no se envía correo (las acciones ya quedaron registradas).&quot;]" />
+          <ui:LogMessage DisplayName="Log sin correo" sap:VirtualizedContainerService.HintSize="486,143" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Warn" Message="[&quot;Credenciales de Gmail incompletas o el usuario no es un correo válido (usuario recibido: '&quot; &amp; strGmailUsuario &amp; &quot;'). No se envía correo; las acciones ya quedaron registradas.&quot;]" />
         </If.Then>
         <If.Else>
           <Sequence DisplayName="Enviar" sap:VirtualizedContainerService.HintSize="486,1446" sap2010:WorkflowViewState.IdRef="Sequence_14">
@@ -530,7 +530,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:SendMail DisplayName="Send SMTP Mail Message (Gmail)" sap:VirtualizedContainerService.HintSize="416,201" sap2010:WorkflowViewState.IdRef="SendMail_1" sap2010:Annotation.AnnotationText="Gmail: smtp.gmail.com, puerto 587 (TLS). La clave es una contraseña de aplicación de Google." Server="[in_SmtpServidor]" Port="[in_SmtpPuerto]" SecureConnection="Auto" Email="[strGmailUsuario]" Password="[strGmailClave.Replace(&quot; &quot;, &quot;&quot;)]" To="[strDestinatario]" Subject="[strAsunto]" Body="[strCuerpoCorreo]" IsBodyHtml="True" />
+                  <ui:SendMail DisplayName="Send SMTP Mail Message (Gmail)" sap:VirtualizedContainerService.HintSize="416,201" sap2010:WorkflowViewState.IdRef="SendMail_1" sap2010:Annotation.AnnotationText="Gmail: smtp.gmail.com, puerto 587 (TLS). La clave es una contraseña de aplicación de Google." Server="[in_SmtpServidor]" Port="[in_SmtpPuerto]" SecureConnection="Auto" Email="[strGmailUsuario.Trim()]" Password="[strGmailClave.Replace(&quot; &quot;, &quot;&quot;)]" To="[strDestinatario.Trim()]" Subject="[strAsunto]" Body="[strCuerpoCorreo]" IsBodyHtml="True" />
                   <ui:LogMessage DisplayName="Log correo enviado" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[&quot;Correo resumen enviado a &quot; &amp; strDestinatario]" />
                 </Sequence>
               </TryCatch.Try>
