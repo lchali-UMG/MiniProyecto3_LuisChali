@@ -1,0 +1,26 @@
+%% Zonas de almacenamiento de datos por tipo (MVP y siguiente fase)
+flowchart TB
+    subgraph E["① DATOS ESTRUCTURADOS — implementado (SQLite: novabank.db, arquitectura medallón)"]
+        direction LR
+        E1["<b>Bronze</b><br/>bronze_clientes<br/>bronze_transacciones<br/>bronze_interacciones"] --> E2["<b>Silver</b><br/>silver_clientes<br/>silver_transacciones<br/>silver_interacciones"] --> E3["<b>Gold</b><br/>gold_features_cliente<br/>gold_predicciones<br/>gold_acciones_log"] ~~~ E4["<b>Control</b><br/>control_cargas<br/>(bitácora de cargas)"]
+    end
+    subgraph S["② DATOS SEMI-ESTRUCTURADOS — implementado (archivos)"]
+        direction LR
+        S1["CSV fuente<br/>data/raw/"] ~~~ S2["Respuestas JSON<br/>de la API"] ~~~ S3["metricas_modelo.json"] ~~~ S4["Logs de ejecución<br/>de UiPath (JSON)"] ~~~ S5["CSV para Power BI<br/>powerbi/datos/"]
+    end
+    subgraph N["③ DATOS NO ESTRUCTURADOS — parcial"]
+        direction LR
+        N1["Correos HTML<br/>del robot"] ~~~ N2["Gráficas PNG y<br/>reportes HTML"] ~~~ N3["Binarios: modelo .joblib<br/>y tablero .pbix"] ~~~ N4["Texto libre de quejas<br/>y llamadas — siguiente fase"]
+    end
+    subgraph T["④ DATOS NO TRADICIONALES — siguiente fase"]
+        direction LR
+        T1["Navegación en app<br/>(clickstream)"] ~~~ T2["Geolocalización de<br/>transacciones"] ~~~ T3["Grabaciones del<br/>call center (voz)"] ~~~ T4["Datos alternativos<br/>(redes sociales, buró)"]
+    end
+    E ~~~ S ~~~ N ~~~ T
+
+    classDef nodo fill:#ffffff,stroke:#7f7f7f,color:#1f2933
+    class E1,E2,E3,E4,S1,S2,S3,S4,S5,N1,N2,N3,N4,T1,T2,T3,T4 nodo
+    style E fill:#e8f0f8,stroke:#1f4e79,color:#1f4e79
+    style S fill:#eef6e8,stroke:#5b8c2a,color:#3d6b12
+    style N fill:#fdf1e6,stroke:#c46a1b,color:#9a4f0d
+    style T fill:#f3eaf6,stroke:#7a4a8c,color:#5c2f6e

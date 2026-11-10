@@ -1,0 +1,13 @@
+%% Pipeline de principio a fin: python run_pipeline.py + robot UiPath
+flowchart LR
+    A["<b>1. Fuentes de datos</b><br/>Datos sintéticos<br/>1,500 clientes<br/>48,042 transacciones<br/>3,095 interacciones"]
+    B["<b>2. Ingesta</b><br/>Validación de rangos,<br/>nulos y duplicados<br/>33 pruebas de ingesta"]
+    C["<b>3. Almacenamiento crudo</b><br/>SQLite · Bronze<br/>texto tal cual +<br/>metadatos de carga"]
+    D["<b>4. Procesamiento / ETL</b><br/>Silver: tipos, nulos,<br/>duplicados<br/>Gold: 26 variables"]
+    E["<b>5. Servidor / MLOps</b><br/>Regresión Logística<br/>AUC 0.82<br/>predicción + acción"]
+    F["<b>6. Consumo</b><br/>API FastAPI<br/>Robot UiPath<br/>Tablero Power BI"]
+    A --> B --> C --> D --> E --> F
+    F -. "acciones registradas<br/>(gold_acciones_log)" .-> D
+
+    classDef paso fill:#1f4e79,stroke:#123050,color:#ffffff
+    class A,B,C,D,E,F paso

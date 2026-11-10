@@ -1,0 +1,27 @@
+%% Flujo de automatización: disparador -> predicciones -> regla -> acción
+sequenceDiagram
+    autonumber
+    participant O as Orchestrator<br/>(Time Trigger)
+    participant R as Robot UiPath
+    participant A as API FastAPI
+    participant D as SQLite (Gold)
+    participant G as Gmail (SMTP)
+    O->>R: Disparar proceso NovaBank_Robot_Retencion
+    R->>A: GET /health
+    A-->>R: 200 ok (1,500 predicciones)
+    R->>A: GET /clientes/alto-riesgo?umbral=0.45&limite=20
+    A->>D: Clientes con prob >= 0.45 sin acción ejecutada
+    A-->>R: Lista JSON de clientes
+    loop Para cada cliente
+        R->>R: Regla: prob >= 0.70 → Urgente, si no → Campaña
+        R->>A: POST /acciones (cliente, estado, detalle)
+        A->>D: INSERT gold_acciones_log
+        A-->>R: 201 Created
+    end
+    R->>A: POST /powerbi/exportar
+    A->>D: Lee Gold y genera CSV
+    A-->>R: 200 archivos actualizados
+    R->>A: GET /resumen
+    A-->>R: KPIs (riesgo alto, saldo, acumulado)
+    R->>G: Send SMTP Mail Message (resumen HTML)
+    G-->>R: Correo enviado

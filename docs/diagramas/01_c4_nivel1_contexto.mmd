@@ -1,0 +1,22 @@
+%% C4 Nivel 1 - Contexto del sistema (MVP NovaBank)
+flowchart LR
+    analista["👤 <b>Equipo de retención</b><br/><i>[Persona]</i><br/>Recibe los casos urgentes<br/>y contacta a los clientes"]
+    gerencia["👤 <b>Gerencia NovaBank</b><br/><i>[Persona]</i><br/>Consulta indicadores<br/>de riesgo y avance"]
+
+    sistema["<b>Plataforma de hiperpersonalización</b><br/><i>[Sistema - MVP]</i><br/>Predice el riesgo de abandono de cada<br/>cliente, recomienda una acción de retención<br/>y la ejecuta de forma automática"]
+
+    fuentes["<b>Sistemas fuente del banco</b><br/><i>[Sistema externo - simulado]</i><br/>Core bancario / CRM, core transaccional<br/>y call center (datos sintéticos)"]
+    gmail["<b>Gmail (SMTP)</b><br/><i>[Sistema externo]</i><br/>Envío de correos"]
+
+    fuentes -- "Clientes, transacciones e<br/>interacciones (CSV)" --> sistema
+    sistema -- "Correo resumen con<br/>casos urgentes" --> gmail
+    gmail -- "Notificación" --> analista
+    gerencia -- "Consulta tablero<br/>(Power BI)" --> sistema
+    analista -- "Consulta recomendación<br/>por cliente (API)" --> sistema
+
+    classDef persona fill:#08427b,stroke:#052e56,color:#ffffff
+    classDef sistema fill:#1168bd,stroke:#0b4884,color:#ffffff
+    classDef externo fill:#999999,stroke:#6b6b6b,color:#ffffff
+    class analista,gerencia persona
+    class sistema sistema
+    class fuentes,gmail externo

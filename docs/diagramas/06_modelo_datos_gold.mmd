@@ -1,0 +1,54 @@
+%% Modelo de datos de la capa Gold (y su origen en Silver)
+erDiagram
+    silver_clientes ||--o{ silver_transacciones : "realiza"
+    silver_clientes ||--o{ silver_interacciones : "contacta"
+    silver_clientes ||--|| gold_features_cliente : "se resume en"
+    gold_features_cliente ||--|| gold_predicciones : "se predice"
+    gold_predicciones ||--o{ gold_acciones_log : "genera"
+
+    silver_clientes {
+        text cliente_id PK
+        text segmento
+        int edad
+        real ingreso_mensual
+        int antiguedad_meses
+        int abandono
+    }
+    silver_transacciones {
+        text transaccion_id PK
+        text cliente_id FK
+        text fecha
+        text tipo
+        real monto
+    }
+    silver_interacciones {
+        text interaccion_id PK
+        text cliente_id FK
+        text tipo
+        int resuelta
+    }
+    gold_features_cliente {
+        text cliente_id PK
+        int trx_12m
+        int trx_ult_3m
+        real tendencia_actividad
+        int dias_sin_trx
+        int quejas_no_resueltas
+        int abandono
+    }
+    gold_predicciones {
+        text cliente_id PK
+        real prob_abandono
+        text nivel_riesgo
+        text accion
+        text canal_contacto
+        int prioridad
+    }
+    gold_acciones_log {
+        int id PK
+        text cliente_id FK
+        text fecha_registro
+        text accion
+        text estado
+        text ejecutado_por
+    }

@@ -1,0 +1,41 @@
+%% C4 Nivel 2 - Contenedores (MVP NovaBank)
+flowchart TB
+    fuentes["<b>Sistemas fuente (simulados)</b><br/><i>[Python: generar_datos.py]</i><br/>clientes · transacciones · interacciones (CSV)"]
+
+    subgraph plataforma["Plataforma de hiperpersonalización NovaBank — MVP (run_pipeline.py)"]
+        direction TB
+        ingesta["<b>Ingesta y validación</b><br/><i>[Python: pandas + pytest]</i><br/>validar_datos.py · ingesta.py"]
+        db[("<b>Base de datos analítica</b><br/><i>[SQLite: novabank.db]</i><br/>Bronze → Silver → Gold<br/>+ control_cargas")]
+        etl["<b>Transformación (ETL)</b><br/><i>[Python: pandas]</i><br/>transformar.py"]
+        ml["<b>Modelo y predicción</b><br/><i>[Python: scikit-learn]</i><br/>modelo.py · predecir.py"]
+        api["<b>API de recomendaciones</b><br/><i>[FastAPI + uvicorn]</i><br/>/recomendacion/{id} · /clientes/alto-riesgo<br/>/acciones · /resumen · /powerbi/exportar"]
+        csv["<b>Exportación BI</b><br/><i>[Python: exportar_powerbi.py]</i><br/>CSV de la capa Gold"]
+    end
+
+    robot["<b>Robot de retención</b><br/><i>[UiPath Studio + Orchestrator]</i><br/>Disparador · regla de decisión · acciones"]
+    pbi["<b>Tablero</b><br/><i>[Power BI Desktop]</i><br/>KPIs, predicciones y acciones"]
+    gmail["<b>Gmail</b><br/><i>[SMTP]</i>"]
+    equipo["👤 <b>Equipo de retención</b>"]
+    gerencia["👤 <b>Gerencia</b>"]
+
+    fuentes -->|"1. CSV"| ingesta
+    ingesta -->|"2. carga Bronze"| db
+    db <-->|"3. Silver / Gold"| etl
+    db <-->|"4. variables → predicciones"| ml
+    api <-->|"5. lee Gold / escribe acciones"| db
+    api -->|"6. exporta"| csv
+    robot -->|"HTTP + JSON"| api
+    robot -->|"correo resumen"| gmail
+    gmail --> equipo
+    csv -->|"CSV"| pbi
+    gerencia -->|"consulta"| pbi
+
+    classDef persona fill:#08427b,stroke:#052e56,color:#ffffff
+    classDef contenedor fill:#438dd5,stroke:#2e6295,color:#ffffff
+    classDef datos fill:#1f4e79,stroke:#123050,color:#ffffff
+    classDef externo fill:#999999,stroke:#6b6b6b,color:#ffffff
+    class equipo,gerencia persona
+    class ingesta,etl,ml,api,csv,robot,pbi contenedor
+    class db datos
+    class fuentes,gmail externo
+    style plataforma fill:#ffffff,stroke:#1168bd,stroke-dasharray: 5 5,color:#1168bd
