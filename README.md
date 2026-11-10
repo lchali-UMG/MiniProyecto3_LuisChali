@@ -104,9 +104,11 @@ Variables de comportamiento calculadas en Gold:
 ### Parte 3 — Pruebas de ingesta (pytest)
 
 ```bash
-pytest -m ingesta                                                         # en consola
-pytest -m ingesta --html=reports/pruebas_ingesta.html --self-contained-html   # + reporte HTML
+pytest -m ingesta
 ```
+
+Al terminar se genera automáticamente el reporte `reports/pruebas_ingesta.html`
+(HTML simple, sin JavaScript, se abre en cualquier navegador).
 
 31 pruebas que comprueban que los datos llegan **completos y correctos** a cada capa:
 
