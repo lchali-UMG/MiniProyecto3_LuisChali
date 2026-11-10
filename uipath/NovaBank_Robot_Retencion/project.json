@@ -4,6 +4,7 @@
   "description": "MVP NovaBank: obtiene predicciones de abandono desde la API, aplica la regla de decisión, registra acciones y envía un correo resumen.",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Mail.Activities": "[2.12.10]",
     "UiPath.System.Activities": "[25.10.5]"
   },
   "webServices": [],
@@ -34,7 +35,6 @@
     "projectProfile": "Developement",
     "outputType": "Process",
     "libraryOptions": {
-      "includeOriginalXaml": false,
       "privateWorkflows": []
     },
     "processOptions": {

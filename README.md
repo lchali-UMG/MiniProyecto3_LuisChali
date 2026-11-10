@@ -212,7 +212,7 @@ pytest                 # todas (ingesta + unitarias) -> reports/pruebas_todas.ht
 
 ### Parte 7 — Automatización con UiPath
 
-Proyecto en `uipath/NovaBank_Robot_Retencion/` (Windows, VB, `UiPath.System.Activities 25.10.5`).
+Proyecto en `uipath/NovaBank_Robot_Retencion/` (Windows, VB, `UiPath.System.Activities 25.10.5` + `UiPath.Mail.Activities 2.12.10`).
 Guía completa de configuración: [`uipath/README.md`](uipath/README.md).
 
 ```

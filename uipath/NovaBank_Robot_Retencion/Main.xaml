@@ -1,25 +1,563 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" this:Main.in_ApiUrl="http://127.0.0.1:8000" this:Main.in_Umbral="0.45" this:Main.in_UmbralUrgente="0.7" this:Main.in_Limite="20" this:Main.in_AssetGmail="NovaBank_Gmail" this:Main.in_SmtpServidor="smtp.gmail.com" this:Main.in_SmtpPuerto="587"
- xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
- xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
- xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json"
- xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib"
- xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
- xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
- xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib"
- xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib"
- xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib"
- xmlns:this="clr-namespace:"
- xmlns:ui="http://schemas.uipath.com/workflow/activities"
- xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <x:Members><x:Property Name="in_ApiUrl" Type="InArgument(x:String)" /><x:Property Name="in_Umbral" Type="InArgument(x:Double)" /><x:Property Name="in_UmbralUrgente" Type="InArgument(x:Double)" /><x:Property Name="in_Limite" Type="InArgument(x:Int32)" /><x:Property Name="in_Destinatario" Type="InArgument(x:String)" /><x:Property Name="in_AssetGmail" Type="InArgument(x:String)" /><x:Property Name="in_SmtpServidor" Type="InArgument(x:String)" /><x:Property Name="in_SmtpPuerto" Type="InArgument(x:Int32)" /></x:Members>
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" this:Main.in_ApiUrl="http://127.0.0.1:8000" this:Main.in_Umbral="0.45" this:Main.in_UmbralUrgente="0.7" this:Main.in_Limite="20" this:Main.in_Destinatario="lchalib@miumg.edu.gt" this:Main.in_AssetGmail="NovaBank_Gmail" this:Main.in_SmtpServidor="smtp.gmail.com" this:Main.in_SmtpPuerto="587" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_ApiUrl" Type="InArgument(x:String)" />
+    <x:Property Name="in_Umbral" Type="InArgument(x:Double)" />
+    <x:Property Name="in_UmbralUrgente" Type="InArgument(x:Double)" />
+    <x:Property Name="in_Limite" Type="InArgument(x:Int32)" />
+    <x:Property Name="in_Destinatario" Type="InArgument(x:String)" />
+    <x:Property Name="in_AssetGmail" Type="InArgument(x:String)" />
+    <x:Property Name="in_SmtpServidor" Type="InArgument(x:String)" />
+    <x:Property Name="in_SmtpPuerto" Type="InArgument(x:Int32)" />
+  </x:Members>
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
-    <sco:Collection x:TypeArguments="x:String"><x:String>System</x:String><x:String>System.Collections</x:String><x:String>System.Collections.Generic</x:String><x:String>System.Data</x:String><x:String>System.Linq</x:String><x:String>System.Activities</x:String><x:String>System.Activities.Statements</x:String><x:String>System.Activities.Expressions</x:String><x:String>System.Net</x:String><x:String>System.Net.Http</x:String><x:String>System.Net.Mail</x:String><x:String>System.Security</x:String><x:String>System.Globalization</x:String><x:String>Newtonsoft.Json</x:String><x:String>Newtonsoft.Json.Linq</x:String><x:String>UiPath.Core</x:String><x:String>UiPath.Core.Activities</x:String><x:String>Microsoft.VisualBasic</x:String></sco:Collection>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Net.Http</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+    </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <sco:Collection x:TypeArguments="AssemblyReference"><AssemblyReference>Microsoft.VisualBasic</AssemblyReference><AssemblyReference>System</AssemblyReference><AssemblyReference>System.Private.CoreLib</AssemblyReference><AssemblyReference>System.Runtime</AssemblyReference><AssemblyReference>System.Collections</AssemblyReference><AssemblyReference>System.Linq</AssemblyReference><AssemblyReference>System.Data</AssemblyReference><AssemblyReference>System.Data.Common</AssemblyReference><AssemblyReference>System.Activities</AssemblyReference><AssemblyReference>System.ObjectModel</AssemblyReference><AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference><AssemblyReference>System.Net.Http</AssemblyReference><AssemblyReference>System.Net.Mail</AssemblyReference><AssemblyReference>System.Net.Primitives</AssemblyReference><AssemblyReference>System.Runtime.InteropServices</AssemblyReference><AssemblyReference>Newtonsoft.Json</AssemblyReference><AssemblyReference>UiPath.System.Activities</AssemblyReference><AssemblyReference>UiPath.System.Activities.Design</AssemblyReference><AssemblyReference>UiPath.Workflow</AssemblyReference><AssemblyReference>System.Memory</AssemblyReference></sco:Collection>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Net.Http</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+    </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="NovaBank - Robot de retención de clientes" sap2010:Annotation.AnnotationText="Disparador (Orchestrator: Time Trigger o ejecución manual) -&gt; obtener predicciones (API) -&gt; regla de decisión -&gt; acción (registro en tabla + correo)."><Sequence.Variables><Variable x:TypeArguments="x:String" Name="strApiUrl" /><Variable x:TypeArguments="x:Int32" Name="intCodigoHttp" /><Variable x:TypeArguments="x:String" Name="strRespuesta" /><Variable x:TypeArguments="njl:JArray" Name="jaClientes" /><Variable x:TypeArguments="njl:JObject" Name="joResumen" /><Variable x:TypeArguments="x:String" Default="" Name="strClienteId" /><Variable x:TypeArguments="x:String" Name="strNombre" /><Variable x:TypeArguments="x:Double" Name="dblProb" /><Variable x:TypeArguments="x:String" Name="strAccion" /><Variable x:TypeArguments="x:String" Name="strCanal" /><Variable x:TypeArguments="x:String" Name="strDecision" /><Variable x:TypeArguments="x:Int32" Default="0" Name="intUrgentes" /><Variable x:TypeArguments="x:Int32" Default="0" Name="intCampana" /><Variable x:TypeArguments="x:Int32" Default="0" Name="intRegistradas" /><Variable x:TypeArguments="x:Int32" Default="0" Name="intFallidas" /><Variable x:TypeArguments="x:String" Default="" Name="strFilasUrgentes" /></Sequence.Variables><ui:LogMessage DisplayName="Log inicio" Level="Info" Message='["Inicio del robot de retención NovaBank. API: " &amp; in_ApiUrl]' /><Assign DisplayName="URL base de la API"><Assign.To><OutArgument x:TypeArguments="x:String">[strApiUrl]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[in_ApiUrl.TrimEnd("/"c)]</InArgument></Assign.Value></Assign><Sequence DisplayName="1. Verificar que la API esté disponible" sap2010:Annotation.AnnotationText="Disparador -&gt; el robot primero confirma que la API (FastAPI) está levantada."><ui:InvokeCode DisplayName="GET /health" Code="' Llamada HTTP a la API de NovaBank (GET o POST con cuerpo JSON)&#10;Using cliente As New System.Net.Http.HttpClient()&#10;    cliente.Timeout = System.TimeSpan.FromSeconds(30)&#10;    Dim respuestaHttp As System.Net.Http.HttpResponseMessage = Nothing&#10;    If metodo.ToUpper() = &quot;POST&quot; Then&#10;        Dim contenido As New System.Net.Http.StringContent(cuerpo, System.Text.Encoding.UTF8, &quot;application/json&quot;)&#10;        respuestaHttp = cliente.PostAsync(url, contenido).Result&#10;    Else&#10;        respuestaHttp = cliente.GetAsync(url).Result&#10;    End If&#10;    codigo = CInt(respuestaHttp.StatusCode)&#10;    respuesta = respuestaHttp.Content.ReadAsStringAsync().Result&#10;End Using"><ui:InvokeCode.Arguments><InArgument x:TypeArguments="x:String" x:Key="metodo">["GET"]</InArgument><InArgument x:TypeArguments="x:String" x:Key="url">[strApiUrl &amp; "/health"]</InArgument><InArgument x:TypeArguments="x:String" x:Key="cuerpo">[""]</InArgument><OutArgument x:TypeArguments="x:Int32" x:Key="codigo">[intCodigoHttp]</OutArgument><OutArgument x:TypeArguments="x:String" x:Key="respuesta">[strRespuesta]</OutArgument></ui:InvokeCode.Arguments></ui:InvokeCode><If DisplayName="¿La API responde?" Condition="[intCodigoHttp &lt;&gt; 200]"><If.Then><Throw DisplayName="API no disponible" Exception='[New Exception("La API de NovaBank no responde (HTTP " &amp; intCodigoHttp.ToString &amp; "). Ejecute: python -m src.api")]' /></If.Then></If><ui:LogMessage DisplayName="Log API OK" Level="Info" Message='["API disponible: " &amp; strRespuesta]' /></Sequence><Sequence DisplayName="2. Obtener predicciones: clientes en riesgo pendientes" sap2010:Annotation.AnnotationText="Obtiene los clientes con probabilidad &gt;= umbral que todavía no tienen una acción ejecutada."><ui:InvokeCode DisplayName="GET /clientes/alto-riesgo" Code="' Llamada HTTP a la API de NovaBank (GET o POST con cuerpo JSON)&#10;Using cliente As New System.Net.Http.HttpClient()&#10;    cliente.Timeout = System.TimeSpan.FromSeconds(30)&#10;    Dim respuestaHttp As System.Net.Http.HttpResponseMessage = Nothing&#10;    If metodo.ToUpper() = &quot;POST&quot; Then&#10;        Dim contenido As New System.Net.Http.StringContent(cuerpo, System.Text.Encoding.UTF8, &quot;application/json&quot;)&#10;        respuestaHttp = cliente.PostAsync(url, contenido).Result&#10;    Else&#10;        respuestaHttp = cliente.GetAsync(url).Result&#10;    End If&#10;    codigo = CInt(respuestaHttp.StatusCode)&#10;    respuesta = respuestaHttp.Content.ReadAsStringAsync().Result&#10;End Using"><ui:InvokeCode.Arguments><InArgument x:TypeArguments="x:String" x:Key="metodo">["GET"]</InArgument><InArgument x:TypeArguments="x:String" x:Key="url">[strApiUrl &amp; "/clientes/alto-riesgo?umbral=" &amp; in_Umbral.ToString(System.Globalization.CultureInfo.InvariantCulture) &amp; "&amp;limite=" &amp; in_Limite.ToString &amp; "&amp;solo_pendientes=true"]</InArgument><InArgument x:TypeArguments="x:String" x:Key="cuerpo">[""]</InArgument><OutArgument x:TypeArguments="x:Int32" x:Key="codigo">[intCodigoHttp]</OutArgument><OutArgument x:TypeArguments="x:String" x:Key="respuesta">[strRespuesta]</OutArgument></ui:InvokeCode.Arguments></ui:InvokeCode><If DisplayName="¿Respuesta correcta?" Condition="[intCodigoHttp &lt;&gt; 200]"><If.Then><Throw DisplayName="Error al obtener clientes" Exception='[New Exception("Error al obtener clientes (HTTP " &amp; intCodigoHttp.ToString &amp; "): " &amp; strRespuesta)]' /></If.Then></If><Assign DisplayName="Leer lista de clientes"><Assign.To><OutArgument x:TypeArguments="njl:JArray">[jaClientes]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="njl:JArray">[CType(JObject.Parse(strRespuesta)("clientes"), JArray)]</InArgument></Assign.Value></Assign><ui:LogMessage DisplayName="Log clientes obtenidos" Level="Info" Message='["Clientes en riesgo pendientes de contactar: " &amp; jaClientes.Count.ToString]' /></Sequence><If DisplayName="¿Hay clientes pendientes?" Condition="[jaClientes.Count &gt; 0]"><If.Then><Sequence DisplayName="3. Regla de decisión y acción por cliente" sap2010:Annotation.AnnotationText="Para cada cliente: aplica la regla de decisión y registra la acción en la tabla gold_acciones_log vía POST /acciones."><ForEach x:TypeArguments="njl:JToken" DisplayName="Para cada cliente en riesgo" Values="[jaClientes]"><ActivityAction x:TypeArguments="njl:JToken"><ActivityAction.Argument><DelegateInArgument x:TypeArguments="njl:JToken" Name="cliente" /></ActivityAction.Argument><TryCatch DisplayName="Procesar cliente (con manejo de errores)"><TryCatch.Try><Sequence DisplayName="Procesar cliente"><Sequence.Variables><Variable x:TypeArguments="x:String" Default="" Name="strDetalle" /><Variable x:TypeArguments="x:String" Name="strCuerpo" /></Sequence.Variables><Assign DisplayName="Id del cliente"><Assign.To><OutArgument x:TypeArguments="x:String">[strClienteId]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[cliente.Value(Of String)("cliente_id")]</InArgument></Assign.Value></Assign><Assign DisplayName="Nombre"><Assign.To><OutArgument x:TypeArguments="x:String">[strNombre]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[cliente.Value(Of String)("nombre")]</InArgument></Assign.Value></Assign><Assign DisplayName="Probabilidad de abandono"><Assign.To><OutArgument x:TypeArguments="x:Double">[dblProb]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:Double">[cliente.Value(Of Double)("prob_abandono")]</InArgument></Assign.Value></Assign><Assign DisplayName="Acción recomendada"><Assign.To><OutArgument x:TypeArguments="x:String">[strAccion]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[cliente.Value(Of String)("accion")]</InArgument></Assign.Value></Assign><Assign DisplayName="Canal de contacto"><Assign.To><OutArgument x:TypeArguments="x:String">[strCanal]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[cliente.Value(Of String)("canal_contacto")]</InArgument></Assign.Value></Assign><Assign DisplayName="Regla de decisión"><Assign.To><OutArgument x:TypeArguments="x:String">[strDecision]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[If(dblProb &gt;= in_UmbralUrgente, "Urgente", "Campaña")]</InArgument></Assign.Value></Assign><Switch x:TypeArguments="x:String" DisplayName="Aplicar regla de decisión" sap2010:Annotation.AnnotationText="Regla: prob. &gt;= in_UmbralUrgente (0.70) -&gt; caso urgente para el equipo de retención; si no -&gt; campaña automática." Expression="[strDecision]"><Switch.Default><ui:LogMessage DisplayName="Decisión no reconocida" Level="Warn" Message='["Decisión no reconocida: " &amp; strDecision]' /></Switch.Default><Sequence DisplayName="Urgente: asignar al equipo de retención" x:Key="Urgente"><Assign DisplayName="Detalle urgente"><Assign.To><OutArgument x:TypeArguments="x:String">[strDetalle]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">["URGENTE (prob. " &amp; dblProb.ToString("P1") &amp; "): asignado al equipo de retención por " &amp; strCanal &amp; " - " &amp; strAccion]</InArgument></Assign.Value></Assign><Assign DisplayName="Contar urgente"><Assign.To><OutArgument x:TypeArguments="x:Int32">[intUrgentes]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:Int32">[intUrgentes + 1]</InArgument></Assign.Value></Assign><Assign DisplayName="Agregar a tabla del correo"><Assign.To><OutArgument x:TypeArguments="x:String">[strFilasUrgentes]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[strFilasUrgentes &amp; "&lt;tr&gt;&lt;td&gt;" &amp; strClienteId &amp; "&lt;/td&gt;&lt;td&gt;" &amp; strNombre &amp; "&lt;/td&gt;&lt;td&gt;" &amp; dblProb.ToString("P1") &amp; "&lt;/td&gt;&lt;td&gt;" &amp; strAccion &amp; "&lt;/td&gt;&lt;td&gt;" &amp; strCanal &amp; "&lt;/td&gt;&lt;/tr&gt;"]</InArgument></Assign.Value></Assign></Sequence><Sequence DisplayName="Campaña: incluir en campaña automática" x:Key="Campaña"><Assign DisplayName="Detalle campaña"><Assign.To><OutArgument x:TypeArguments="x:String">[strDetalle]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">["Campaña automática de retención por " &amp; strCanal &amp; " - " &amp; strAccion]</InArgument></Assign.Value></Assign><Assign DisplayName="Contar campaña"><Assign.To><OutArgument x:TypeArguments="x:Int32">[intCampana]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:Int32">[intCampana + 1]</InArgument></Assign.Value></Assign></Sequence></Switch><Assign DisplayName="Cuerpo JSON de la acción"><Assign.To><OutArgument x:TypeArguments="x:String">[strCuerpo]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[New JObject(New JProperty("cliente_id", strClienteId), New JProperty("estado", "Ejecutada"), New JProperty("ejecutado_por", "UiPath Robot"), New JProperty("detalle", strDetalle)).ToString(Newtonsoft.Json.Formatting.None)]</InArgument></Assign.Value></Assign><ui:InvokeCode DisplayName="POST /acciones" Code="' Llamada HTTP a la API de NovaBank (GET o POST con cuerpo JSON)&#10;Using cliente As New System.Net.Http.HttpClient()&#10;    cliente.Timeout = System.TimeSpan.FromSeconds(30)&#10;    Dim respuestaHttp As System.Net.Http.HttpResponseMessage = Nothing&#10;    If metodo.ToUpper() = &quot;POST&quot; Then&#10;        Dim contenido As New System.Net.Http.StringContent(cuerpo, System.Text.Encoding.UTF8, &quot;application/json&quot;)&#10;        respuestaHttp = cliente.PostAsync(url, contenido).Result&#10;    Else&#10;        respuestaHttp = cliente.GetAsync(url).Result&#10;    End If&#10;    codigo = CInt(respuestaHttp.StatusCode)&#10;    respuesta = respuestaHttp.Content.ReadAsStringAsync().Result&#10;End Using"><ui:InvokeCode.Arguments><InArgument x:TypeArguments="x:String" x:Key="metodo">["POST"]</InArgument><InArgument x:TypeArguments="x:String" x:Key="url">[strApiUrl &amp; "/acciones"]</InArgument><InArgument x:TypeArguments="x:String" x:Key="cuerpo">[strCuerpo]</InArgument><OutArgument x:TypeArguments="x:Int32" x:Key="codigo">[intCodigoHttp]</OutArgument><OutArgument x:TypeArguments="x:String" x:Key="respuesta">[strRespuesta]</OutArgument></ui:InvokeCode.Arguments></ui:InvokeCode><If DisplayName="¿Acción registrada?" Condition="[intCodigoHttp = 201]"><If.Then><Sequence DisplayName="Registrada"><Assign DisplayName="Contar registrada"><Assign.To><OutArgument x:TypeArguments="x:Int32">[intRegistradas]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:Int32">[intRegistradas + 1]</InArgument></Assign.Value></Assign><ui:LogMessage DisplayName="Log registrada" Level="Info" Message='["[" &amp; strDecision &amp; "] " &amp; strClienteId &amp; " registrado: " &amp; strDetalle]' /></Sequence></If.Then><If.Else><Sequence DisplayName="No registrada"><Assign DisplayName="Contar fallida"><Assign.To><OutArgument x:TypeArguments="x:Int32">[intFallidas]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:Int32">[intFallidas + 1]</InArgument></Assign.Value></Assign><ui:LogMessage DisplayName="Log fallida" Level="Warn" Message='["No se pudo registrar " &amp; strClienteId &amp; " (HTTP " &amp; intCodigoHttp.ToString &amp; "): " &amp; strRespuesta]' /></Sequence></If.Else></If></Sequence></TryCatch.Try><TryCatch.Catches><Catch x:TypeArguments="s:Exception"><ActivityAction x:TypeArguments="s:Exception"><ActivityAction.Argument><DelegateInArgument x:TypeArguments="s:Exception" Name="exception" /></ActivityAction.Argument><Sequence DisplayName="Error con el cliente"><Assign DisplayName="Contar error"><Assign.To><OutArgument x:TypeArguments="x:Int32">[intFallidas]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:Int32">[intFallidas + 1]</InArgument></Assign.Value></Assign><ui:LogMessage DisplayName="Log error cliente" Level="Error" Message='["Error procesando " &amp; strClienteId &amp; ": " &amp; exception.Message]' /></Sequence></ActivityAction></Catch></TryCatch.Catches></TryCatch></ActivityAction></ForEach></Sequence></If.Then><If.Else><ui:LogMessage DisplayName="Log sin clientes" Level="Info" Message='["No hay clientes en riesgo pendientes de contactar."]' /></If.Else></If><Sequence DisplayName="4. Obtener indicadores (resumen)" sap2010:Annotation.AnnotationText="Indicadores generales para el correo: clientes y saldo en riesgo alto, acciones acumuladas."><ui:InvokeCode DisplayName="GET /resumen" Code="' Llamada HTTP a la API de NovaBank (GET o POST con cuerpo JSON)&#10;Using cliente As New System.Net.Http.HttpClient()&#10;    cliente.Timeout = System.TimeSpan.FromSeconds(30)&#10;    Dim respuestaHttp As System.Net.Http.HttpResponseMessage = Nothing&#10;    If metodo.ToUpper() = &quot;POST&quot; Then&#10;        Dim contenido As New System.Net.Http.StringContent(cuerpo, System.Text.Encoding.UTF8, &quot;application/json&quot;)&#10;        respuestaHttp = cliente.PostAsync(url, contenido).Result&#10;    Else&#10;        respuestaHttp = cliente.GetAsync(url).Result&#10;    End If&#10;    codigo = CInt(respuestaHttp.StatusCode)&#10;    respuesta = respuestaHttp.Content.ReadAsStringAsync().Result&#10;End Using"><ui:InvokeCode.Arguments><InArgument x:TypeArguments="x:String" x:Key="metodo">["GET"]</InArgument><InArgument x:TypeArguments="x:String" x:Key="url">[strApiUrl &amp; "/resumen"]</InArgument><InArgument x:TypeArguments="x:String" x:Key="cuerpo">[""]</InArgument><OutArgument x:TypeArguments="x:Int32" x:Key="codigo">[intCodigoHttp]</OutArgument><OutArgument x:TypeArguments="x:String" x:Key="respuesta">[strRespuesta]</OutArgument></ui:InvokeCode.Arguments></ui:InvokeCode><Assign DisplayName="Leer resumen"><Assign.To><OutArgument x:TypeArguments="njl:JObject">[joResumen]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="njl:JObject">[JObject.Parse(strRespuesta)]</InArgument></Assign.Value></Assign></Sequence><Sequence DisplayName="5. Enviar correo resumen (SMTP Gmail)" sap2010:Annotation.AnnotationText="Acción final: correo HTML al equipo de retención. Credencial desde el asset de Orchestrator o, de respaldo, variables de entorno."><Sequence.Variables><Variable x:TypeArguments="x:String" Default="" Name="strGmailUsuario" /><Variable x:TypeArguments="x:String" Default="" Name="strGmailClave" /><Variable x:TypeArguments="ss:SecureString" Name="secGmailClave" /><Variable x:TypeArguments="x:String" Name="strDestinatario" /><Variable x:TypeArguments="x:String" Name="strAsunto" /><Variable x:TypeArguments="x:String" Name="strCuerpoCorreo" /></Sequence.Variables><TryCatch DisplayName="Obtener credenciales de Gmail"><TryCatch.Try><Sequence DisplayName="Desde Orchestrator (asset de tipo Credential)"><ui:GetRobotCredential DisplayName="Get Credential (asset NovaBank_Gmail)" AssetName="[in_AssetGmail]" Password="[secGmailClave]" Username="[strGmailUsuario]" /><Assign DisplayName="Contraseña a texto"><Assign.To><OutArgument x:TypeArguments="x:String">[strGmailClave]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[New System.Net.NetworkCredential("", secGmailClave).Password]</InArgument></Assign.Value></Assign><ui:LogMessage DisplayName="Log credencial" Level="Info" Message='["Credencial de Gmail obtenida de Orchestrator: " &amp; strGmailUsuario]' /></Sequence></TryCatch.Try><TryCatch.Catches><Catch x:TypeArguments="s:Exception"><ActivityAction x:TypeArguments="s:Exception"><ActivityAction.Argument><DelegateInArgument x:TypeArguments="s:Exception" Name="exception" /></ActivityAction.Argument><Sequence DisplayName="Respaldo: variables de entorno"><ui:LogMessage DisplayName="Log sin asset" Level="Warn" Message='["No se pudo leer el asset " &amp; in_AssetGmail &amp; " (" &amp; exception.Message &amp; "). Se usan variables de entorno."]' /><Assign DisplayName="Usuario desde entorno"><Assign.To><OutArgument x:TypeArguments="x:String">[strGmailUsuario]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[If(Environment.GetEnvironmentVariable("NOVABANK_GMAIL_USER"), "")]</InArgument></Assign.Value></Assign><Assign DisplayName="Clave desde entorno"><Assign.To><OutArgument x:TypeArguments="x:String">[strGmailClave]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[If(Environment.GetEnvironmentVariable("NOVABANK_GMAIL_APP_PASSWORD"), "")]</InArgument></Assign.Value></Assign></Sequence></ActivityAction></Catch></TryCatch.Catches></TryCatch><If DisplayName="¿Hay credenciales?" Condition="[String.IsNullOrWhiteSpace(strGmailUsuario) OrElse String.IsNullOrWhiteSpace(strGmailClave)]"><If.Then><ui:LogMessage DisplayName="Log sin correo" Level="Warn" Message='["Sin credenciales de Gmail: no se envía correo (las acciones ya quedaron registradas)."]' /></If.Then><If.Else><Sequence DisplayName="Enviar"><Assign DisplayName="Destinatario"><Assign.To><OutArgument x:TypeArguments="x:String">[strDestinatario]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">[If(String.IsNullOrWhiteSpace(in_Destinatario), strGmailUsuario, in_Destinatario)]</InArgument></Assign.Value></Assign><Assign DisplayName="Asunto"><Assign.To><OutArgument x:TypeArguments="x:String">[strAsunto]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">["NovaBank | Robot de retención: " &amp; intUrgentes.ToString &amp; " casos urgentes, " &amp; intRegistradas.ToString &amp; " acciones registradas"]</InArgument></Assign.Value></Assign><Assign DisplayName="Cuerpo del correo (HTML)"><Assign.To><OutArgument x:TypeArguments="x:String">[strCuerpoCorreo]</OutArgument></Assign.To><Assign.Value><InArgument x:TypeArguments="x:String">["&lt;h2 style=""color:#1f4e79""&gt;NovaBank - Robot de retención&lt;/h2&gt;" &amp; "&lt;p&gt;Ejecución: " &amp; Now.ToString("dd/MM/yyyy HH:mm") &amp; "&lt;/p&gt;" &amp; "&lt;table border=""1"" cellpadding=""6"" style=""border-collapse:collapse""&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Clientes procesados&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; jaClientes.Count.ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Casos urgentes (equipo de retención)&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; intUrgentes.ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Incluidos en campaña automática&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; intCampana.ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Acciones registradas / fallidas&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; intRegistradas.ToString &amp; " / " &amp; intFallidas.ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Clientes en riesgo alto (total cartera)&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; joResumen("por_nivel")("Alto")("clientes").ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Saldo en riesgo alto&lt;/td&gt;&lt;td&gt;&lt;b&gt;Q " &amp; joResumen.Value(Of Double)("saldo_en_riesgo_alto").ToString("N2") &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Clientes con acción ejecutada (acumulado)&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; joResumen("clientes_con_accion_ejecutada").ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;/table&gt;" &amp; If(intUrgentes &gt; 0, "&lt;h3&gt;Casos urgentes asignados&lt;/h3&gt;&lt;table border=""1"" cellpadding=""5"" style=""border-collapse:collapse""&gt;" &amp; "&lt;tr style=""background:#1f4e79;color:white""&gt;&lt;th&gt;Cliente&lt;/th&gt;&lt;th&gt;Nombre&lt;/th&gt;&lt;th&gt;Prob. abandono&lt;/th&gt;&lt;th&gt;Acción&lt;/th&gt;&lt;th&gt;Canal&lt;/th&gt;&lt;/tr&gt;" &amp; strFilasUrgentes &amp; "&lt;/table&gt;", "&lt;p&gt;No hubo casos urgentes en esta ejecución.&lt;/p&gt;") &amp; "&lt;p style=""color:grey""&gt;Mensaje generado automáticamente por UiPath. Datos sintéticos - MVP académico.&lt;/p&gt;"]</InArgument></Assign.Value></Assign><TryCatch DisplayName="Enviar con manejo de errores"><TryCatch.Try><Sequence DisplayName="SMTP"><ui:InvokeCode DisplayName="Enviar correo SMTP (Gmail)" Code="' Envío de correo por SMTP (Gmail: smtp.gmail.com, puerto 587, TLS)&#10;Using smtp As New System.Net.Mail.SmtpClient(servidor, puerto)&#10;    smtp.EnableSsl = True&#10;    smtp.Credentials = New System.Net.NetworkCredential(usuario, clave)&#10;    Using mensaje As New System.Net.Mail.MailMessage(usuario, destinatario, asunto, cuerpoHtml)&#10;        mensaje.IsBodyHtml = True&#10;        smtp.Send(mensaje)&#10;    End Using&#10;End Using"><ui:InvokeCode.Arguments><InArgument x:TypeArguments="x:String" x:Key="servidor">[in_SmtpServidor]</InArgument><InArgument x:TypeArguments="x:Int32" x:Key="puerto">[in_SmtpPuerto]</InArgument><InArgument x:TypeArguments="x:String" x:Key="usuario">[strGmailUsuario]</InArgument><InArgument x:TypeArguments="x:String" x:Key="clave">[strGmailClave]</InArgument><InArgument x:TypeArguments="x:String" x:Key="destinatario">[strDestinatario]</InArgument><InArgument x:TypeArguments="x:String" x:Key="asunto">[strAsunto]</InArgument><InArgument x:TypeArguments="x:String" x:Key="cuerpoHtml">[strCuerpoCorreo]</InArgument></ui:InvokeCode.Arguments></ui:InvokeCode><ui:LogMessage DisplayName="Log correo enviado" Level="Info" Message='["Correo resumen enviado a " &amp; strDestinatario]' /></Sequence></TryCatch.Try><TryCatch.Catches><Catch x:TypeArguments="s:Exception"><ActivityAction x:TypeArguments="s:Exception"><ActivityAction.Argument><DelegateInArgument x:TypeArguments="s:Exception" Name="exception" /></ActivityAction.Argument><ui:LogMessage DisplayName="Log error correo" Level="Error" Message='["No se pudo enviar el correo: " &amp; exception.Message]' /></ActivityAction></Catch></TryCatch.Catches></TryCatch></Sequence></If.Else></If></Sequence><ui:LogMessage DisplayName="Log fin" Level="Info" Message='["Fin del robot. Procesados: " &amp; jaClientes.Count.ToString &amp; " | Urgentes: " &amp; intUrgentes.ToString &amp; " | Campaña: " &amp; intCampana.ToString &amp; " | Registradas: " &amp; intRegistradas.ToString &amp; " | Fallidas: " &amp; intFallidas.ToString]' /></Sequence>
+  <Sequence sap2010:Annotation.AnnotationText="Disparador (Orchestrator: Time Trigger o ejecución manual) -&gt; obtener predicciones (API) -&gt; regla de decisión -&gt; acción (registro en tabla + correo)." DisplayName="NovaBank - Robot de retención de clientes" sap:VirtualizedContainerService.HintSize="1142,11174" sap2010:WorkflowViewState.IdRef="Sequence_16">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="strApiUrl" />
+      <Variable x:TypeArguments="x:Int32" Name="intCodigoHttp" />
+      <Variable x:TypeArguments="x:String" Name="strRespuesta" />
+      <Variable x:TypeArguments="njl:JArray" Name="jaClientes" />
+      <Variable x:TypeArguments="njl:JObject" Name="joResumen" />
+      <Variable x:TypeArguments="x:String" Name="strClienteId">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String" Value="" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="strNombre" />
+      <Variable x:TypeArguments="x:Double" Name="dblProb" />
+      <Variable x:TypeArguments="x:String" Name="strAccion" />
+      <Variable x:TypeArguments="x:String" Name="strCanal" />
+      <Variable x:TypeArguments="x:String" Name="strDecision" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="intUrgentes" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="intCampana" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="intRegistradas" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="intFallidas" />
+      <Variable x:TypeArguments="x:String" Name="strFilasUrgentes">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String" Value="" />
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log inicio" sap:VirtualizedContainerService.HintSize="574,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Inicio del robot de retención NovaBank. API: &quot; &amp; in_ApiUrl]" />
+    <Assign DisplayName="URL base de la API" sap:VirtualizedContainerService.HintSize="574,175" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[strApiUrl]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[in_ApiUrl.TrimEnd("/"c)]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Sequence sap2010:Annotation.AnnotationText="Disparador -&gt; el robot primero confirma que la API (FastAPI) está levantada." DisplayName="1. Verificar que la API esté disponible" sap:VirtualizedContainerService.HintSize="574,801" sap2010:WorkflowViewState.IdRef="Sequence_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InvokeCode ContinueOnError="{x:Null}" Code="' Llamada HTTP a la API de NovaBank (GET o POST con cuerpo JSON)&#xA;Using cliente As New System.Net.Http.HttpClient()&#xA;    cliente.Timeout = System.TimeSpan.FromSeconds(30)&#xA;    Dim respuestaHttp As System.Net.Http.HttpResponseMessage = Nothing&#xA;    If metodo.ToUpper() = &quot;POST&quot; Then&#xA;        Dim contenido As New System.Net.Http.StringContent(cuerpo, System.Text.Encoding.UTF8, &quot;application/json&quot;)&#xA;        respuestaHttp = cliente.PostAsync(url, contenido).Result&#xA;    Else&#xA;        respuestaHttp = cliente.GetAsync(url).Result&#xA;    End If&#xA;    codigo = CInt(respuestaHttp.StatusCode)&#xA;    respuesta = respuestaHttp.Content.ReadAsStringAsync().Result&#xA;End Using" DisplayName="GET /health" sap:VirtualizedContainerService.HintSize="452,197" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+        <ui:InvokeCode.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="metodo">["GET"]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="url">[strApiUrl &amp; "/health"]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="cuerpo">[""]</InArgument>
+          <OutArgument x:TypeArguments="x:Int32" x:Key="codigo">[intCodigoHttp]</OutArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="respuesta">[strRespuesta]</OutArgument>
+        </ui:InvokeCode.Arguments>
+      </ui:InvokeCode>
+      <If Condition="[intCodigoHttp &lt;&gt; 200]" DisplayName="¿La API responde?" sap:VirtualizedContainerService.HintSize="452,346" sap2010:WorkflowViewState.IdRef="If_1">
+        <If.Then>
+          <Throw DisplayName="API no disponible" Exception="[New Exception(&quot;La API de NovaBank no responde (HTTP &quot; &amp; intCodigoHttp.ToString &amp; &quot;). Ejecute: python -m src.api&quot;)]" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Throw_1" />
+        </If.Then>
+      </If>
+      <ui:LogMessage DisplayName="Log API OK" sap:VirtualizedContainerService.HintSize="452,166" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;API disponible: &quot; &amp; strRespuesta]" />
+    </Sequence>
+    <Sequence sap2010:Annotation.AnnotationText="Obtiene los clientes con probabilidad &gt;= umbral que todavía no tienen una acción ejecutada." DisplayName="2. Obtener predicciones: clientes en riesgo pendientes" sap:VirtualizedContainerService.HintSize="574,976" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InvokeCode ContinueOnError="{x:Null}" Code="' Llamada HTTP a la API de NovaBank (GET o POST con cuerpo JSON)&#xA;Using cliente As New System.Net.Http.HttpClient()&#xA;    cliente.Timeout = System.TimeSpan.FromSeconds(30)&#xA;    Dim respuestaHttp As System.Net.Http.HttpResponseMessage = Nothing&#xA;    If metodo.ToUpper() = &quot;POST&quot; Then&#xA;        Dim contenido As New System.Net.Http.StringContent(cuerpo, System.Text.Encoding.UTF8, &quot;application/json&quot;)&#xA;        respuestaHttp = cliente.PostAsync(url, contenido).Result&#xA;    Else&#xA;        respuestaHttp = cliente.GetAsync(url).Result&#xA;    End If&#xA;    codigo = CInt(respuestaHttp.StatusCode)&#xA;    respuesta = respuestaHttp.Content.ReadAsStringAsync().Result&#xA;End Using" DisplayName="GET /clientes/alto-riesgo" sap:VirtualizedContainerService.HintSize="452,197" sap2010:WorkflowViewState.IdRef="InvokeCode_2">
+        <ui:InvokeCode.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="metodo">["GET"]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="url">[strApiUrl &amp; "/clientes/alto-riesgo?umbral=" &amp; in_Umbral.ToString(System.Globalization.CultureInfo.InvariantCulture) &amp; "&amp;limite=" &amp; in_Limite.ToString &amp; "&amp;solo_pendientes=true"]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="cuerpo">[""]</InArgument>
+          <OutArgument x:TypeArguments="x:Int32" x:Key="codigo">[intCodigoHttp]</OutArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="respuesta">[strRespuesta]</OutArgument>
+        </ui:InvokeCode.Arguments>
+      </ui:InvokeCode>
+      <If Condition="[intCodigoHttp &lt;&gt; 200]" DisplayName="¿Respuesta correcta?" sap:VirtualizedContainerService.HintSize="452,346" sap2010:WorkflowViewState.IdRef="If_2">
+        <If.Then>
+          <Throw DisplayName="Error al obtener clientes" Exception="[New Exception(&quot;Error al obtener clientes (HTTP &quot; &amp; intCodigoHttp.ToString &amp; &quot;): &quot; &amp; strRespuesta)]" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Throw_2" />
+        </If.Then>
+      </If>
+      <Assign DisplayName="Leer lista de clientes" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_2">
+        <Assign.To>
+          <OutArgument x:TypeArguments="njl:JArray">[jaClientes]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="njl:JArray">[CType(JObject.Parse(strRespuesta)("clientes"), JArray)]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:LogMessage DisplayName="Log clientes obtenidos" sap:VirtualizedContainerService.HintSize="452,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Clientes en riesgo pendientes de contactar: &quot; &amp; jaClientes.Count.ToString]" />
+    </Sequence>
+    <If Condition="[jaClientes.Count &gt; 0]" DisplayName="¿Hay clientes pendientes?" sap:VirtualizedContainerService.HintSize="574,5108" sap2010:WorkflowViewState.IdRef="If_4">
+      <If.Then>
+        <Sequence sap2010:Annotation.AnnotationText="Para cada cliente: aplica la regla de decisión y registra la acción en la tabla gold_acciones_log vía POST /acciones." DisplayName="3. Regla de decisión y acción por cliente" sap:VirtualizedContainerService.HintSize="572,4804" sap2010:WorkflowViewState.IdRef="Sequence_9">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ForEach x:TypeArguments="njl:JToken" DisplayName="Para cada cliente en riesgo" sap:VirtualizedContainerService.HintSize="538,4740" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[jaClientes]">
+            <ActivityAction x:TypeArguments="njl:JToken">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="njl:JToken" Name="cliente" />
+              </ActivityAction.Argument>
+              <TryCatch DisplayName="Procesar cliente (con manejo de errores)" sap:VirtualizedContainerService.HintSize="488,4564" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                <TryCatch.Try>
+                  <Sequence DisplayName="Procesar cliente" sap:VirtualizedContainerService.HintSize="486,3911" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="strDetalle">
+                        <Variable.Default>
+                          <Literal x:TypeArguments="x:String" Value="" />
+                        </Variable.Default>
+                      </Variable>
+                      <Variable x:TypeArguments="x:String" Name="strCuerpo" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign DisplayName="Id del cliente" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_3">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[strClienteId]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[cliente.Value(Of String)("cliente_id")]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign DisplayName="Nombre" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_4">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[strNombre]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[cliente.Value(Of String)("nombre")]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign DisplayName="Probabilidad de abandono" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_5">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Double">[dblProb]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Double">[cliente.Value(Of Double)("prob_abandono")]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign DisplayName="Acción recomendada" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_6">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[strAccion]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[cliente.Value(Of String)("accion")]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign DisplayName="Canal de contacto" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_7">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[strCanal]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[cliente.Value(Of String)("canal_contacto")]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign DisplayName="Regla de decisión" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_8">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[strDecision]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[If(dblProb &gt;= in_UmbralUrgente, "Urgente", "Campaña")]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Switch x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="Regla: prob. &gt;= in_UmbralUrgente (0.70) -&gt; caso urgente para el equipo de retención; si no -&gt; campaña automática." DisplayName="Aplicar regla de decisión" Expression="[strDecision]" sap:VirtualizedContainerService.HintSize="452,1433" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+                      <Switch.Default>
+                        <ui:LogMessage DisplayName="Decisión no reconocida" sap:VirtualizedContainerService.HintSize="450,143" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Warn" Message="[&quot;Decisión no reconocida: &quot; &amp; strDecision]" />
+                      </Switch.Default>
+                      <Sequence x:Key="Urgente" DisplayName="Urgente: asignar al equipo de retención" sap:VirtualizedContainerService.HintSize="450,592" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign DisplayName="Detalle urgente" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_9">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[strDetalle]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">["URGENTE (prob. " &amp; dblProb.ToString("P1") &amp; "): asignado al equipo de retención por " &amp; strCanal &amp; " - " &amp; strAccion]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <Assign DisplayName="Contar urgente" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_10">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:Int32">[intUrgentes]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:Int32">[intUrgentes + 1]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <Assign DisplayName="Agregar a tabla del correo" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="Assign_11">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[strFilasUrgentes]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">[strFilasUrgentes &amp; "&lt;tr&gt;&lt;td&gt;" &amp; strClienteId &amp; "&lt;/td&gt;&lt;td&gt;" &amp; strNombre &amp; "&lt;/td&gt;&lt;td&gt;" &amp; dblProb.ToString("P1") &amp; "&lt;/td&gt;&lt;td&gt;" &amp; strAccion &amp; "&lt;/td&gt;&lt;td&gt;" &amp; strCanal &amp; "&lt;/td&gt;&lt;/tr&gt;"]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                      <Sequence x:Key="Campaña" DisplayName="Campaña: incluir en campaña automática" sap:VirtualizedContainerService.HintSize="450,413" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign DisplayName="Detalle campaña" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_12">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[strDetalle]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">["Campaña automática de retención por " &amp; strCanal &amp; " - " &amp; strAccion]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <Assign DisplayName="Contar campaña" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="Assign_13">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:Int32">[intCampana]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:Int32">[intCampana + 1]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </Switch>
+                    <Assign DisplayName="Cuerpo JSON de la acción" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_14">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[strCuerpo]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[New JObject(New JProperty("cliente_id", strClienteId), New JProperty("estado", "Ejecutada"), New JProperty("ejecutado_por", "UiPath Robot"), New JProperty("detalle", strDetalle)).ToString(Newtonsoft.Json.Formatting.None)]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:InvokeCode ContinueOnError="{x:Null}" Code="' Llamada HTTP a la API de NovaBank (GET o POST con cuerpo JSON)&#xA;Using cliente As New System.Net.Http.HttpClient()&#xA;    cliente.Timeout = System.TimeSpan.FromSeconds(30)&#xA;    Dim respuestaHttp As System.Net.Http.HttpResponseMessage = Nothing&#xA;    If metodo.ToUpper() = &quot;POST&quot; Then&#xA;        Dim contenido As New System.Net.Http.StringContent(cuerpo, System.Text.Encoding.UTF8, &quot;application/json&quot;)&#xA;        respuestaHttp = cliente.PostAsync(url, contenido).Result&#xA;    Else&#xA;        respuestaHttp = cliente.GetAsync(url).Result&#xA;    End If&#xA;    codigo = CInt(respuestaHttp.StatusCode)&#xA;    respuesta = respuestaHttp.Content.ReadAsStringAsync().Result&#xA;End Using" DisplayName="POST /acciones" sap:VirtualizedContainerService.HintSize="452,201" sap2010:WorkflowViewState.IdRef="InvokeCode_3">
+                      <ui:InvokeCode.Arguments>
+                        <InArgument x:TypeArguments="x:String" x:Key="metodo">["POST"]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="url">[strApiUrl &amp; "/acciones"]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="cuerpo">[strCuerpo]</InArgument>
+                        <OutArgument x:TypeArguments="x:Int32" x:Key="codigo">[intCodigoHttp]</OutArgument>
+                        <OutArgument x:TypeArguments="x:String" x:Key="respuesta">[strRespuesta]</OutArgument>
+                      </ui:InvokeCode.Arguments>
+                    </ui:InvokeCode>
+                    <If Condition="[intCodigoHttp = 201]" DisplayName="¿Acción registrada?" sap:VirtualizedContainerService.HintSize="452,960" sap2010:WorkflowViewState.IdRef="If_3">
+                      <If.Then>
+                        <Sequence DisplayName="Registrada" sap:VirtualizedContainerService.HintSize="450,413" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign DisplayName="Contar registrada" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_15">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Int32">[intRegistradas]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Int32">[intRegistradas + 1]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:LogMessage DisplayName="Log registrada" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;[&quot; &amp; strDecision &amp; &quot;] &quot; &amp; strClienteId &amp; &quot; registrado: &quot; &amp; strDetalle]" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="No registrada" sap:VirtualizedContainerService.HintSize="450,413" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign DisplayName="Contar fallida" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_16">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Int32">[intFallidas]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Int32">[intFallidas + 1]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:LogMessage DisplayName="Log fallida" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Warn" Message="[&quot;No se pudo registrar &quot; &amp; strClienteId &amp; &quot; (HTTP &quot; &amp; intCodigoHttp.ToString &amp; &quot;): &quot; &amp; strRespuesta]" />
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </TryCatch.Try>
+                <TryCatch.Catches>
+                  <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                    <ActivityAction x:TypeArguments="s:Exception">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="Error con el cliente" sap:VirtualizedContainerService.HintSize="486,413" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign DisplayName="Contar error" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_17">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:Int32">[intFallidas]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:Int32">[intFallidas + 1]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <ui:LogMessage DisplayName="Log error cliente" sap:VirtualizedContainerService.HintSize="452,170" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Error" Message="[&quot;Error procesando &quot; &amp; strClienteId &amp; &quot;: &quot; &amp; exception.Message]" />
+                      </Sequence>
+                    </ActivityAction>
+                  </Catch>
+                </TryCatch.Catches>
+              </TryCatch>
+            </ActivityAction>
+          </ForEach>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <ui:LogMessage DisplayName="Log sin clientes" sap:VirtualizedContainerService.HintSize="572,143" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;No hay clientes en riesgo pendientes de contactar.&quot;]" />
+      </If.Else>
+    </If>
+    <Sequence sap2010:Annotation.AnnotationText="Indicadores generales para el correo: clientes y saldo en riesgo alto, acciones acumuladas." DisplayName="4. Obtener indicadores (resumen)" sap:VirtualizedContainerService.HintSize="574,455" sap2010:WorkflowViewState.IdRef="Sequence_10">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InvokeCode ContinueOnError="{x:Null}" Code="' Llamada HTTP a la API de NovaBank (GET o POST con cuerpo JSON)&#xA;Using cliente As New System.Net.Http.HttpClient()&#xA;    cliente.Timeout = System.TimeSpan.FromSeconds(30)&#xA;    Dim respuestaHttp As System.Net.Http.HttpResponseMessage = Nothing&#xA;    If metodo.ToUpper() = &quot;POST&quot; Then&#xA;        Dim contenido As New System.Net.Http.StringContent(cuerpo, System.Text.Encoding.UTF8, &quot;application/json&quot;)&#xA;        respuestaHttp = cliente.PostAsync(url, contenido).Result&#xA;    Else&#xA;        respuestaHttp = cliente.GetAsync(url).Result&#xA;    End If&#xA;    codigo = CInt(respuestaHttp.StatusCode)&#xA;    respuesta = respuestaHttp.Content.ReadAsStringAsync().Result&#xA;End Using" DisplayName="GET /resumen" sap:VirtualizedContainerService.HintSize="416,197" sap2010:WorkflowViewState.IdRef="InvokeCode_4">
+        <ui:InvokeCode.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="metodo">["GET"]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="url">[strApiUrl &amp; "/resumen"]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="cuerpo">[""]</InArgument>
+          <OutArgument x:TypeArguments="x:Int32" x:Key="codigo">[intCodigoHttp]</OutArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="respuesta">[strRespuesta]</OutArgument>
+        </ui:InvokeCode.Arguments>
+      </ui:InvokeCode>
+      <Assign DisplayName="Leer resumen" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_18">
+        <Assign.To>
+          <OutArgument x:TypeArguments="njl:JObject">[joResumen]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="njl:JObject">[JObject.Parse(strRespuesta)]</InArgument>
+        </Assign.Value>
+      </Assign>
+    </Sequence>
+    <Sequence sap2010:Annotation.AnnotationText="Acción final: correo HTML al equipo de retención. Credencial desde el asset de Orchestrator o, de respaldo, variables de entorno." DisplayName="5. Enviar correo resumen (SMTP Gmail)" sap:VirtualizedContainerService.HintSize="574,3295" sap2010:WorkflowViewState.IdRef="Sequence_15">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="strGmailUsuario">
+          <Variable.Default>
+            <Literal x:TypeArguments="x:String" Value="" />
+          </Variable.Default>
+        </Variable>
+        <Variable x:TypeArguments="x:String" Name="strGmailClave">
+          <Variable.Default>
+            <Literal x:TypeArguments="x:String" Value="" />
+          </Variable.Default>
+        </Variable>
+        <Variable x:TypeArguments="ss:SecureString" Name="secGmailClave" />
+        <Variable x:TypeArguments="x:String" Name="strDestinatario" />
+        <Variable x:TypeArguments="x:String" Name="strAsunto" />
+        <Variable x:TypeArguments="x:String" Name="strCuerpoCorreo" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <TryCatch DisplayName="Obtener credenciales de Gmail" sap:VirtualizedContainerService.HintSize="488,1462" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+        <TryCatch.Try>
+          <Sequence DisplayName="Desde Orchestrator (asset de tipo Credential)" sap:VirtualizedContainerService.HintSize="450,598" sap2010:WorkflowViewState.IdRef="Sequence_11">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="[in_AssetGmail]" CacheStrategy="None" DisplayName="Get Credential (asset NovaBank_Gmail)" FolderPath="MVP_03" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[secGmailClave]" Username="[strGmailUsuario]" />
+            <Assign DisplayName="Contraseña a texto" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_19">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[strGmailClave]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[New System.Net.NetworkCredential("", secGmailClave).Password]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:LogMessage DisplayName="Log credencial" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;Credencial de Gmail obtenida de Orchestrator: &quot; &amp; strGmailUsuario]" />
+          </Sequence>
+        </TryCatch.Try>
+        <TryCatch.Catches>
+          <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+            <ActivityAction x:TypeArguments="s:Exception">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Respaldo: variables de entorno" sap:VirtualizedContainerService.HintSize="450,592" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:LogMessage DisplayName="Log sin asset" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Warn" Message="[&quot;No se pudo leer el asset &quot; &amp; in_AssetGmail &amp; &quot; (&quot; &amp; exception.Message &amp; &quot;). Se usan variables de entorno.&quot;]" />
+                <Assign DisplayName="Usuario desde entorno" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_20">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[strGmailUsuario]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[If(Environment.GetEnvironmentVariable("NOVABANK_GMAIL_USER"), "")]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign DisplayName="Clave desde entorno" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="Assign_21">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[strGmailClave]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[If(Environment.GetEnvironmentVariable("NOVABANK_GMAIL_APP_PASSWORD"), "")]</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Sequence>
+            </ActivityAction>
+          </Catch>
+        </TryCatch.Catches>
+      </TryCatch>
+      <If Condition="[String.IsNullOrWhiteSpace(strGmailUsuario) OrElse String.IsNullOrWhiteSpace(strGmailClave)]" DisplayName="¿Hay credenciales?" sap:VirtualizedContainerService.HintSize="488,1741" sap2010:WorkflowViewState.IdRef="If_5">
+        <If.Then>
+          <ui:LogMessage DisplayName="Log sin correo" sap:VirtualizedContainerService.HintSize="486,143" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Warn" Message="[&quot;Sin credenciales de Gmail: no se envía correo (las acciones ya quedaron registradas).&quot;]" />
+        </If.Then>
+        <If.Else>
+          <Sequence DisplayName="Enviar" sap:VirtualizedContainerService.HintSize="486,1446" sap2010:WorkflowViewState.IdRef="Sequence_14">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign DisplayName="Destinatario" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_22">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[strDestinatario]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[If(String.IsNullOrWhiteSpace(in_Destinatario), strGmailUsuario, in_Destinatario)]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign DisplayName="Asunto" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_23">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[strAsunto]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">["NovaBank | Robot de retención: " &amp; intUrgentes.ToString &amp; " casos urgentes, " &amp; intRegistradas.ToString &amp; " acciones registradas"]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign DisplayName="Cuerpo del correo (HTML)" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_24">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[strCuerpoCorreo]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">["&lt;h2 style=""color:#1f4e79""&gt;NovaBank - Robot de retención&lt;/h2&gt;" &amp; "&lt;p&gt;Ejecución: " &amp; Now.ToString("dd/MM/yyyy HH:mm") &amp; "&lt;/p&gt;" &amp; "&lt;table border=""1"" cellpadding=""6"" style=""border-collapse:collapse""&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Clientes procesados&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; jaClientes.Count.ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Casos urgentes (equipo de retención)&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; intUrgentes.ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Incluidos en campaña automática&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; intCampana.ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Acciones registradas / fallidas&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; intRegistradas.ToString &amp; " / " &amp; intFallidas.ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Clientes en riesgo alto (total cartera)&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; joResumen("por_nivel")("Alto")("clientes").ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Saldo en riesgo alto&lt;/td&gt;&lt;td&gt;&lt;b&gt;Q " &amp; joResumen.Value(Of Double)("saldo_en_riesgo_alto").ToString("N2") &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;tr&gt;&lt;td&gt;Clientes con acción ejecutada (acumulado)&lt;/td&gt;&lt;td&gt;&lt;b&gt;" &amp; joResumen("clientes_con_accion_ejecutada").ToString &amp; "&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" &amp; "&lt;/table&gt;" &amp; If(intUrgentes &gt; 0, "&lt;h3&gt;Casos urgentes asignados&lt;/h3&gt;&lt;table border=""1"" cellpadding=""5"" style=""border-collapse:collapse""&gt;" &amp; "&lt;tr style=""background:#1f4e79;color:white""&gt;&lt;th&gt;Cliente&lt;/th&gt;&lt;th&gt;Nombre&lt;/th&gt;&lt;th&gt;Prob. abandono&lt;/th&gt;&lt;th&gt;Acción&lt;/th&gt;&lt;th&gt;Canal&lt;/th&gt;&lt;/tr&gt;" &amp; strFilasUrgentes &amp; "&lt;/table&gt;", "&lt;p&gt;No hubo casos urgentes en esta ejecución.&lt;/p&gt;") &amp; "&lt;p style=""color:grey""&gt;Mensaje generado automáticamente por UiPath. Datos sintéticos - MVP académico.&lt;/p&gt;"]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <TryCatch DisplayName="Enviar con manejo de errores" sap:VirtualizedContainerService.HintSize="452,845" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+              <TryCatch.Try>
+                <Sequence DisplayName="SMTP" sap:VirtualizedContainerService.HintSize="450,435" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:SendMail DisplayName="Send SMTP Mail Message (Gmail)" sap:VirtualizedContainerService.HintSize="416,201" sap2010:WorkflowViewState.IdRef="SendMail_1" sap2010:Annotation.AnnotationText="Gmail: smtp.gmail.com, puerto 587 (TLS). La clave es una contraseña de aplicación de Google." Server="[in_SmtpServidor]" Port="[in_SmtpPuerto]" SecureConnection="Auto" Email="[strGmailUsuario]" Password="[strGmailClave.Replace(&quot; &quot;, &quot;&quot;)]" To="[strDestinatario]" Subject="[strAsunto]" Body="[strCuerpoCorreo]" IsBodyHtml="True" />
+                  <ui:LogMessage DisplayName="Log correo enviado" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[&quot;Correo resumen enviado a &quot; &amp; strDestinatario]" />
+                </Sequence>
+              </TryCatch.Try>
+              <TryCatch.Catches>
+                <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_3">
+                  <ActivityAction x:TypeArguments="s:Exception">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                    </ActivityAction.Argument>
+                    <ui:LogMessage DisplayName="Log error correo" sap:VirtualizedContainerService.HintSize="450,143" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Error" Message="[&quot;No se pudo enviar el correo: &quot; &amp; exception.Message &amp; If(exception.InnerException IsNot Nothing, &quot; | Detalle: &quot; &amp; exception.InnerException.Message, &quot;&quot;)]" />
+                  </ActivityAction>
+                </Catch>
+              </TryCatch.Catches>
+              <TryCatch.Finally>
+                <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </TryCatch.Finally>
+            </TryCatch>
+          </Sequence>
+        </If.Else>
+      </If>
+    </Sequence>
+    <ui:LogMessage DisplayName="Log fin" sap:VirtualizedContainerService.HintSize="574,166" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[&quot;Fin del robot. Procesados: &quot; &amp; jaClientes.Count.ToString &amp; &quot; | Urgentes: &quot; &amp; intUrgentes.ToString &amp; &quot; | Campaña: &quot; &amp; intCampana.ToString &amp; &quot; | Registradas: &quot; &amp; intRegistradas.ToString &amp; &quot; | Fallidas: &quot; &amp; intFallidas.ToString]" />
+  </Sequence>
 </Activity>

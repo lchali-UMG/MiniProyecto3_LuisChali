@@ -3,9 +3,9 @@
 Automatización del MVP: **disparador → obtener predicciones → regla de decisión → acción**.
 
 - Proyecto **Windows**, lenguaje **VB.NET**, Studio 2025.10 / 2026.0
-- Única dependencia: `UiPath.System.Activities [25.10.5]`
-- Las llamadas a la API y el correo SMTP se hacen con **Invoke Code** usando librerías de .NET
-  (`System.Net.Http`, `System.Net.Mail`), así no se necesitan paquetes adicionales.
+- Dependencias: `UiPath.System.Activities [25.10.5]` y `UiPath.Mail.Activities [2.12.10]`
+- Las llamadas a la API se hacen con **Invoke Code** (`System.Net.Http`) y el correo con la
+  actividad nativa **Send SMTP Mail Message**.
 
 ## Flujo (`Main.xaml`)
 
@@ -17,7 +17,7 @@ Automatización del MVP: **disparador → obtener predicciones → regla de deci
 | 3. Regla de decisión | Para cada cliente: si `prob_abandono >= 0.70` → **Urgente** (asignar al equipo de retención); si no → **Campaña** automática | For Each, Switch, Try Catch |
 | 3. Acción (registro) | `POST /acciones` → se guarda en la tabla `gold_acciones_log` de la capa Gold | Invoke Code, If |
 | 4. Indicadores | `GET /resumen` → clientes y saldo en riesgo alto, acciones acumuladas | Invoke Code |
-| 5. Acción (correo) | Correo HTML por SMTP Gmail con el resumen y la tabla de casos urgentes | Get Credential, Invoke Code |
+| 5. Acción (correo) | Correo HTML por SMTP Gmail con el resumen y la tabla de casos urgentes | Get Credential, Send SMTP Mail Message |
 
 Como la API excluye a los clientes que ya tienen una acción ejecutada, cada corrida del robot
 procesa los siguientes clientes pendientes y nunca contacta dos veces al mismo cliente.
