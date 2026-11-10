@@ -16,8 +16,9 @@ Automatización del MVP: **disparador → obtener predicciones → regla de deci
 | 2. Obtener predicciones | `GET /clientes/alto-riesgo?umbral=0.45&limite=20&solo_pendientes=true` → lista JSON | Invoke Code, Assign (JArray) |
 | 3. Regla de decisión | Para cada cliente: si `prob_abandono >= 0.70` → **Urgente** (asignar al equipo de retención); si no → **Campaña** automática | For Each, Switch, Try Catch |
 | 3. Acción (registro) | `POST /acciones` → se guarda en la tabla `gold_acciones_log` de la capa Gold | Invoke Code, If |
-| 4. Indicadores | `GET /resumen` → clientes y saldo en riesgo alto, acciones acumuladas | Invoke Code |
-| 5. Acción (correo) | Correo HTML por SMTP Gmail con el resumen y la tabla de casos urgentes | Get Credential, Send SMTP Mail Message |
+| 4. Actualizar Power BI | `POST /powerbi/exportar` → regenera los CSV de `powerbi/datos/` con las acciones nuevas | Invoke Code, If |
+| 5. Indicadores | `GET /resumen` → clientes y saldo en riesgo alto, acciones acumuladas | Invoke Code |
+| 6. Acción (correo) | Correo HTML por SMTP Gmail con el resumen y la tabla de casos urgentes | Get Credential, Send SMTP Mail Message |
 
 Como la API excluye a los clientes que ya tienen una acción ejecutada, cada corrida del robot
 procesa los siguientes clientes pendientes y nunca contacta dos veces al mismo cliente.

@@ -8,6 +8,7 @@ Pipeline completo del MVP de NovaBank (de principio a fin).
   5. Variables por cliente -> Gold
   6. Entrenamiento y evaluación del modelo
   7. Predicción + acción recomendada -> Gold (gold_predicciones)
+  8. Exportación de Gold a CSV para Power BI (powerbi/datos/)
 
 Uso:
   python run_pipeline.py              # usa los CSV existentes
@@ -16,7 +17,8 @@ Uso:
 import argparse
 import time
 
-from src import config, generar_datos, ingesta, modelo, predecir, transformar, validar_datos
+from src import (config, exportar_powerbi, generar_datos, ingesta, modelo, predecir, transformar,
+                 validar_datos)
 
 
 def paso(numero, titulo):
@@ -50,6 +52,9 @@ def main():
 
     paso(6, "Predicción y acción recomendada -> GOLD")
     predecir.main()
+
+    paso(7, "Exportación de Gold a CSV para Power BI")
+    exportar_powerbi.main()
 
     print(f"\nPipeline terminado en {time.time() - inicio:.1f} s  ->  {config.DB_PATH}")
 

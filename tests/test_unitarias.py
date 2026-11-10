@@ -266,3 +266,11 @@ def test_api_health_y_resumen(cliente_api):
     assert resumen["total_clientes"] == 2
     assert resumen["pct_alto_riesgo"] == 0.5
     assert resumen["saldo_en_riesgo_alto"] == 1000.0
+
+
+def test_api_exportar_powerbi(cliente_api, monkeypatch):
+    """POST /powerbi/exportar devuelve los archivos generados (la exportación se simula)."""
+    monkeypatch.setattr(api, "exportar_powerbi_csv", lambda: {"clientes_predicciones": 2})
+    r = cliente_api.post("/powerbi/exportar")
+    assert r.status_code == 200
+    assert r.json()["archivos"] == {"clientes_predicciones": 2}

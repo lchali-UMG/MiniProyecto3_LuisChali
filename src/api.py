@@ -11,6 +11,7 @@ Endpoints:
   POST /acciones                     registra una acción ejecutada (gold_acciones_log)
   GET  /acciones                     consulta la bitácora de acciones
   GET  /resumen                      indicadores generales
+  POST /powerbi/exportar             actualiza los CSV de Power BI desde la capa Gold
 
 Uso:
   python -m src.api                  (o: uvicorn src.api:app --reload)
@@ -25,6 +26,7 @@ from pydantic import BaseModel, Field
 
 from src import config
 from src.db import crear_tabla_acciones
+from src.exportar_powerbi import exportar as exportar_powerbi_csv
 
 app = FastAPI(
     title="NovaBank - API de hiperpersonalización",
@@ -234,6 +236,20 @@ def resumen(con=Depends(obtener_db)):
         "saldo_en_riesgo_alto": alto["saldo_total"],
         "clientes_con_accion_ejecutada": ejecutadas,
     }
+
+
+@app.post("/powerbi/exportar", tags=["Power BI"], summary="Actualizar los CSV del tablero de Power BI")
+def exportar_powerbi():
+    """
+    Exporta la capa Gold (predicciones, acciones del robot, actividad mensual y métricas
+    del modelo) a powerbi/datos/. Después basta con "Actualizar" en Power BI.
+    """
+    try:
+        archivos = exportar_powerbi_csv()
+    except Exception as error:  # se informa el problema al robot
+        raise HTTPException(status_code=500, detail=f"No se pudo exportar: {error}")
+    return {"estado": "ok", "carpeta": "powerbi/datos", "archivos": archivos,
+            "fecha": datetime.now().isoformat(timespec="seconds")}
 
 
 if __name__ == "__main__":

@@ -387,7 +387,16 @@
         <ui:LogMessage DisplayName="Log sin clientes" sap:VirtualizedContainerService.HintSize="572,143" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;No hay clientes en riesgo pendientes de contactar.&quot;]" />
       </If.Else>
     </If>
-    <Sequence sap2010:Annotation.AnnotationText="Indicadores generales para el correo: clientes y saldo en riesgo alto, acciones acumuladas." DisplayName="4. Obtener indicadores (resumen)" sap:VirtualizedContainerService.HintSize="574,455" sap2010:WorkflowViewState.IdRef="Sequence_10">
+    <Sequence sap2010:Annotation.AnnotationText="Exporta la capa Gold (predicciones + acciones del robot) a los CSV que lee Power BI. Luego basta con Actualizar el tablero." DisplayName="4. Actualizar datos de Power BI" sap2010:WorkflowViewState.IdRef="Sequence_PowerBI"><ui:InvokeCode ContinueOnError="{x:Null}" Code="' Llamada HTTP a la API de NovaBank (GET o POST con cuerpo JSON)&#xA;Using cliente As New System.Net.Http.HttpClient()&#xA;    cliente.Timeout = System.TimeSpan.FromSeconds(30)&#xA;    Dim respuestaHttp As System.Net.Http.HttpResponseMessage = Nothing&#xA;    If metodo.ToUpper() = &quot;POST&quot; Then&#xA;        Dim contenido As New System.Net.Http.StringContent(cuerpo, System.Text.Encoding.UTF8, &quot;application/json&quot;)&#xA;        respuestaHttp = cliente.PostAsync(url, contenido).Result&#xA;    Else&#xA;        respuestaHttp = cliente.GetAsync(url).Result&#xA;    End If&#xA;    codigo = CInt(respuestaHttp.StatusCode)&#xA;    respuesta = respuestaHttp.Content.ReadAsStringAsync().Result&#xA;End Using" DisplayName="POST /powerbi/exportar" sap:VirtualizedContainerService.HintSize="416,197" sap2010:WorkflowViewState.IdRef="InvokeCode_PowerBI">
+        <ui:InvokeCode.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="metodo">["POST"]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="url">[strApiUrl &amp; "/powerbi/exportar"]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="cuerpo">[""]</InArgument>
+          <OutArgument x:TypeArguments="x:Int32" x:Key="codigo">[intCodigoHttp]</OutArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="respuesta">[strRespuesta]</OutArgument>
+        </ui:InvokeCode.Arguments>
+      </ui:InvokeCode><If Condition="[intCodigoHttp = 200]" DisplayName="¿Exportación correcta?" sap2010:WorkflowViewState.IdRef="If_PowerBI"><If.Then><ui:LogMessage DisplayName="Log Power BI OK" sap2010:WorkflowViewState.IdRef="LogMessage_PowerBI_OK" Level="Info" Message="[&quot;Datos de Power BI actualizados: &quot; &amp; JObject.Parse(strRespuesta)(&quot;archivos&quot;).ToString(Newtonsoft.Json.Formatting.None)]" /></If.Then><If.Else><ui:LogMessage DisplayName="Log Power BI error" sap2010:WorkflowViewState.IdRef="LogMessage_PowerBI_Error" Level="Warn" Message="[&quot;No se pudieron actualizar los datos de Power BI (HTTP &quot; &amp; intCodigoHttp.ToString &amp; &quot;): &quot; &amp; strRespuesta]" /></If.Else></If></Sequence>
+    <Sequence sap2010:Annotation.AnnotationText="Indicadores generales para el correo: clientes y saldo en riesgo alto, acciones acumuladas." DisplayName="5. Obtener indicadores (resumen)" sap:VirtualizedContainerService.HintSize="574,455" sap2010:WorkflowViewState.IdRef="Sequence_10">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -411,7 +420,7 @@
         </Assign.Value>
       </Assign>
     </Sequence>
-    <Sequence sap2010:Annotation.AnnotationText="Acción final: correo HTML al equipo de retención. Credencial desde el asset de Orchestrator o, de respaldo, variables de entorno." DisplayName="5. Enviar correo resumen (SMTP Gmail)" sap:VirtualizedContainerService.HintSize="574,3295" sap2010:WorkflowViewState.IdRef="Sequence_15">
+    <Sequence sap2010:Annotation.AnnotationText="Acción final: correo HTML al equipo de retención. Credencial desde el asset de Orchestrator o, de respaldo, variables de entorno." DisplayName="6. Enviar correo resumen (SMTP Gmail)" sap:VirtualizedContainerService.HintSize="574,3295" sap2010:WorkflowViewState.IdRef="Sequence_15">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="strGmailUsuario">
           <Variable.Default>

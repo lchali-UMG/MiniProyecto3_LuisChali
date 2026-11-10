@@ -221,6 +221,7 @@ Disparador (Time Trigger / manual)
   -> GET /clientes/alto-riesgo            obtener predicciones (pendientes de contactar)
   -> Regla de decisión (Switch)           prob >= 0.70 -> Urgente | si no -> Campaña
   -> POST /acciones                       registro en gold_acciones_log (capa Gold)
+  -> POST /powerbi/exportar               actualiza los CSV del tablero de Power BI
   -> GET /resumen + correo SMTP Gmail     resumen HTML al equipo de retención
 ```
 
@@ -229,5 +230,21 @@ python -m src.api                  # 1. levantar la API
 python -m src.reiniciar_acciones   # 2. (opcional) limpiar la bitácora antes de una demo
 # 3. ejecutar el robot desde UiPath Studio / Assistant / Orchestrator
 ```
+
+### Parte 8 — Tablero de Power BI
+
+```bash
+python -m src.exportar_powerbi   # Gold -> powerbi/datos/*.csv (también lo hacen el pipeline y el robot)
+```
+
+Power BI Desktop lee los CSV de la capa Gold (`powerbi/datos/`). Guía completa (consultas de Power Query,
+medidas DAX, diseño de las páginas y tema de colores): [`powerbi/README.md`](powerbi/README.md).
+
+| Indicador | Qué muestra |
+|---|---|
+| % clientes en riesgo alto | Tamaño del problema |
+| Saldo en riesgo alto | Dinero en juego |
+| Abandonos esperados | Clientes que se perderían sin actuar (suma de probabilidades) |
+| % cobertura del riesgo alto | Avance del robot de UiPath (sube en cada ejecución) |
 
 > Las siguientes partes del pipeline se agregan a medida que avanza el proyecto.

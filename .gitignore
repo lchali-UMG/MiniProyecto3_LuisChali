@@ -25,3 +25,6 @@ uipath/**/.settings/
 
 # Reportes de pytest (se generan en cada máquina)
 reports/*.html
+
+# CSV de Power BI (se regeneran con el pipeline o el robot)
+powerbi/datos/*.csv
