@@ -246,5 +246,3 @@ medidas DAX, diseño de las páginas y tema de colores): [`powerbi/README.md`](p
 | Saldo en riesgo alto | Dinero en juego |
 | Abandonos esperados | Clientes que se perderían sin actuar (suma de probabilidades) |
 | % cobertura del riesgo alto | Avance del robot de UiPath (sube en cada ejecución) |
-
-> Las siguientes partes del pipeline se agregan a medida que avanza el proyecto.
