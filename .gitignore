@@ -22,3 +22,6 @@ uipath/**/.settings/
 
 # Power BI (archivos temporales)
 ~$*
+
+# Reportes de pytest (se generan en cada máquina)
+reports/*.html

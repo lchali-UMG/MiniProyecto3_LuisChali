@@ -101,4 +101,22 @@ Variables de comportamiento calculadas en Gold:
 | `tipos_distintos` | Cuántos tipos de transacción usa el cliente |
 | `consultas_12m`, `quejas_12m`, `quejas_no_resueltas` | Interacciones con servicio al cliente |
 
+### Parte 3 — Pruebas de ingesta (pytest)
+
+```bash
+pytest -m ingesta                                                         # en consola
+pytest -m ingesta --html=reports/pruebas_ingesta.html --self-contained-html   # + reporte HTML
+```
+
+31 pruebas que comprueban que los datos llegan **completos y correctos** a cada capa:
+
+| Capa | Qué se comprueba |
+|---|---|
+| Bronze | Mismo número de registros y columnas que el CSV; metadatos de carga completos |
+| Silver | Mínimo 1,000 clientes; no se pierden registros válidos; columnas y tipos esperados; sin nulos; sin duplicados; integridad referencial; rangos válidos |
+| Gold | Una fila por cliente; columnas del modelo; sin nulos; el total de transacciones cuadra con Silver; tasa de abandono realista |
+| Control | La bitácora registra todas las tablas de las 3 capas |
+
+> Si la base no existe, las pruebas la construyen automáticamente antes de correr.
+
 > Las siguientes partes del pipeline se agregan a medida que avanza el proyecto.
